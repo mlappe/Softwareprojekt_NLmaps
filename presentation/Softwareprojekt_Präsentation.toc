@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Themenvorstellung}{3}{0}{1}
+\beamer@sectionintoc {2}{Projektverlauf}{9}{0}{2}
+\beamer@sectionintoc {3}{Organisatorisches}{10}{0}{3}
