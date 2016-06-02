@@ -25,7 +25,7 @@ import nltk
 #################################################################################################################################################
 
 def linearizeMRL(MRL):
-    MRL_tokenized = nltk.word_tokenize(MRL.replace("'",""))
+    MRL_tokenized = nltk.word_tokenize(MRL.replace("'","").replace(":","_")
     linearized_list = []
     for a in enumerate(MRL_tokenized):
         if a[1] != "(" and a[1] != ")" and a[1] != ",":
