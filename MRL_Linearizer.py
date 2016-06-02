@@ -68,7 +68,5 @@ def stemNL(nl):
     
     
                         
-print linearizeMRL("query(area(keyval(name,'Paris')))")
 
-print stemNL("Which hotels in Paris have wheelchair access?")
 
