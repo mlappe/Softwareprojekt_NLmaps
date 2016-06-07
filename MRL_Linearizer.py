@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from nltk.stem.porter import *
-import nltk
+import nltk,shlex
 
 #################################################################################################################################################
 #                                                                                                                                               #
@@ -24,8 +24,11 @@ import nltk
 #                                                                                                                                               #
 #################################################################################################################################################
 
+def tokenizerMRL(MRL):
+    return shlex.split(" ".join(nltk.word_tokenize(MRL)))
+
 def linearizeMRL(MRL):
-    MRL_tokenized = nltk.word_tokenize(MRL.replace("'","").replace(":","_")
+    MRL_tokenized = tokenizerMRL(MRL)
     linearized_list = []
     for a in enumerate(MRL_tokenized):
         if a[1] != "(" and a[1] != ")" and a[1] != ",":
@@ -41,16 +44,16 @@ def linearizeMRL(MRL):
                         arg_counter += 1
                     if b[1] == ")" and bracket_counter == 0:
                         arg_counter += 1
-                        linearized_list.append(a[1]+"@"+str(arg_counter))
+                        linearized_list.append(a[1].strip().replace(" ","")+"@"+str(arg_counter))
                         break
                     if b[1] == "," and bracket_counter == 0:
-                        linearized_list.append(a[1]+"@"+str(arg_counter))
+                        linearized_list.append(a[1].strip().replace(" ","")+"@"+str(arg_counter))
                         break
                     if b[1] == ")" and bracket_counter == -1 and MRL_tokenized[b[0]-2] == ",":
-                        linearized_list.append(a[1]+"@"+"s")
+                        linearized_list.append(a[1].strip()+"@"+"s")
                         break
                     if b[1] == ")" and bracket_counter == -1 and MRL_tokenized[b[0]-2] == "(":
-                        linearized_list.append(a[1]+"@"+str(arg_counter))
+                        linearized_list.append(a[1].strip().replace(" ","")+"@"+str(arg_counter))
                         break
                     else:
                         continue
@@ -61,12 +64,10 @@ def linearizeMRL(MRL):
 def stemNL(nl):
     stemmer = PorterStemmer()
     stemmed = []
-    for a in nltk.word_tokenize(nl.replace("?","")):
+    for a in nltk.word_tokenize(nl.replace("?","").replace("!","")):
         stemmed.append(stemmer.stem(a))
 
     return " ".join(stemmed).strip() 
     
-    
-                        
 
 
