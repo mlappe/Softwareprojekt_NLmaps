@@ -30,7 +30,7 @@ query@3 area@1 keyval@2 name@0 Deutschland@s nwr@1 keyval@2 amenity@0 kneipp_wat
 query@2 north@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@2 keyval@2 memorial:type@0 stolperstein@s keyval@2 wheelchair@0 yes@s qtype@1 latlong@0
 dist@2 query@2 around@3 center@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 Place de la RÃ©publique@s search@1 nwr@2 keyval@2 amenity@0 restaurant@s keyval@2 cuisine@0 african@s maxdist@1 DIST_INTOWN@0 qtype@1 latlong@0 for@1 walk@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 amenity@0 theatre@s qtype@1 latlong@0
-query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 McDonalds@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 McDonald's@s qtype@1 count@0
 query@2 north@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 landuse@0 cemetery@s qtype@1 count@0
 dist@2 query@2 around@3 center@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 Rue Meslay@s search@1 nwr@1 keyval@2 amenity@0 gym@s maxdist@1 DIST_INTOWN@0 qtype@1 least@1 topx@1 1@0 for@1 walk@0
 query@3 area@1 keyval@2 name@0 Paris@s nwr@1 keyval@2 amenity@0 arts_centre@s qtype@1 findkey@1 website@0
@@ -234,7 +234,7 @@ query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 k
 query@2 east@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 amenity@0 bureau_de_change@s qtype@1 count@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 landuse@0 *@s qtype@1 nodup@1 findkey@1 landuse@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 cuisine@0 asian@s qtype@1 findkey@1 name@0
-query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@2 keyval@2 building@0 cathedral@s keyval@2 name@0 St Marys Episcopal Cathedral@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@2 keyval@2 building@0 cathedral@s keyval@2 name@0 St Mary's Episcopal Cathedral@s qtype@1 least@1 topx@1 1@0
 query@2 south@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 historic@0 memorial@s qtype@1 count@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 amenity@0 place_of_worship@s qtype@1 findkey@1 name@0
 query@2 south@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 leisure@0 swimming_pool@s qtype@1 count@0
@@ -254,7 +254,7 @@ query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 key
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 sport@0 swimming@s qtype@1 count@0
 query@2 nwr@1 keyval@2 artwork:group@0 berlin_bears@s qtype@1 nodup@1 findkey@1 artwork_type@0
 query@3 area@1 keyval@2 name@0 ÃŽle-de-France@s nwr@1 keyval@2 station@0 subway@s qtype@1 findkey@1 wikipedia@0
-dist@2 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Pilrig St Pauls@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 True Jesus Church@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Pilrig St Paul's@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 True Jesus Church@s qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 amenity@0 university@s qtype@1 least@1 topx@1 2@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@2 keyval@2 tourism@0 *@s keyval@2 wheelchair@0 yes@s qtype@2 latlong@0 findkey@1 name@0
 query@2 around@4 center@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 KÃ¶nigstuhl@s search@1 nwr@1 keyval@2 historic@0 memorial@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@2 findkey@1 name@0 latlong@s
@@ -311,7 +311,7 @@ query@2 west@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s 
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@2 keyval@2 amenity@0 restaurant@s keyval@2 cuisine@0 greek@s qtype@2 count@0 latlong@s
 query@3 area@1 keyval@2 name@0 Lampertheim@s nwr@2 keyval@2 name@0 Starenweg@s keyval@2 highway@0 *@s qtype@1 least@1 topx@1 1@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 amenity@0 bicycle_parking@s qtype@1 count@0
-query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 McDonalds@s qtype@1 count@0
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 McDonald's@s qtype@1 count@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@2 keyval@2 amenity@0 cinema@s keyval@2 wheelchair@0 yes@s qtype@1 findkey@1 name@0
 query@2 west@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 amenity@0 driving_school@s qtype@1 findkey@1 and@2 name@0 phone@s
 dist@2 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Edinburgh Airport@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Cat Stane@s qtype@1 latlong@0
@@ -410,7 +410,7 @@ query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@2 keyval@2 tourism@0 hote
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 highway@0 motorway@s qtype@1 nodup@1 findkey@1 ref@0
 query@2 around@3 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Edinburgh Waverley@s search@1 nwr@1 keyval@2 amenity@0 arts_centre@s maxdist@1 DIST_INTOWN@0 qtype@1 count@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 shop@0 bakery@s qtype@1 findkey@2 addr:street@0 topx@1 1@0
-query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Carpet Lane@s search@1 nwr@1 keyval@2 name@0 Sainsburys Local@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 findkey@1 opening_hours@0
+query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Carpet Lane@s search@1 nwr@1 keyval@2 name@0 Sainsbury's Local@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 findkey@1 opening_hours@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Subway@s qtype@1 count@0
 query@2 around@3 center@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 Mannheimer StraÃŸe@s search@1 nwr@1 keyval@2 shop@0 mobile_phone@s maxdist@1 DIST_INTOWN@0 qtype@1 findkey@1 name@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 natural@0 peak@s qtype@1 latlong@0
@@ -539,7 +539,7 @@ query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@2 keyval@2 amenity@0 bar@
 query@2 around@3 center@1 nwr@1 keyval@2 name@0 City of Edinburgh@s search@1 nwr@1 keyval@2 sport@0 cliff_diving@s maxdist@1 DIST_DAYTRIP@0 qtype@1 least@1 topx@1 1@0
 query@3 area@1 keyval@2 name@0 Marseille@s nwr@1 keyval@2 historic@0 *@s qtype@1 findkey@1 historic@0
 query@3 area@1 keyval@2 name@0 Paris@s nwr@1 keyval@2 leisure@0 golf_course@s qtype@1 least@1 topx@1 1@0
-dist@2 query@2 around@3 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Mary Kings Close@s search@1 nwr@1 keyval@2 shop@0 bakery@s maxdist@1 DIST_INTOWN@0 qtype@1 latlong@1 topx@1 1@0 for@1 car@0
+dist@2 query@2 around@3 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Mary King's Close@s search@1 nwr@1 keyval@2 shop@0 bakery@s maxdist@1 DIST_INTOWN@0 qtype@1 latlong@1 topx@1 1@0 for@1 car@0
 query@2 east@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 amenity@0 fast_food@s qtype@1 count@0
 query@2 south@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 natural@0 spring@s qtype@1 latlong@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 tourism@0 viewpoint@s qtype@1 least@1 topx@1 1@0
@@ -561,7 +561,7 @@ query@3 area@1 keyval@2 name@0 5e Arrondissement@s nwr@1 keyval@2 name@0 Rue Pol
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@2 keyval@2 shop@0 supermarket@s or@2 keyval@2 organic@0 only@s keyval@2 organic@0 yes@s qtype@1 findkey@1 name@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@2 keyval@2 historic@0 memorial@s keyval@2 natural@0 spring@s qtype@1 least@1 topx@1 1@0
 dist@2 query@2 around@3 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Lothian Road@s search@1 nwr@2 keyval@2 shop@0 supermarket@s or@2 keyval@2 organic@0 only@s keyval@2 organic@0 yes@s maxdist@1 DIST_INTOWN@0 qtype@1 latlong@0 for@1 walk@0
-query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Mary Kings Close@s search@1 nwr@1 keyval@2 aeroway@0 helipad@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 latlong@0
+query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Mary King's Close@s search@1 nwr@1 keyval@2 aeroway@0 helipad@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 latlong@0
 dist@3 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 Heidelberger Schloss@s qtype@1 latlong@0 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 Heidelberg Hbf@s qtype@1 least@1 topx@1 1@0 for@1 walk@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Whitehouse Loan@s qtype@1 findkey@1 lanes@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 amenity@0 post_office@s qtype@1 latlong@1 topx@1 1@0
@@ -582,7 +582,7 @@ dist@2 query@3 area@1 keyval@2 name@0 Paris@s nwr@1 keyval@2 name@0 MusÃ©e du 
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 railway@0 station@s qtype@1 count@0
 query@2 around@3 center@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 Avenue des Ternes@s search@1 nwr@1 keyval@2 amenity@0 restaurant@s maxdist@1 DIST_INTOWN@0 qtype@1 least@1 topx@1 1@0
 query@2 south@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 amenity@0 restaurant@s qtype@1 count@0
-query@2 around@4 center@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 Heidelberg Hbf@s search@1 nwr@1 keyval@2 name@0 McDonalds@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 findkey@1 opening_hours@0
+query@2 around@4 center@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 Heidelberg Hbf@s search@1 nwr@1 keyval@2 name@0 McDonald's@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 findkey@1 opening_hours@0
 query@2 around@4 center@2 area@1 keyval@2 name@0 Paris@s nwr@1 keyval@2 name@0 MusÃ©e du Louvre@s search@1 nwr@1 keyval@2 amenity@0 arts_centre@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@2 latlong@0 findkey@1 name@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 tourism@0 attraction@s qtype@1 least@1 topx@1 1@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 landuse@0 quarry@s qtype@1 count@0
@@ -634,7 +634,7 @@ query@2 around@4 center@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@2 keyval@2 amenity@0 restaurant@s keyval@2 name@0 Taj Mahal@s qtype@1 least@1 topx@1 1@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 tourism@0 hotel@s qtype@1 findkey@1 website@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@2 keyval@2 amenity@0 fuel@s keyval@2 opening_hours@0 24/7@s qtype@1 least@1 topx@1 1@0
-query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Mary Kings Close@s search@1 nwr@1 keyval@2 recycling:clothes@0 yes@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 latlong@0
+query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Mary King's Close@s search@1 nwr@1 keyval@2 recycling:clothes@0 yes@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 latlong@0
 query@2 south@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 amenity@0 drinking_water@s qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 shop@0 butcher@s qtype@1 latlong@1 topx@1 1@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 emergency@0 ambulance_station@s qtype@1 latlong@0
@@ -810,7 +810,7 @@ query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 shop@0 copysho
 query@2 west@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 advertising@0 column@s qtype@1 latlong@0
 dist@1 query@2 around@4 center@2 area@1 keyval@2 name@0 Stuttgart@s nwr@1 keyval@2 name@0 RÃ¼hrbrunnen@s search@1 nwr@1 keyval@2 amenity@0 toilets@s maxdist@1 WALKDING_DIST@0 topx@1 1@0 qtype@1 latlong@0
 query@2 nwr@1 keyval@2 craft@0 distillery@s qtype@1 findkey@1 name@0
-query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 LEncrier@s qtype@1 findkey@1 wheelchair@0
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 L'Encrier@s qtype@1 findkey@1 wheelchair@0
 dist@2 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 Heidelberger Schloss@s qtype@1 latlong@0 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 Sume-Brunnen@s qtype@1 latlong@0
 dist@3 query@2 nwr@2 keyval@2 name@0 Paris@s keyval@2 place@0 city@s qtype@1 latlong@0 query@2 nwr@2 keyval@2 name@0 Rennes@s keyval@2 place@0 city@s qtype@1 latlong@0 unit@1 km@0
 query@2 around@3 center@1 nwr@1 keyval@2 name@0 City of Edinburgh@s search@1 nwr@1 keyval@2 amenity@0 planetarium@s maxdist@1 DIST_OUTTOWN@0 qtype@1 least@1 topx@1 1@0
@@ -988,7 +988,7 @@ dist@2 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s 
 query@2 west@2 area@1 keyval@2 name@0 Delmenhorst@s nwr@1 keyval@2 memorial:type@0 stolperstein@s qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 amenity@0 bicycle_parking@s qtype@1 latlong@0
 query@2 south@1 around@3 center@1 nwr@1 keyval@2 name@0 City of Edinburgh@s search@1 nwr@1 keyval@2 religion@0 muslim@s maxdist@1 DIST_OUTTOWN@0 qtype@1 least@1 topx@1 1@0
-query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 LEncrier@s qtype@1 findkey@1 phone@0
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 L'Encrier@s qtype@1 findkey@1 phone@0
 dist@1 query@2 around@4 center@2 area@1 keyval@2 name@0 Berlin@s nwr@2 keyval@2 name@0 Berlin Hauptbahnhof@s keyval@2 building@0 train_station@s search@1 nwr@2 keyval@2 amenity@0 restaurant@s keyval@2 cuisine@0 greek@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 REWE City@s qtype@1 latlong@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 highway@0 construction@s qtype@1 least@1 topx@1 1@0
@@ -1032,7 +1032,7 @@ query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 k
 dist@2 query@2 around@3 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Palace of Holyroodhouse@s search@1 nwr@2 keyval@2 name@0 Edinburgh Waverley@s keyval@2 railway@0 station@s maxdist@1 DIST_INTOWN@0 qtype@1 latlong@0 for@1 walk@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 Avenue du GÃ©nÃ©ral Lemonnier@s qtype@1 findkey@1 highway@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 sport@0 table_tennis@s qtype@1 least@1 topx@1 2@0
-query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Sainsburys@s qtype@1 latlong@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Sainsbury's@s qtype@1 latlong@1 topx@1 1@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 cuisine@0 italian@s qtype@1 findkey@1 name@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 historic@0 castle@s qtype@1 least@1 topx@1 1@0
 query@3 area@1 keyval@2 name@0 Deutschland@s nwr@1 keyval@2 artwork_type@0 mural@s qtype@1 least@1 topx@1 1@0
@@ -1069,7 +1069,7 @@ query@2 west@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nw
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@2 keyval@2 tourism@0 hotel@s keyval@2 stars@0 4@s qtype@1 findkey@2 name@0 topx@1 1@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 sport@0 tennis@s qtype@1 count@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 tourism@0 hotel@s qtype@1 least@1 topx@1 5@0
-query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 McDonalds@s qtype@1 count@0
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 McDonald's@s qtype@1 count@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 highway@0 speed_camera@s qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 cuisine@0 african@s qtype@1 least@1 topx@1 1@0
 query@2 nwr@1 keyval@2 name@0 Marks & Spencer Food@s qtype@1 count@0
@@ -1113,7 +1113,7 @@ query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 building@0 cat
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 amenity@0 pharmacy@s qtype@1 latlong@1 topx@1 1@0
 query@3 area@1 keyval@2 name@0 Paris@s nwr@2 keyval@2 building@0 cathedral@s keyval@2 name@0 CathÃ©drale Notre-Dame de Paris@s qtype@1 least@1 topx@1 1@0
 query@2 around@3 center@1 nwr@2 keyval@2 name@0 Heidelberg@s keyval@2 de:amtlicher_gemeindeschluessel@0 08221000@s search@1 nwr@1 keyval@2 sport@0 scuba_diving@s maxdist@1 DIST_DAYTRIP@0 qtype@1 least@1 topx@1 1@0
-query@3 area@1 keyval@2 name@0 5e Arrondissement@s nwr@1 keyval@2 name@0 Rue dAmboise@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 5e Arrondissement@s nwr@1 keyval@2 name@0 Rue d'Amboise@s qtype@1 least@1 topx@1 1@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 historic@0 castle@s qtype@1 latlong@0
 query@2 north@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 landuse@0 vineyard@s qtype@1 least@1 topx@1 1@0
 query@2 north@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 amenity@0 restaurant@s qtype@1 latlong@0
@@ -1145,7 +1145,7 @@ query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 tower:type@0 c
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 amenity@0 pharmacy@s qtype@1 least@1 topx@1 1@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 highway@0 living_street@s qtype@1 count@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 amenity@0 car_sharing@s qtype@1 latlong@0
-query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Sainsburys@s qtype@1 latlong@0
+query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Sainsbury's@s qtype@1 latlong@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 cuisine@0 burger@s qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@2 keyval@2 tourism@0 hotel@s keyval@2 internet_access@0 wlan@s qtype@1 latlong@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@2 keyval@2 tower:type@0 communication@s keyval@2 operator@0 O2@s qtype@1 latlong@0
@@ -1367,7 +1367,7 @@ query@2 around@3 center@1 nwr@2 keyval@2 name@0 Heidelberg@s keyval@2 de:amtlich
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 natural@0 spring@s qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 tourism@0 museum@s qtype@1 findkey@1 name@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@2 keyval@2 tourism@0 hotel@s keyval@2 operator@0 Apex Hotels@s qtype@1 count@0
-query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 McDonalds@s qtype@1 count@0
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 McDonald's@s qtype@1 count@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Zizzi@s qtype@1 findkey@1 wheelchair@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 historic@0 tomb@s qtype@1 count@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 highway@0 traffic_signals@s qtype@1 count@0
@@ -1376,7 +1376,7 @@ query@2 east@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s 
 query@2 north@1 around@3 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 High Street@s search@1 nwr@1 keyval@2 amenity@0 toilets@s maxdist@1 WALKDING_DIST@0 qtype@1 latlong@0
 query@3 area@1 keyval@2 name@0 York@s nwr@1 keyval@2 leisure@0 playground@s qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 amenity@0 restaurant@s qtype@1 count@0
-query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Edinburgh Waverley@s search@1 nwr@1 keyval@2 name@0 Sainsburys Local@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 findkey@1 opening_hours@0
+query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Edinburgh Waverley@s search@1 nwr@1 keyval@2 name@0 Sainsbury's Local@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 findkey@1 opening_hours@0
 query@2 around@4 center@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 name@0 Restalrig@s search@1 nwr@1 keyval@2 amenity@0 townhall@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 latlong@0
 query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 amenity@0 fuel@s qtype@2 latlong@0 nodup@1 findkey@1 brand@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@2 keyval@2 amenity@0 post_office@s keyval@2 wheelchair@0 yes@s qtype@1 latlong@1 topx@1 1@0
@@ -1483,7 +1483,7 @@ query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 k
 query@2 around@3 center@2 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 name@0 Heidelberger Schloss@s search@1 nwr@1 keyval@2 memorial:type@0 stolperstein@s maxdist@1 DIST_INTOWN@0 qtype@1 count@0
 query@3 area@1 keyval@2 name@0 Paris@s nwr@1 keyval@2 name@0 Basilique du SacrÃ©-CÅ“ur@s qtype@1 findkey@1 roof:colour@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@1 keyval@2 amenity@0 pharmacy@s qtype@1 count@0
-query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 Le Robinet dOr@s qtype@1 findkey@1 star@0
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in:country@0 France@s nwr@1 keyval@2 name@0 Le Robinet d'Or@s qtype@1 findkey@1 star@0
 query@3 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 landuse@0 quarry@s qtype@1 latlong@0
 query@2 north@2 area@1 keyval@2 name@0 City of Edinburgh@s nwr@1 keyval@2 building@0 cathedral@s qtype@1 count@0
 query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de:place@0 city@s nwr@2 keyval@2 amenity@0 bank@s keyval@2 wheelchair@0 yes@s qtype@1 latlong@0
