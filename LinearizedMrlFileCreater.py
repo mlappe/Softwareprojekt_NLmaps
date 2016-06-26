@@ -22,14 +22,14 @@ def LinearizedFileCreater(txt):
         sentence = []
         for b in range(len(a)):
             if  a[b-1].isalpha() and a[b] == "'" and a[b+1].isalpha():
-                sentence.append(a[b].replace("'",""))
+                sentence.append(a[b].replace("'","§"))
             else:
                 sentence.append(a[b])
         new_txtlst.append("".join(sentence).strip())
         
     with open('MRL_EN_TEST_linearized.txt','w') as newfile:
         for a in new_txtlst:
-            newfile.write(MRL_Linearizer.linearizeMRL(a)+"\n")
+            newfile.write(MRL_Linearizer.linearizeMRL(a).replace("§","'")+"\n")
     
 
 
