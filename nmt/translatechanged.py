@@ -359,7 +359,7 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
           en_dev_ids_path, fr_dev_ids_path,
           en_vocab_path, fr_vocab_path)
           
-@functools.lru_cache(maxsize=None, typed=False)         
+functools.lru_cache(maxsize=None, typed=False)         
 def isdevinstance(index):
 	if random.random() < 0.10:
 		return True
