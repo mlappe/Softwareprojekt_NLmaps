@@ -55,7 +55,7 @@ tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
                           "Clip gradients to this norm.")
 tf.app.flags.DEFINE_integer("batch_size", 64,
                             "Batch size to use during training.")
-tf.app.flags.DEFINE_integer("size", 1024, "Size of each model layer.")
+tf.app.flags.DEFINE_integer("size", 10, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 3, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("en_vocab_size", 40000, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("fr_vocab_size", 40000, "French vocabulary size.")
@@ -373,16 +373,16 @@ def traindataiterator():
 	with open(mrlfilename) as mrlfile:
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
+				nl = nlfile.readline()
 				if not isdevinstance(index):
-					nl = nlfile.readline()
 					yield mrl,nl
 
 def devdataiterator():
 	with open(mrlfilename) as mrlfile:
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
-				if isdevinstance(index):
-					nl = nlfile.readline()
+				nl = nlfile.readline()
+				if isdevinstance(index):	
 					yield mrl,nl
 
 def get_nlmaptrain(data_dir):
