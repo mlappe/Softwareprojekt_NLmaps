@@ -359,7 +359,7 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
           en_dev_ids_path, fr_dev_ids_path,
           en_vocab_path, fr_vocab_path)
           
-functools.lru_cache(maxsize=None, typed=False)         
+@functools.lru_cache(maxsize=None, typed=False)         
 def isdevinstance(index):
 	if random.random() < 0.10:
 		return True
@@ -373,16 +373,16 @@ def traindataiterator():
 	with open(mrlfilename) as mrlfile:
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
+				nl = nlfile.readline()
 				if not isdevinstance(index):
-					nl = nlfile.readline()
 					yield mrl,nl
 
 def devdataiterator():
 	with open(mrlfilename) as mrlfile:
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
-				if isdevinstance(index):
-					nl = nlfile.readline()
+				nl = nlfile.readline()
+				if isdevinstance(index):	
 					yield mrl,nl
 
 def get_nlmaptrain(data_dir):
