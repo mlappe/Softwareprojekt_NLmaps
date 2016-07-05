@@ -278,7 +278,7 @@ def demo():
 	mrl2 = "query(area(keyval('name','San Francisco')),nwr(keyval('highway','bus_stop')),qtype(count))"
 	output = parser.parse_mrl(mrl2)
 	
-	#print mrl2
-	#print "The MRL is", output	
+	print mrl2
+	print "The MRL is", output	
 
 	

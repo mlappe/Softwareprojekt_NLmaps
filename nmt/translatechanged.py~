@@ -28,6 +28,7 @@ See the following papers for more information on neural translation models.
  * http://arxiv.org/abs/1409.0473
  * http://arxiv.org/abs/1412.2007
 """
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -39,6 +40,12 @@ import random
 import sys
 import time
 import random
+
+
+# Path hack.
+import sys, os
+sys.path.insert(0, os.path.abspath('..'))
+from cfg import my_cfg_set as cfg
 
 import numpy as np
 from six.moves import xrange  # pylint: disable=redefined-builtin
@@ -65,7 +72,7 @@ tf.app.flags.DEFINE_integer("max_train_data_size", 0,
                             "Limit on the size of training data (0: no limit).")
 tf.app.flags.DEFINE_integer("steps_per_checkpoint", 200,
                             "How many training steps to do per checkpoint.")
-tf.app.flags.DEFINE_boolean("decode", False,
+tf.app.flags.DEFINE_boolean("decode", True,
                             "Set to True for interactive decoding.")
 tf.app.flags.DEFINE_boolean("self_test", False,
                             "Run a self-test if this is set to True.")
@@ -283,17 +290,54 @@ def decode():
       # Get output logits for the sentence.
       _, _, output_logits = model.step(sess, encoder_inputs, decoder_inputs,
                                        target_weights, bucket_id, True)
-      # This is a greedy decoder - outputs are just argmaxes of output_logits.
-      outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
-      # If there is an EOS symbol in outputs, cut them at that point.
-      if data_utils.EOS_ID in outputs:
-        outputs = outputs[:outputs.index(data_utils.EOS_ID)]
-      # Print out French sentence corresponding to outputs.
-      print(" ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs]))
-      print("> ", end="")
-      sys.stdout.flush()
-      sentence = sys.stdin.readline()
+      
+      decode_once(output_logits,rev_fr_vocab)
 
+      
+
+      sentence = sys.stdin.readline()
+      
+      
+def process_decoding(outputs,rev_fr_vocab):
+	# If there is an EOS symbol in outputs, cut them at that point.
+	if data_utils.EOS_ID in outputs:
+		
+		outputs = outputs[:outputs.index(data_utils.EOS_ID)]
+		
+		
+	# Print out French sentence corresponding to outputs.
+	outstr = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
+	 
+	
+	#check whether output is a wellformed mrl
+	iswellformed = is_wellformed(outstr)
+	return outstr,iswellformed
+	
+def decode_once(output_logits,rev_fr_vocab):
+	f_iter = decoding_iter(output_logits)
+	outputs = f_iter.__next__()
+	
+	outstr, iswellformed = process_decoding(outputs,rev_fr_vocab)
+	
+
+	print(outstr)
+	print("this mrl is wellformed: "+ str(iswellformed))
+	print("> ", end="")
+	sys.stdout.flush()
+	
+def decoding_iter(output_logits):
+	# This is a greedy decoder - outputs are just argmaxes of output_logits.
+	outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+	yield outputs
+
+	
+	
+	while True:
+		outputs = [int(nplipud(np.argsort(logit, axis=1))[0]) for logit in output_logits] # sorts everytime, that can be done better
+		yield outputs
+		
+def decode_until_wellformed(output_logits,rev_fr_vocab):
+	pass
 
 def self_test():
   """Test the translation model."""
@@ -407,6 +451,16 @@ def get_nlmapdev(data_dir):
 				nlfile.write(nl)
 	return devpath
 
+parser = cfg.EarleyParser()
+	
+grammar_file = "../cfg/cfg.txt"
+gr = cfg.Grammar(grammar_file)
+parser.set_grammar(gr)
+def is_wellformed(mrl):
+	#mrl = "".join(mrllist)
+	output = parser.parse_mrl(mrl)
+	return output
+	
 def main(_):
   if FLAGS.self_test:
     self_test()
