@@ -238,3 +238,15 @@ How many liquor stores are there in Hannover?
 query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','alcohol’)),qtype(count))
 number of liquor stores in Hannover
 query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','liquor')),qtype(count))
+How many districts are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('place','suburb')),qtype(count))
+number of districts in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('place’,'suburb')),qtype(count))
+How many districts are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('place','suburb')),qtype(count))
+number of districts in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('place','suburb')),qtype(count))
+How many districts are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('place','suburb’)),qtype(count))
+number of districts in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('place','suburb')),qtype(count))
