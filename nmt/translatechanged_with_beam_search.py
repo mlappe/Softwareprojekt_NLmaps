@@ -62,7 +62,7 @@ tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
                           "Clip gradients to this norm.")
 tf.app.flags.DEFINE_integer("batch_size", 64,
                             "Batch size to use during training.")
-tf.app.flags.DEFINE_integer("size", 10, "Size of each model layer.")
+tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 3, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("en_vocab_size", 40000, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("fr_vocab_size", 40000, "French vocabulary size.")
@@ -164,8 +164,8 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
   # Create vocabularies of the appropriate sizes.
   fr_vocab_path = os.path.join(data_dir, "vocab%d.fr" % fr_vocabulary_size)
   en_vocab_path = os.path.join(data_dir, "vocab%d.en" % en_vocabulary_size)
-  create_vocabulary(fr_vocab_path, train_path + ".fr", fr_vocabulary_size, tokenizer)
-  create_vocabulary(en_vocab_path, train_path + ".en", en_vocabulary_size, tokenizer)
+  create_vocabulary(fr_vocab_path, train_path + ".fr", fr_vocabulary_size, tokenizer,normalize_digits=False)
+  create_vocabulary(en_vocab_path, train_path + ".en", en_vocabulary_size, tokenizer,normalize_digits=False)
 
   # Create token ids for the training data.
   fr_train_ids_path = train_path + (".ids%d.fr" % fr_vocabulary_size)
@@ -318,57 +318,60 @@ def decode_once(output_logits,rev_fr_vocab):
 	f_iter = decoding_iter(output_logits)
 	outputs = f_iter.__next__()
 	
-	#print (outputs)
 	
 	best_outputs=[]
 	for out in outputs:
 	  best_outputs.append(out.tolist())
+	  
 	
-	print (best_outputs)			#list of the best outputs, to be feeded for computing multiple outstr
+				#list of the best outputs, to be feeded for computing multiple outstr
 	
 	
 	
 	count=0
 	
 	for out in best_outputs:
+	  print (out)
 	  outstr, iswellformed = process_decoding(out,rev_fr_vocab)
 	  count=count+1
-	  if iswellformed==True:
+	  '''if iswellformed==True:
 	    print(outstr)
 	    print("this mrl is wellformed: "+ str(iswellformed))
 	 
 	    print("> ", end="")
 	    sys.stdout.flush()
 	  elif count==len(best_outputs):
-	    print ("I don't know")
-	   
+	    print ("I don't know")'''
+	    
+	  print (outstr, iswellformed)
 	  
 	
 def decoding_iter(output_logits):
 	# This is a greedy decoder - outputs are just argmaxes of output_logits.
 	#outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
 	
-	
+	#print (output_logits)
 	with tf.Graph().as_default():
-	  beam_size = FLAGS.size # Number of hypotheses in beam
+	  beam_size = 5  # Number of hypotheses in beam
 	  num_symbols = FLAGS.fr_vocab_size # Output vocabulary size
-	  embedding_size = 10
-	  num_steps = FLAGS.size
-	  embedding = tf.zeros([num_symbols, embedding_size])
-	  output_projection = None
+	  
+	  num_steps = len(output_logits)
+	  
+	 
 	  
 	  log_beam_probs, beam_symbols, beam_path = [], [], []
-	  def beam_search(prev, i):
-	    if output_projection is not None:
-	      prev = tf.nn.xw_plus_b(prev, output_projection[0], output_projection[1])  
-	      
-	    probs = tf.log(tf.nn.softmax(prev))
-	    
-	    if i > 1:
-	      probs = tf.reshape(probs + log_beam_probs[-1], [-1, beam_size * num_symbols])
+	  def beam_search(logit):
+	    print (logit)
+	    probs=logit
+	    if log_beam_probs!=[]:
+	      probs = tf.reshape(probs + log_beam_probs[-1],[-1, beam_size * num_symbols])
 	    best_probs, indices = tf.nn.top_k(probs, beam_size)
+	    #print (indices)
+	   
 	    indices = tf.stop_gradient(tf.squeeze(tf.reshape(indices, [-1, 1])))
+	    #print (tf.shape(indices))
 	    best_probs = tf.stop_gradient(tf.reshape(best_probs, [-1, 1]))
+	    #print (best_probs)
 	    symbols = indices % num_symbols      # which word in vocabulary
 	    beam_parent = indices // num_symbols # which hypothesis it came from
 
@@ -376,17 +379,20 @@ def decoding_iter(output_logits):
 	    beam_path.append(beam_parent)
 	    log_beam_probs.append(best_probs)
 
-	    return tf.nn.embedding_lookup(embedding, symbols)
+	    return symbols
 
   # Setting up graph.
 	  inputs = [tf.placeholder(tf.float32, shape=[None, num_symbols]) for i in range(num_steps)]
-
+	  #for logit in output_logits:
+	   # beam_search(logit)
+	  #for i in range(num_steps):
+	   # beam_search(inputs[i], i+1)
 	  for i in range(num_steps):
-	    beam_search(inputs[i], i+1)
+	    beam_search(inputs[i])
 	  
 	  #input_vals = tf.zeros([1, beam_size], dtype=tf.float32)
 
-	  input_feed = {inputs[i]: output_logits[i][:beam_size, :] for i in xrange(num_steps)}
+	  input_feed = {inputs[i]: output_logits[i][:beam_size] for i in xrange(num_steps)}
 	  output_feed = beam_symbols
 	  session = tf.InteractiveSession()
 	  outputs = session.run(output_feed, feed_dict=input_feed)
@@ -409,9 +415,9 @@ def decoding_iter(output_logits):
 
 	
 	
-	while True:
-		outputs = [int(nplipud(np.argsort(logit, axis=1))[0]) for logit in output_logits] # sorts everytime, that can be done better
-		yield outputs
+	#while True:
+		#outputs = [int(nplipud(np.argsort(logit, axis=1))[0]) for logit in output_logits] # sorts everytime, that can be done better
+		#yield outputs
 		
 def decode_until_wellformed(output_logits,rev_fr_vocab):
 	pass
