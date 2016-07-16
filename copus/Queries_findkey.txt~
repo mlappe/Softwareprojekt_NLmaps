@@ -1,0 +1,282 @@
+Can you tell me the year of the laying of the first stone for the Allianz Arena in München?
+query(area(keyval('name','<nom>3600062428</nom>')),nwr(keyval('name','Allianz Arena')),qtype(findkey('start_date')))
+year of the laying of the first stone for the Allianz Arena in München
+query(area(keyval('name','<nom>3600062428</nom>')),nwr(keyval('name','Allianz Arena')),qtype(findkey('start_date')))
+Can you tell me the phone number of the Veltins-Arena in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522 </nom>')),nwr(keyval('name','Veltins-Arena')),qtype(findkey('phone')))
+phone number of the Veltins-Arena in Gelsenkirchen
+query(area(keyval('name','<nom> 3600062522 </nom>')),nwr(keyval('name','Veltins-Arena')),qtype(findkey('phone')))
+Can you tell me the home team of the Veltins-Arena in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522 </nom>')),nwr(keyval('name','Veltins-Arena')),qtype(findkey('team')))
+home team of the Veltins-Arena in Gelsenkirchen
+query(area(keyval('name','<nom> 3600062522 </nom>')),nwr(keyval('name','Veltins-Arena')),qtype(findkey('team')))
+Can you tell me the English name for ‘Nürnberger Kaiserburg’ in Nürnberg?
+query(area(keyval('name','<nom> 3600062780</nom>')),nwr(keyval('name','Kaiserburg')),qtype(findkey('name:en')))
+English name for ‘Nürnberger Kaiserburg’ in Nürnberg
+query(area(keyval('name','<nom> 3600062780</nom>')),nwr(keyval('name','Kaiserburg')),qtype(findkey('name:en')))
+Can you tell me the Polish name for ‘Historisches Rathaus’ in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('name','Historisches Rathaus')),qtype(findkey('name:pl')))
+Polish name for ‘Historisches Rathaus’ in Münster
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('name','Historisches Rathaus')),qtype(findkey('name:pl')))
+Can you tell me the height of the Main Tower in Frankfurt on the Main?
+query(area(keyval('name','<nom> 3600062400 </nom>')),nwr(keyval('name','Main Tower')),qtype(findkey('height')))
+height of the Main Tower in Frankfurt on the Main
+query(area(keyval('name','<nom> 3600062400 </nom>')),nwr(keyval('name','Main Tower')),qtype(findkey('height')))
+Can you give me information for wheelchair user concerning the Townhall in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')),nwr(keyval('name','Rathaus')),qtype(findkey('wheelchair:description’)))
+information for wheelchair user concerning the Townhall in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')),nwr(keyval('name','Rathaus')),qtype(findkey('wheelchair:description’)))
+Can you tell me the opening hours for ‘Deutsches Architekturmuseum’ in Frankfurt on the Main?
+query(area(keyval('name','<nom> 3600062400 </nom>')),nwr(keyval('name','Deutsches Architekturmuseum')),qtype(findkey('opening_hours’)))
+opening hours for ‘Deutsches Architekturmuseum’ in Frankfurt on the Main
+query(area(keyval('name','<nom> 3600062400 </nom>')),nwr(keyval('name','Deutsches Architekturmuseum')),qtype(findkey('opening_hours’)))
+Can you tell me the architect of the ‘Dreischeibenhaus’ in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')),nwr(keyval('name','Dreischeibenhaus')),qtype(findkey('architect’)))
+architect of the ‘Dreischeibenhaus’ in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')),nwr(keyval('name','Dreischeibenhaus')),qtype(findkey('architect’)))
+Can you tell me the building material for the ‘Frauenkirche’ in Dresden?
+query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Frauenkirche')),qtype(findkey('building:material’)))
+building material for the ‘Frauenkirche’ in Dresden
+query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Frauenkirche')),qtype(findkey('building:material’)))
+Can you give me a link to the picture of the ‘Konstantinbasilika’ in Trier?
+query(area(keyval('name','<nom> 3600172679</nom>')),nwr(keyval('name','Konstantinbasilika')),qtype(findkey('image’)))
+link to the picture of the ‘Konstantinbasilika’ in Trier
+query(area(keyval('name','<nom> 3600172679</nom>')),nwr(keyval('name','Konstantinbasilika')),qtype(findkey('image’)))
+Does the ‘Gemäldegalerie Alte Meister’ in Dresden have wheelchair access?
+query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Gemäldegalerie Alte Meister')),qtype(findkey('wheelchair’)))
+Is there wheelchair access at ‘Gemäldegalerie Alte Meister’ in Dresden?
+query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Gemäldegalerie Alte Meister')),qtype(findkey('wheelchair’)))
+Can you tell me which kind of historic building the Walhalla in Regensburg is?
+query(area(keyval('name','<nom> 3600964613</nom>')),nwr(keyval('name','Walhalla')),qtype(findkey('historic’)))
+which kind of historic building is the Walhalla in Regensburg?
+query(area(keyval('name','<nom> 3600964613</nom>')),nwr(keyval('name','Walhalla')),qtype(findkey('historic’)))
+Can you tell me the old name of the ‘Elbphilharmonie’ in Hamburg?
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Elbphilharmonie')),qtype(findkey('old_name’)))
+old name of the ‘Elbphilharmonie’ in Hamburg
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Elbphilharmonie')),qtype(findkey('old_name’)))
+Do the toilets of the Sanssouci in Potsdam have wheelchair access?
+query(area(keyval('name','<nom> 3600062369</nom>')),nwr(keyval('name','Schloss Sanssouci')),qtype(findkey('toilets:wheelchair’)))
+Is there wheelchair access for the toilets of the Sanssouci in Potsdam?
+query(area(keyval('name','<nom> 3600062369</nom>')),nwr(keyval('name','Schloss Sanssouci')),qtype(findkey('toilets:wheelchair’)))
+Can you tell me the denomination of the ‘Aachener Dom’ in Aachen?
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval('name','Aachener Dom')),qtype(findkey('denomination’)))
+denomination of the ‘Aachener Dom’ in Aachen?
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval('name','Aachener Dom')),qtype(findkey('denomination’)))
+Can you tell me to which religion the Sankt Michael church in Hildesheim belongs to?
+query(area(keyval('name','<nom> 3601176503</nom>')),nwr(keyval('name','Sankt Michael')),qtype(findkey('religion’)))
+religion the Sankt Michael church in Hildesheim belongs to
+query(area(keyval('name','<nom> 3601176503</nom>')),nwr(keyval('name','Sankt Michael')),qtype(findkey('religion’)))
+Can you tell me the email address of the ‘Rheinturm’ in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')),nwr(keyval('name','Rheinturm')),qtype(findkey('email’)))
+email address of the ‘Rheinturm’ in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')),nwr(keyval('name','Rheinturm')),qtype(findkey('email’)))
+Can you tell me the owner of the ‘Kölnturm’ in Köln?
+query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','Kölnturm')),qtype(findkey('owner’)))
+owner of the ‘Kölnturm’ in Köln
+query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','Kölnturm')),qtype(findkey('owner’)))
+Can you tell me the landuse type of the ‘Fagus-Werk’ in Alfeld?
+query(area(keyval('name','<nom> 3601168905</nom>')),nwr(keyval('name','Fagus-Werk')),qtype(findkey('landuse’)))
+landuse type of the ‘Fagus-Werk’ in Alfeld
+query(area(keyval('name','<nom> 3601168905</nom>')),nwr(keyval('name','Fagus-Werk')),qtype(findkey('landuse’)))
+Can you tell me at which place the ‘St. Bartholomä’ in Hirschau is?
+query(area(keyval('name','<nom> 3601028538</nom>')),nwr(keyval('name','St. Bartholomä')),qtype(findkey('place’)))
+at which place is the ‘St. Bartholomä’ in Hirschau?
+query(area(keyval('name','<nom> 3601028538</nom>')),nwr(keyval('name','St. Bartholomä')),qtype(findkey('place’)))
+Can you tell me at which street ‘Neues Museum’ in Berlin is?
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Neues Museum')),qtype(findkey('addr:street’)))
+at which street is ‘Neues Museum’ in Berlin?
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Neues Museum')),qtype(findkey('addr:street’)))
+Can you tell me the city of the ‘Pergamonmuseum’?
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Pergamonmuseum')),qtype(findkey('addr:city’)))
+city of the ‘Pergamonmuseum’
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Pergamonmuseum')),qtype(findkey('addr:city’)))
+Can you tell me the Spanish name for ‘Alte Nationalgalerie’ in Berlin?
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Alte Nationalgalerie')),qtype(findkey('name:es’)))
+Spanish name for ‘Alte Nationalgalerie’ in Berlin
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Alte Nationalgalerie')),qtype(findkey('name:es’)))
+Which postcode does the ‘Bode-Museum’ in Berlin have?
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Bode-Museum')),qtype(findkey('addr:postcode’)))
+postcode of the ‘Bode-Museum’ in Berlin?
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Bode-Museum')),qtype(findkey('addr:postcode’)))
+Which colour does Augustusburg castle in Brühl have?
+query(area(keyval('name','<nom> 3600168481</nom>')),nwr(keyval('name','Schloss Augustusburg')),qtype(findkey('building:colour’)))
+colour of the Augustusburg castle in Brühl
+query(area(keyval('name','<nom> 3600168481</nom>')),nwr(keyval('name','Schloss Augustusburg')),qtype(findkey('building:colour’)))
+In which suburb is the Mauermuseum in Berlin?
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Mauermuseum – Haus am Checkpoint Charlie')),qtype(findkey('addr:suburb’)))
+suburb of the Mauermuseum in Berlin?
+query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Mauermuseum – Haus am Checkpoint Charlie')),qtype(findkey('addr:suburb’)))
+What is the official name of ‘Dom zu Speyer’ in Speyer?
+query(area(keyval('name','<nom> 3600062352 </nom>')),nwr(keyval('name','Dom zu Speyer')),qtype(findkey('official_name’)))
+official name of ‘Dom zu Speyer’ in Speyer?
+query(area(keyval('name','<nom> 3600062352 </nom>')),nwr(keyval('name','Dom zu Speyer')),qtype(findkey('official_name’)))
+Which form does ‘Neues Rathaus’ in Hannover have?
+query(area(keyval('name','<nom> 3600059418</nom>')),nwr(keyval('name','Neues Rathaus')),qtype(findkey('type’)))
+Can you tell me which kind of turism attraction ‘Europa-Park’ in Rust is?
+query(area(keyval('name','<nom> 3600453001</nom>')),nwr(keyval('name','Europa-Park')),qtype(findkey('turism’)))
+Can you tell me which kind of turism attraction ‘Europa-Park’ in Rust is?
+query(area(keyval('name','<nom> 3600453001</nom>')),nwr(keyval('name','Europa-Park')),qtype(findkey('turism’)))
+kind of turism attraction of ‘Europa-Park’ in Rust
+query(area(keyval('name','<nom> 3600453001</nom>')),nwr(keyval('name','Europa-Park')),qtype(findkey('turism’)))
+Can you tell me the elevation of the ‘Bodensee’?
+query(area(keyval('name','<nom> 3602783849 </nom>')),nwr(keyval('name','Bodensee')),qtype(findkey('ele’)))
+elevation of the ‘Bodensee’
+query(area(keyval('name','<nom> 3602783849 </nom>')),nwr(keyval('name','Bodensee')),qtype(findkey('ele’)))
+What is the fax number of the ‘Blumeninsel Mainau’?
+query(area(keyval('name','<nom> 3602784842</nom>')),nwr(keyval('name','Blumeninsel Mainau')),qtype(findkey('fax’)))
+fax number of the ‘Blumeninsel Mainau’
+query(area(keyval('name','<nom> 3602784842</nom>')),nwr(keyval('name','Blumeninsel Mainau')),qtype(findkey('fax’)))
+Is there a summit cross on the peak of the Zugspitze in Grainau?
+query(area(keyval('name','<nom> 3600939332</nom>')),nwr(keyval('name','Zugspitze')),qtype(findkey('summit:cross’)))
+exists a summit cross on the peak of the Zugspitze in Grainau?
+query(area(keyval('name','<nom> 3600939332</nom>')),nwr(keyval('name','Zugspitze')),qtype(findkey('summit:cross’)))
+Can I ride along the Romatische Straße in Würzburg with my horse?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('horse’)))
+Is it possible to ride along the Romatische Straße in Würzburg with my horse?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('horse’)))
+Which leaf types are in the Schwarzwald?
+query(area(keyval('name','<nom> 3600309945</nom>')),nwr(keyval('name','Schwarzwald')),qtype(findkey('leaf_type’)))
+leaf types are in the Schwarzwald
+query(area(keyval('name','<nom> 3600309945</nom>')),nwr(keyval('name','Schwarzwald')),qtype(findkey('leaf_type’)))
+How is the Theresienwiese in München called by the locals?
+query(area(keyval('name','<nom> 3600062428</nom>')),nwr(keyval('name','Theresienwiese')),qtype(findkey('reg_name’)))
+name of the Theresienwiese in München by the locals
+query(area(keyval('name','<nom> 3600062428</nom>')),nwr(keyval('name','Theresienwiese')),qtype(findkey('reg_name’)))
+What is the Rhine in Neuwied?
+query(area(keyval('name','<nom> 3600079194</nom>')),nwr(keyval('name','Rhein')),qtype(findkey('waterway’)))
+To which geological type does the Loreley in St. Goarshausen belong to?
+query(area(keyval('name','<nom> 3600539918</nom>')),nwr(keyval('name','Loreley')),qtype(findkey('natural’)))
+geological type of the Loreley in St. Goarshausen
+query(area(keyval('name','<nom> 3600539918</nom>')),nwr(keyval('name','Loreley')),qtype(findkey('natural’)))
+Which harbour type is the Loreleyhafen in St. Goarshausen?
+query(area(keyval('name','<nom> 3600539918</nom>')),nwr(keyval('name','Loreleyhafen')),qtype(findkey('seamark:harbour:category’)))
+harbour type of the Loreleyhafen in St. Goarshausen
+query(area(keyval('name','<nom> 3600539918</nom>')),nwr(keyval('name','Loreleyhafen')),qtype(findkey('seamark:harbour:category’)))
+How do I write Rügen in Japanese?
+query(area(keyval('name','<nom> 3601434381</nom>')),nwr(keyval('name','Rügen')),qtype(findkey('name:ja’)))
+write Rügen in Japanese
+query(area(keyval('name','<nom> 3601434381</nom>')),nwr(keyval('name','Rügen')),qtype(findkey('name:ja’)))
+To which protect class does the Nationalpark Harz belong to?
+query(area(keyval('name','<nom> 3603734731 </nom>')),nwr(keyval('name','Nationalpark Harz')),qtype(findkey('protect_class’)))
+protect class of the Nationalpark Harz
+query(area(keyval('name','<nom> 3603734731 </nom>')),nwr(keyval('name','Nationalpark Harz')),qtype(findkey('protect_class’)))
+Can you tell me the wikidata ID of the Nationalpark Harz?
+query(area(keyval('name','<nom> 3603734731 </nom>')),nwr(keyval('name','Nationalpark Harz')),qtype(findkey('wikidata’)))
+wikidata ID of the Nationalpark Harz
+query(area(keyval('name','<nom> 3603734731 </nom>')),nwr(keyval('name','Nationalpark Harz')),qtype(findkey('wikidata’)))
+Can you tell me the community identification number of the Chiemsee in Traunstein?
+query(area(keyval('name','<nom> 3600941745</nom>')),nwr(keyval('name','Chiemsee')),qtype(findkey('de:amtlicher_gemeideschluessel’)))
+community identification number of the Chiemsee in Traunstein
+query(area(keyval('name','<nom> 3600941745</nom>')),nwr(keyval('name','Chiemsee')),qtype(findkey('de:amtlicher_gemeideschluessel’)))
+What is the heritage website for the Kloster Maulbronn?
+query(area(keyval('name','<nom> 3600358098</nom>')),nwr(keyval('name','Kloster Maulbronn')),qtype(findkey('heritage:website’)))
+heritage website for the Kloster Maulbronn?
+query(area(keyval('name','<nom> 3600358098</nom>')),nwr(keyval('name','Kloster Maulbronn')),qtype(findkey('heritage:website’)))
+What is the twitter contact of Miniatur Wunderland in Hamburg?
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:twitter’)))
+twitter contact of Miniatur Wunderland in Hamburg
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:twitter’)))
+What is the facebook contact of Miniatur Wunderland in Hamburg?
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:facebook’)))
+facebook contact of Miniatur Wunderland in Hamburg
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:facebook’)))
+What is the google+ contact of Miniatur Wunderland in Hamburg?
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:google_plus’)))
+google+ contact of Miniatur Wunderland in Hamburg
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:google_plus’)))
+What is the instagram contact of Miniatur Wunderland in Hamburg?
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:instagram’)))
+instagram contact of Miniatur Wunderland in Hamburg
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:instagram’)))
+What is the youtube contact of Miniatur Wunderland in Hamburg?
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:youtube’)))
+youtube contact of Miniatur Wunderland in Hamburg
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('contact:youtube’)))
+What is the short name of Miniatur Wunderland in Hamburg?
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('short_name’)))
+short name of Miniatur Wunderland in Hamburg
+query(area(keyval('name','<nom> 3602618040</nom>')),nwr(keyval('name','Miniatur Wunderland')),qtype(findkey('short_name’)))
+What is the condition of Burg Eltz?
+query(area(keyval('name','<nom> 3600543127</nom>')),nwr(keyval('name','Burg Eltz')),qtype(findkey('building:condition’)))
+condition of Burg Eltz
+query(area(keyval('name','<nom> 3600543127</nom>')),nwr(keyval('name','Burg Eltz')),qtype(findkey('building:condition’)))
+Which castle type is Burg Eltz?
+query(area(keyval('name','<nom> 3600543127</nom>')),nwr(keyval('name','Burg Eltz')),qtype(findkey('castle_type’)))
+castle type of Burg Eltz
+query(area(keyval('name','<nom> 3600543127</nom>')),nwr(keyval('name','Burg Eltz')),qtype(findkey('castle_type’)))
+To which architectural style does Schloß Linderhof in Garmisch-Patenkirchen belong?
+query(area(keyval('name','<nom> 3600939334</nom>')),nwr(keyval('name','Schloß Linderhof')),qtype(findkey('building:architecture’)))
+architectural style of Schloß Linderhof in Garmisch-Patenkirchen
+query(area(keyval('name','<nom> 3600939334</nom>')),nwr(keyval('name','Schloß Linderhof')),qtype(findkey('building:architecture’)))
+Can you tell me the house number of Pädagogische Hochschule in Heidelberg?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Pädagogische Hochschule Heidelberg')),qtype(findkey('addr:housenumber’)))
+house number of Pädagogische Hochschule in Heidelberg
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Pädagogische Hochschule Heidelberg')),qtype(findkey('addr:housenumber’)))
+How is the bus company called, which drives to Studentenwohnheim Heidelberg?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Studentenwohnheim')),qtype(findkey('network’)))
+name of bus company, which drives to Studentenwohnheim Heidelberg
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Studentenwohnheim')),qtype(findkey('network’)))
+Does the NCT in Heidelberg have an elevator?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','NCT Heidelberg')),qtype(findkey('elevator’)))
+Is there an elevator at the NCT in Heidelberg?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','NCT Heidelberg')),qtype(findkey('elevator’)))
+Can I drive with a boat on the Titisee?
+query(area(keyval('name','<nom> 3600317596</nom>')),nwr(keyval('name','Titisee')),qtype(findkey('boat’)))
+drive with boat on the Titisee
+query(area(keyval('name','<nom> 3600317596</nom>')),nwr(keyval('name','Titisee')),qtype(findkey('boat’)))
+Can I drive with my bicycle along the Romantische Straße in Würzburg?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('bicycle’)))
+drive with my bicycle along the Romantische Straße in Würzburg
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('bicycle’)))
+Can I walk along the Romantische Straße in Würzburg?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('foot’)))
+walk along the Romantische Straße in Würzburg
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('foot’)))
+Does the Romantische Straße in Würzburg have a gradient?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('incline’)))
+does a gradient of the Romantische Straße in Würzburg exist?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('incline’)))
+Can I drive with my motor vehicle along the Romantische Straße in Würzburg?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('motor_vehicle’)))
+drive with motor vehicle along the Romantische Straße in Würzburg
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('motor_vehicle’)))
+Which mbt scale does the Romantische Straße in Würzburg have?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('mtb_scale’)))
+mbt scale of the Romantische Straße in Würzburg
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('mtb_scale’)))
+What is the walking condition of the Romantische Straße in Würzburg?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('smoothness’)))
+walking condition of the Romantische Straße in Würzburg
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('smoothness’)))
+What is the width in meter of the Romatische Straße in Würzburg?
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('width’)))
+width in meter of the Romatische Straße in Würzburg
+query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Romantische Straße')),qtype(findkey('width’)))
+At which floor level is the DDR-Museum in Berlin?
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('name','DDR-Museum')),qtype(findkey('level’)))
+floor level of the DDR-Museum in Berlin
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('name','DDR-Museum')),qtype(findkey('level’)))
+Do I need to pay money to use the ropeway in Wismar?
+query(area(keyval('name','<nom> 3600062599</nom>')),nwr(keyval('name','Seilbahn')),qtype(findkey('fee’)))
+pay money to use the ropeway in Wismar
+query(area(keyval('name','<nom> 3600062599</nom>')),nwr(keyval('name','Seilbahn')),qtype(findkey('fee’)))
+Which kind of access has the greenhouse at Botanische Garten in Heidelberg?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Gewächshaus')),qtype(findkey('access’)))
+access type of the greenhouse at Botanische Garten in Heidelberg
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Gewächshaus')),qtype(findkey('access’)))
+Can the Café Botanik in Heidelberg deliver my food?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Café Botanik')),qtype(findkey('delivery’)))
+Does the Café Botanik in Heidelberg deliver food?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Café Botanik')),qtype(findkey('delivery’)))
+Is the Café Botanik in Heidelberg a drive-through restaurant?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Café Botanik')),qtype(findkey('drive_through’)))
+Café Botanik in Heidelberg a drive-through restaurant
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Café Botanik')),qtype(findkey('drive_through’)))
+Is there internet access at Café Botanik in Heidelberg?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Café Botanik')),qtype(findkey('internet_access’)))
+internet access at Café Botanik in Heidelberg
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Café Botanik')),qtype(findkey('internet_access’)))
+Can I smoke at Café Botanik in Heidelberg?
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Café Botanik')),qtype(findkey('smoke’)))
+smoking allowed at Café Botanik in Heidelberg
+query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Café Botanik')),qtype(findkey('smoke’)))
