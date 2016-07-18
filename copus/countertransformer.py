@@ -36,7 +36,7 @@ def transformpairs(inputFile):
     outputFile1 = sys.argv[2]
     outputFile2 = sys.argv[3]
     mrlNaturalPairs = {}
-    prevLine = ""
+    prevline = ""
     for line in inFile:
         if line.replace("\n", "").endswith(")"):
             mrlNaturalPairs[prevline] = line
