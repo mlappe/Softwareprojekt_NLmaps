@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
@@ -76,6 +77,8 @@ tf.app.flags.DEFINE_boolean("decode", True,
                             "Set to True for interactive decoding.")
 tf.app.flags.DEFINE_boolean("self_test", False,
                             "Run a self-test if this is set to True.")
+tf.app.flags.DEFINE_integer("beam", 30,
+                            "Find the [beam]-best translations.")
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -318,102 +321,110 @@ def decode_once(output_logits,rev_fr_vocab):
 	f_iter = decoding_iter(output_logits)
 	outputs = f_iter.__next__()
 	
-	
+	#print (output_logits)
 	best_outputs=[]
 	for out in outputs:
 	  best_outputs.append(out.tolist())
 	  
+	#print (best_outputs)	#list of the best outputs, to be feeded for computing multiple outstr
+	symb=best_outputs[:int(len(best_outputs))//2]
+	par=best_outputs[int(len(best_outputs))//2:]
+	#print (symb)
+	#print (par)
 	
-				#list of the best outputs, to be feeded for computing multiple outstr
-	
-	
-	
-	count=0
-	
-	for out in best_outputs:
-	  print (out)
-	  outstr, iswellformed = process_decoding(out,rev_fr_vocab)
-	  count=count+1
-	  '''if iswellformed==True:
-	    print(outstr)
-	    print("this mrl is wellformed: "+ str(iswellformed))
 	 
-	    print("> ", end="")
-	    sys.stdout.flush()
-	  elif count==len(best_outputs):
-	    print ("I don't know")'''
+	def one_hyp(rank_hyp):
+	  hyp=[]
+	  hyp.append(symb[-1][rank_hyp])    #appending the symbol to the right hypothesis, starting backwards
+	  meta=par[-1][rank_hyp]
+	  for i in range(2,len(symb)+1):
+	    i=-i
+	    hyp.insert(0, symb[i][meta])
+	    meta=par[i][meta] 
+	  return hyp
+	
+	for i in range(FLAGS.beam):
+	  print (one_hyp(i))
+	  outstr, iswellformed = process_decoding(one_hyp(i),rev_fr_vocab)
+	  
+	 
+	  print(outstr)
+	  print("this mrl is wellformed: "+ str(iswellformed))
+	 
+	  print("> ", end="")
+	  sys.stdout.flush()
+	 # elif count==len(best_outputs):
+	  #  print ("I don't know")
 	    
-	  print (outstr, iswellformed)
+	  #print (outstr, iswellformed)
 	  
 	
 def decoding_iter(output_logits):
 	# This is a greedy decoder - outputs are just argmaxes of output_logits.
-	#outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
 	
-	#print (output_logits)
+	#outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
 	with tf.Graph().as_default():
-	  beam_size = 5  # Number of hypotheses in beam
-	  num_symbols = FLAGS.fr_vocab_size # Output vocabulary size
-	  
+	  beam_size = FLAGS.beam # Number of hypotheses in beam.
+	  num_symbols = FLAGS.fr_vocab_size  # Output vocabulary size
 	  num_steps = len(output_logits)
-	  
-	 
-	  
 	  log_beam_probs, beam_symbols, beam_path = [], [], []
-	  def beam_search(logit):
-	    print (logit)
+	  prob=[]
+	  def beam_search(logit,i):
+	    
 	    probs=logit
-	    if log_beam_probs!=[]:
+	    
+	    if i>1:
+	      probs = tf.reshape(probs + log_beam_probs[-1],[-1, beam_size * num_symbols])
+	      prob.append(tf.shape(probs))
+	      #p.append(log_beam_probs[-1])
+	    best_probs, indices = tf.nn.top_k(probs, beam_size)
+	    indices = tf.stop_gradient(tf.squeeze(tf.reshape(indices, [-1, 1])))
+	    best_probs = tf.stop_gradient(tf.reshape(best_probs, [-1, 1]))
+	    symbols = indices % num_symbols # Which word in vocabulary.
+	    
+	    beam_parent = indices // num_symbols # Which hypothesis it came from.
+	    beam_symbols.append(symbols)
+	    log_beam_probs.append(best_probs)
+	    beam_path.append(beam_parent)
+	    '''if log_beam_probs!=[]:
 	      probs = tf.reshape(probs + log_beam_probs[-1],[-1, beam_size * num_symbols])
 	    best_probs, indices = tf.nn.top_k(probs, beam_size)
-	    #print (indices)
-	   
 	    indices = tf.stop_gradient(tf.squeeze(tf.reshape(indices, [-1, 1])))
-	    #print (tf.shape(indices))
 	    best_probs = tf.stop_gradient(tf.reshape(best_probs, [-1, 1]))
-	    #print (best_probs)
-	    symbols = indices % num_symbols      # which word in vocabulary
-	    beam_parent = indices // num_symbols # which hypothesis it came from
+
+	    symbols = indices % num_symbols # Which word in vocabulary.
+	    beam_parent = indices // num_symbols # Which hypothesis it came from.
 
 	    beam_symbols.append(symbols)
-	    beam_path.append(beam_parent)
-	    log_beam_probs.append(best_probs)
-
-	    return symbols
-
-  # Setting up graph.
-	  inputs = [tf.placeholder(tf.float32, shape=[None, num_symbols]) for i in range(num_steps)]
-	  #for logit in output_logits:
-	   # beam_search(logit)
-	  #for i in range(num_steps):
-	   # beam_search(inputs[i], i+1)
-	  for i in range(num_steps):
-	    beam_search(inputs[i])
+	    
+	    log_beam_probs.append(best_probs)'''
 	  
-	  #input_vals = tf.zeros([1, beam_size], dtype=tf.float32)
-
+	  
+	  inputs = [tf.placeholder(tf.float32, shape=[None, num_symbols]) for i in range(num_steps)]
+	  for i in range(len(output_logits)):
+	    beam_search(inputs[i],i+1)
+	  #beam_search(inputs[1], 0)
+	  
+	  
 	  input_feed = {inputs[i]: output_logits[i][:beam_size] for i in xrange(num_steps)}
-	  output_feed = beam_symbols
+	  output_feed = beam_symbols + beam_path
 	  session = tf.InteractiveSession()
 	  outputs = session.run(output_feed, feed_dict=input_feed)
+	  
+	yield outputs
 
+	
+	
+	while True:
+		outputs = [int(nplipud(np.argsort(logit, axis=1))[0]) for logit in output_logits] # sorts everytime, that can be done better
+		yield outputs
 
-	
-	
-	
-	
-	
 	'''a=[(tf.nn.top_k(logit,k_best))[1] for logit in output_logits]			#Tensor withe the indices of the k best values, best one (=argmax) comes on position [0]
 	init = tf.initialize_all_variables()
 
 	sess = tf.Session()
 	sess.run(init)					#sieht nicht richtig aus, neue Session hier zu offen, aber nunr so kriegt man array mit int aus dem tensor, wo die indices der besten 5 liegen 
 	outputs = sess.run(a)'''
-	
-   
-	yield outputs
-
-	
 	
 	#while True:
 		#outputs = [int(nplipud(np.argsort(logit, axis=1))[0]) for logit in output_logits] # sorts everytime, that can be done better
