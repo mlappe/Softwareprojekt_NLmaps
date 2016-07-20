@@ -1,6 +1,3 @@
-import sys
-
-# Python3
 # -*- coding: utf-8 -*-
 
 # Scriptname: countertransformer.py
@@ -9,11 +6,12 @@ import sys
 
 # when calling this method, an input file (MRL-natural language pairs) and an two output files have to be specified
 
+import sys
 
 # writes the results into the specified output file
 def writeFile(inputFile, text):
     try:
-        file = open(inputFile, 'w')
+        file = open(inputFile, 'w+')
         for item in text:
             file.write(item)
         file.close()
@@ -23,7 +21,7 @@ def writeFile(inputFile, text):
 # counts the MRL-natural language pairs
 def countpairs(inputFile):
     counter= 0
-    inFile = open(inputFile, 'r', encoding='utf-16')
+    inFile = open(inputFile, 'r', encoding='utf-8')
     for line in inFile:
         counter+=1
     amount = counter / 2
@@ -32,11 +30,11 @@ def countpairs(inputFile):
 
 # transforms the MRL-natural language pairs in a useable format (two text documents)
 def transformpairs(inputFile):
-    inFile = open(inputFile, 'r', encoding='utf-16')
+    inFile = open(inputFile, 'r', encoding='utf-8')
     outputFile1 = sys.argv[2]
     outputFile2 = sys.argv[3]
     mrlNaturalPairs = {}
-    prevline = ""
+    prevLine = ""
     for line in inFile:
         if line.replace("\n", "").endswith(")"):
             mrlNaturalPairs[prevline] = line

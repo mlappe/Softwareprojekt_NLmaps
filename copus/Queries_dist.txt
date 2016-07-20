@@ -1,19 +1,19 @@
 How far away is Cologne Cathedral from the station in Cologne?
-dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Köln Hbf')),qtype(latlong)))
+dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶ln Hbf')),qtype(latlong)))
 distance between Cologne Cathedral and station in Cologne
-dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Köln Hbf')),qtype(latlong)))
+dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶ln Hbf')),qtype(latlong)))
 How far away is Cologne Cathedral from St. Maria Himmelfahrt church in Cologne?
-dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','St. Maria Himmelfahrt')),qtype(latlong)))
+dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','St. Maria Himmelfahrt')),qtype(latlong)))
 distance between Cologne Cathedral and St. Maria Himmelfahrt church in Cologne
-dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','St. Maria Himmelfahrt')),qtype(latlong)))
-How far away is Cologne Cathedral from Saturn in Maybachstraße in Cologne?
-dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Saturn'), keyval('addr:street','Maybachstraße')),qtype(latlong)))
-distance between Cologne Cathedral and Saturn in Maybachstraße in Cologne
-dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Saturn'), keyval('addr:street','Maybachstraße')),qtype(latlong)))
+dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','St. Maria Himmelfahrt')),qtype(latlong)))
+How far away is Cologne Cathedral from Saturn in MaybachstraÃŸe in Cologne?
+dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Saturn'), keyval('addr:street','MaybachstraÃŸe')),qtype(latlong)))
+distance between Cologne Cathedral and Saturn in MaybachstraÃŸe in Cologne
+dist(query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Saturn'), keyval('addr:street','MaybachstraÃŸe')),qtype(latlong)))
 How far away is Neuschwanstein Castle from Cologne Cathedral?
-dist(query(area(keyval('name','<nom> 3600448297</nom>')),nwr(keyval('name','Schloss Neuschwanstein')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600448297</nom>')),nwr(keyval('name','Schloss Neuschwanstein')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)))
 distance between Neuschwanstein Castle and Cologne Cathedral
-dist(query(area(keyval('name','<nom> 3600448297</nom>')),nwr(keyval('name','Schloss Neuschwanstein')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600448297</nom>')),nwr(keyval('name','Schloss Neuschwanstein')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)))
 How far away is Neuschwanstein Castle from Hohenschwangau Castle?
 dist(query(area(keyval('name','<nom> 3600448297</nom>')),nwr(keyval('name','Schloss Neuschwanstein')),qtype(latlong)),query(area(keyval('name','<nom>3600448297</nom>')),nwr(keyval('name','Schloss Hohenschwangau')),qtype(latlong)))
 distance between Neuschwanstein Castle and Hohenschwangau Castle
@@ -23,21 +23,21 @@ dist(query(area(keyval('name','<nom> 3600448297</nom>')),nwr(keyval('name','Schl
 distance between Neuschwanstein Castle and Forggensee
 dist(query(area(keyval('name','<nom> 3600448297</nom>')),nwr(keyval('name','Schloss Neuschwanstein')),qtype(latlong)),query(area(keyval('name','<nom> 3600448298 </nom>')),nwr(keyval('name','Forggensee')),qtype(latlong)))
 How far away is the Reichstag building from Cologne Cathedral?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','ReichstagsgebÃ¤ude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)))
 distance between Reichstag building and Cologne Cathedral
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','ReichstagsgebÃ¤ude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)))
 How far away is the Reichstag building from Alexanderplatz in Berlin?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Alexanderplatz')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','ReichstagsgebÃ¤ude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Alexanderplatz')),qtype(latlong)))
 distance between Reichstag building and Alexanderplatz in Berlin
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Alexanderplatz')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','ReichstagsgebÃ¤ude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Alexanderplatz')),qtype(latlong)))
 How far away is the Reichstag building from the Olympiastadion in Berlin?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Olympiastadion Berlin')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','ReichstagsgebÃ¤ude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Olympiastadion Berlin')),qtype(latlong)))
 distance between the Reichstag building and the Olympiastadion in Berlin
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Olympiastadion Berlin')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','ReichstagsgebÃ¤ude')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Olympiastadion Berlin')),qtype(latlong)))
 How far away is the Reichstag building from the Frauenkirche?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Frauenkirche')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','ReichstagsgebÃ¤ude')),qtype(latlong)),query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Frauenkirche')),qtype(latlong)))
 distance between the Reichstag building and the Frauenkirche?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Frauenkirche')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','ReichstagsgebÃ¤ude')),qtype(latlong)),query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Frauenkirche')),qtype(latlong)))
 How far away is the Frauenkirche from Dresden International School in Dresden?
 dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Frauenkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Dresden International School')),qtype(latlong)))
 distance between the Frauenkirche and Dresden International School in Dresden?
@@ -51,17 +51,17 @@ dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Zwin
 distance between the Zwinger and the Frauenkirche in Dresden
 dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Zwinger')),qtype(latlong)),query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Frauenkirche')),qtype(latlong)))
 How far away is the Zwinger from Cologne Cathedral?
-dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Zwinger')),qtype(latlong)),query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Zwinger')),qtype(latlong)),query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)))
 distance between the Zwinger and Cologne Cathedral?
-dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Zwinger')),qtype(latlong)),query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','Kölner Dom')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Zwinger')),qtype(latlong)),query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name','KÃ¶lner Dom')),qtype(latlong)))
 How far away is the Zwinger from Heidelberg Castle?
 dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Zwinger')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)))
 distance between the Zwinger and Heidelberg Castle?
 dist(query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('name','Zwinger')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)))
 How far away is Heidelberg Castle from Heidelberg University in Heidelberg?
-dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('alt_name','Ruprecht-Karls-Universität Heidelberg')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('alt_name','Ruprecht-Karls-UniversitÃ¤t Heidelberg')),qtype(latlong)))
 distance between Heidelberg Castle and Heidelberg University in Heidelberg?
-dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('alt_name','Ruprecht-Karls-Universität Heidelberg')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('alt_name','Ruprecht-Karls-UniversitÃ¤t Heidelberg')),qtype(latlong)))
 How far away is Heidelberg Castle from Heiligenberg in Heidelberg?
 dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heiligenberg')),qtype(latlong)))
 distance between Heidelberg Castle and Heiligenberg in Heidelberg?
@@ -70,22 +70,22 @@ How far away is Heidelberg Castle from Bahnstadt in Heidelberg?
 dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Bahnstadt')),qtype(latlong)))
 distance between Heidelberg Castle and Bahnstadt in Heidelberg?
 dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Bahnstadt')),qtype(latlong)))
-How far away is Heidelberg Castle from Würzburg Residence?
-dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz Würzburg')),qtype(latlong)))
-distance between Heidelberg Castle and Würzburg Residence?
-dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz Würzburg')),qtype(latlong)))
-How far away is Würzburg Residence from the Hauptfriedhof in Würzburg?
-dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz Würzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Hauptfriedhof')),qtype(latlong)))
-distance between Würzburg Residence and the Hauptfriedhof in Würzburg?
-dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz Würzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Hauptfriedhof')),qtype(latlong)))
-How far away is Würzburg Residence from Alter Hafen in Würzburg?
-dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz Würzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Alter Hafen')),qtype(latlong)))
-distance between Würzburg Residence and Alter Hafen in Würzburg?
-dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz Würzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Alter Hafen')),qtype(latlong)))
-How far away is Würzburg Residence from Berliner Fernsehturm?
-dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz Würzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('name','Fernsehturm')),qtype(latlong)))
-distance between Würzburg Residence and Berliner Fernsehturm?
-dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz Würzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('name','Fernsehturm')),qtype(latlong)))
+How far away is Heidelberg Castle from WÃ¼rzburg Residence?
+dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz WÃ¼rzburg')),qtype(latlong)))
+distance between Heidelberg Castle and WÃ¼rzburg Residence?
+dist(query(area(keyval('name','<nom> 3600285864</nom>')),nwr(keyval('name','Heidelberger Schloss')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz WÃ¼rzburg')),qtype(latlong)))
+How far away is WÃ¼rzburg Residence from the Hauptfriedhof in WÃ¼rzburg?
+dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz WÃ¼rzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Hauptfriedhof')),qtype(latlong)))
+distance between WÃ¼rzburg Residence and the Hauptfriedhof in WÃ¼rzburg?
+dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz WÃ¼rzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Hauptfriedhof')),qtype(latlong)))
+How far away is WÃ¼rzburg Residence from Alter Hafen in WÃ¼rzburg?
+dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz WÃ¼rzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Alter Hafen')),qtype(latlong)))
+distance between WÃ¼rzburg Residence and Alter Hafen in WÃ¼rzburg?
+dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz WÃ¼rzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Alter Hafen')),qtype(latlong)))
+How far away is WÃ¼rzburg Residence from Berliner Fernsehturm?
+dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz WÃ¼rzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('name','Fernsehturm')),qtype(latlong)))
+distance between WÃ¼rzburg Residence and Berliner Fernsehturm?
+dist(query(area(keyval('name','<nom> 3600062464</nom>')),nwr(keyval('name','Residenz WÃ¼rzburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('name','Fernsehturm')),qtype(latlong)))
 How far away is the Berliner Fernsehturm from the Sowjetisches Ehrenmal Tiergarten in Berlin?
 dist(query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('name','Fernsehturm')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('name',' Sowjetisches Ehrenmal Tiergarten ')),qtype(latlong)))
 distance between the Berliner Fernsehturm and the Sowjetisches Ehrenmal Tiergarten in Berlin?
@@ -130,41 +130,41 @@ How far away is Wartburg from Aquaplex in Eisenach?
 dist(query(area(keyval('name','<nom> 3600062370</nom>')),nwr(keyval('name','Wartburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062370</nom>')),nwr(keyval('name','aquaplex')),qtype(latlong)))
 distance between Wartburg and Aquaplex in Eisenach?
 dist(query(area(keyval('name','<nom> 3600062370</nom>')),nwr(keyval('name','Wartburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062370</nom>')),nwr(keyval('name','aquaplex')),qtype(latlong)))
-How far away is Wartburg from Ulmer Münster?
-dist(query(area(keyval('name','<nom> 3600062370</nom>')),nwr(keyval('name','Wartburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer Münster')),qtype(latlong)))
-distance between Wartburg and Ulmer Münster?
-dist(query(area(keyval('name','<nom> 3600062370</nom>')),nwr(keyval('name','Wartburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer Münster')),qtype(latlong)))
-How far away is Ulmer Münster from Löwenbrunnen in Ulm?
-dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer Münster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Löwenbrunnen')),qtype(latlong)))
-distance between Ulmer Münster and Löwenbrunnen in Ulm?
-dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer Münster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Löwenbrunnen')),qtype(latlong)))
-How far away is Ulmer Münster from theatre Ulm in Ulm at Herbert-von-Karajan-Platz?
-dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer Münster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Theater Ulm'), keyval('addr:street', 'Herbert-von-Karajan-Platz')),qtype(latlong)))
-distance between Ulmer Münster and theatre Ulm in Ulm at Herbert-von-Karajan-Platz?
-dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer Münster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Theater Ulm'), keyval('addr:street', 'Herbert-von-Karajan-Platz')),qtype(latlong)))
-How far away is Ulmer Münster from the Völkerschlachtdenkmal?
-dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer Münster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Völkerschlachtdenkmal')),qtype(latlong)))
-distance between Ulmer Münster and the Völkerschlachtdenkmal?
-dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer Münster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Völkerschlachtdenkmal')),qtype(latlong)))
-How far away is the Völkerschlachtdenkmal from the Südost-Stadion in Leipzig?
-dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Völkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Südost-Stadion')),qtype(latlong)))
-distance between the Völkerschlachtdenkmal and the Südost-Stadion in Leipzig?
-dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Völkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Südost-Stadion')),qtype(latlong)))
-How far away is the Völkerschlachtdenkmal from the Rosa-Luxemburg-Straße in Leipzig?
-dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Völkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name',' Rosa-Luxemburg-Straße')),qtype(latlong)))
-distance between the Völkerschlachtdenkmal and the Rosa-Luxemburg-Straße in Leipzig?
-dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Völkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name',' Rosa-Luxemburg-Straße')),qtype(latlong)))
-How far away is the Völkerschlachtdenkmal from the Holstentor?
-dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Völkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)))
-distance between the Völkerschlachtdenkmal and the Holstentor?
-dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','Völkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)))
-How far away is the Holstentor from the youth hostel “Altstadt” in Lübeck?
-dist(query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','DJH Jugendherberge Lübeck “Altstadt”')),qtype(latlong)))
-distance between the Holstentor and the youth hostel “Altstadt” in Lübeck?
-dist(query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','DJH Jugendherberge Lübeck “Altstadt”')),qtype(latlong)))
-How far away is the Holstentor from the Strandsalon in Lübeck?
+How far away is Wartburg from Ulmer MÃ¼nster?
+dist(query(area(keyval('name','<nom> 3600062370</nom>')),nwr(keyval('name','Wartburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer MÃ¼nster')),qtype(latlong)))
+distance between Wartburg and Ulmer MÃ¼nster?
+dist(query(area(keyval('name','<nom> 3600062370</nom>')),nwr(keyval('name','Wartburg')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer MÃ¼nster')),qtype(latlong)))
+How far away is Ulmer MÃ¼nster from LÃ¶wenbrunnen in Ulm?
+dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer MÃ¼nster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','LÃ¶wenbrunnen')),qtype(latlong)))
+distance between Ulmer MÃ¼nster and LÃ¶wenbrunnen in Ulm?
+dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer MÃ¼nster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','LÃ¶wenbrunnen')),qtype(latlong)))
+How far away is Ulmer MÃ¼nster from theatre Ulm in Ulm at Herbert-von-Karajan-Platz?
+dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer MÃ¼nster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Theater Ulm'), keyval('addr:street', 'Herbert-von-Karajan-Platz')),qtype(latlong)))
+distance between Ulmer MÃ¼nster and theatre Ulm in Ulm at Herbert-von-Karajan-Platz?
+dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer MÃ¼nster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Theater Ulm'), keyval('addr:street', 'Herbert-von-Karajan-Platz')),qtype(latlong)))
+How far away is Ulmer MÃ¼nster from the VÃ¶lkerschlachtdenkmal?
+dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer MÃ¼nster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','VÃ¶lkerschlachtdenkmal')),qtype(latlong)))
+distance between Ulmer MÃ¼nster and the VÃ¶lkerschlachtdenkmal?
+dist(query(area(keyval('name','<nom> 3600062495</nom>')),nwr(keyval('name','Ulmer MÃ¼nster')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','VÃ¶lkerschlachtdenkmal')),qtype(latlong)))
+How far away is the VÃ¶lkerschlachtdenkmal from the SÃ¼dost-Stadion in Leipzig?
+dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','VÃ¶lkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','SÃ¼dost-Stadion')),qtype(latlong)))
+distance between the VÃ¶lkerschlachtdenkmal and the SÃ¼dost-Stadion in Leipzig?
+dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','VÃ¶lkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','SÃ¼dost-Stadion')),qtype(latlong)))
+How far away is the VÃ¶lkerschlachtdenkmal from the Rosa-Luxemburg-StraÃŸe in Leipzig?
+dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','VÃ¶lkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name',' Rosa-Luxemburg-StraÃŸe')),qtype(latlong)))
+distance between the VÃ¶lkerschlachtdenkmal and the Rosa-Luxemburg-StraÃŸe in Leipzig?
+dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','VÃ¶lkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name',' Rosa-Luxemburg-StraÃŸe')),qtype(latlong)))
+How far away is the VÃ¶lkerschlachtdenkmal from the Holstentor?
+dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','VÃ¶lkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)))
+distance between the VÃ¶lkerschlachtdenkmal and the Holstentor?
+dist(query(area(keyval('name','<nom> 3600062649 </nom>')),nwr(keyval('name','VÃ¶lkerschlachtdenkmal')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)))
+How far away is the Holstentor from the youth hostel Â“AltstadtÂ” in LÃ¼beck?
+dist(query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','DJH Jugendherberge LÃ¼beck Â“AltstadtÂ”')),qtype(latlong)))
+distance between the Holstentor and the youth hostel Â“AltstadtÂ” in LÃ¼beck?
+dist(query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','DJH Jugendherberge LÃ¼beck Â“AltstadtÂ”')),qtype(latlong)))
+How far away is the Holstentor from the Strandsalon in LÃ¼beck?
 dist(query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Strandsalon')),qtype(latlong)))
-distance between the Holstentor and the Strandsalon in Lübeck?
+distance between the Holstentor and the Strandsalon in LÃ¼beck?
 dist(query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)),query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Strandsalon')),qtype(latlong)))
 How far away is the Holstentor from Staatliche Kunstsammlungen Dresden?
 dist(query(area(keyval('name','<nom> 3600027027 </nom>')),nwr(keyval('name','Holstentor')),qtype(latlong)),query(area(keyval('name','<nom> 3600191645</nom>')),nwr(keyval('operator','Staatliche Kunstsammlungen Dresden')),qtype(latlong)))
@@ -211,25 +211,25 @@ dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St.
 distance between St. Marienkirche and Gendarmenmarkt in Berlin?
 dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name', 'Gendarmenmarkt')),qtype(latlong)))
 How far away is St. Marienkirche from Victory Column in Berlin?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Siegessäule')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','SiegessÃ¤ule')),qtype(latlong)))
 distance between St. Marienkirche and Victory Column in Berlin?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name', 'Siegessäule')),qtype(latlong)))
-How far away is St. Marienkirche from Freiburger Münster?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Münster Unserer Lieben Frau')),qtype(latlong)))
-distance between St. Marienkirche and Freiburger Münster?
-dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name', 'Münster Unserer Lieben Frau')),qtype(latlong)))
-How far away is the Freiburger Münster from Stadtgarten in Freiburg?
-dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Münster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Stadtgarten')),qtype(latlong)))
-distance between the Freiburger Münster and Stadtgarten in Freiburg?
-dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Münster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name', 'Stadtgarten')),qtype(latlong)))
-How far away is the Freiburger Münster from the Dreisam in Freiburg?
-dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Münster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Dreisam')),qtype(latlong)))
-distance between the Freiburger Münster and Dreisam in Freiburg?
-dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Münster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name', 'Dreisam')),qtype(latlong)))
-How far away is the Freiburger Münster from Altes Museum?
-dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Münster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Altes Museum')),qtype(latlong)))
-distance between the Freiburger Münster and Altes Museum?
-dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Münster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name', 'Altes Museum')),qtype(latlong)))
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name', 'SiegessÃ¤ule')),qtype(latlong)))
+How far away is St. Marienkirche from Freiburger MÃ¼nster?
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','MÃ¼nster Unserer Lieben Frau')),qtype(latlong)))
+distance between St. Marienkirche and Freiburger MÃ¼nster?
+dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','St. Marienkirche')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name', 'MÃ¼nster Unserer Lieben Frau')),qtype(latlong)))
+How far away is the Freiburger MÃ¼nster from Stadtgarten in Freiburg?
+dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','MÃ¼nster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Stadtgarten')),qtype(latlong)))
+distance between the Freiburger MÃ¼nster and Stadtgarten in Freiburg?
+dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','MÃ¼nster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name', 'Stadtgarten')),qtype(latlong)))
+How far away is the Freiburger MÃ¼nster from the Dreisam in Freiburg?
+dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','MÃ¼nster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','Dreisam')),qtype(latlong)))
+distance between the Freiburger MÃ¼nster and Dreisam in Freiburg?
+dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','MÃ¼nster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name', 'Dreisam')),qtype(latlong)))
+How far away is the Freiburger MÃ¼nster from Altes Museum?
+dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','MÃ¼nster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Altes Museum')),qtype(latlong)))
+distance between the Freiburger MÃ¼nster and Altes Museum?
+dist(query(area(keyval('name','<nom> 3600062768 </nom>')),nwr(keyval('name','MÃ¼nster Unserer Lieben Frau')),qtype(latlong)),query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name', 'Altes Museum')),qtype(latlong)))
 How far away is Altes Museum from Messeturm?
 dist(query(area(keyval('name','<nom> 3600062422 </nom>')),nwr(keyval('name','Altes Museum')),qtype(latlong)),query(area(keyval('name','<nom> 3600062400 </nom>')),nwr(keyval('name','Messeturm')),qtype(latlong)))
 distance between Altes Museum and Messeturm?
