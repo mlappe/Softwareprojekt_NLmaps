@@ -20,8 +20,11 @@
 #                                                                    #
 #     python2 evaluator.py system_mrl_file gold_mrl_file             #
 #                                                                    #
-#  Die Accuracy wird in die Shell ausgegeben.                        #
-#                                                                    #
+#  Recall is defined as the percentage of correct answers out of	 #
+# all examples, Precision the percentage of correct answers out of	 #
+# all examples with an answer, and F1-score the harmonic mean		 #
+# between the two aforementioned.	(Carolin Haas)					 #
+#  																	 #
 #                                                                    #
 #  Autor:  Marina Speranskaya                                        #
 #                                                                    #
@@ -36,7 +39,9 @@ class Evaluator:
 		self.system_mrl_file = sysfile
 		self.gold_mrl_file = goldfile
 		self.result_list = []
-		self.acc = 0
+		self.recall = 0
+		self.precision = 0
+		self.fscore = 0
 		
 	def set_system_file(self,filename):
 		self.system_mrl_file = filename
@@ -60,21 +65,30 @@ class Evaluator:
 	def calc_acc(self):
 		tp = 0
 		incorrect = 0 
-		for i in self.result_list:
-			if i==1:
+		#inc_list = []
+		for (pos,value) in enumerate(self.result_list):
+			if value ==1:
 				tp += 1
-			elif i==0:
+			elif value ==0:
 				pass
 			else:
 				incorrect += 1
+				inc_list.append(pos)
 		if incorrect:
 			sys.stdout.write("There were %d incorrect system MRLs.\n"%incorrect)
-		self.acc = float(tp) / len(self.result_list)
+			#print (inc_list)
+		#print(tp)
+		self.recall = float(tp) / len(self.result_list)
+		self.precision = float(tp) / (len(self.result_list) - incorrect)
+		if self.precision + self.recall != 0:
+			self.fscore = (2*self.recall*self.precision)/(self.recall+self.precision)
+		else: 
+			self.fscore = 0
 		return
 	
 if __name__ == "__main__":
 	ev = Evaluator(sys.argv[1],sys.argv[2])
 	ev.compare_queries()
 	ev.calc_acc()
-	print (ev.acc)
+	print ("Recall: %f Precision: %f \nF1-Score: %f"%(ev.recall,ev.precision,ev.fscore))
 	

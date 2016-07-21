@@ -2,7 +2,7 @@
 
 # Das Skript dient dazu, Anfragen an die Datenbank zu stellen 
 # und Ergebnisse zu vergleichen.
-# Output Codes: 0 - Ok, 1 - falsche Ausgabe, 2 - inkorrekte MRL.
+# Output Codes: 0 - falsche Ausgabe, 1 - OK, 2 - inkorrekte MRL.
 # Der Pfad zu der Datenbank (z. 10 und 12) entspricht dem auf ella.
  
 echo $1 > sys_mrl.in
