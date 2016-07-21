@@ -74,9 +74,9 @@ How many pet shops are there in Berlin?
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','pet')),qtype(count))
 number of pet shops in Berlin
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','pet')),qtype(count))
-How many pet shops are there in Düsseldorf?
+How many pet shops are there in DÃ¼sseldorf?
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','pet')),qtype(count))
-number of pet shops in Düsseldorf
+number of pet shops in DÃ¼sseldorf
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','pet')),qtype(count))
 How many pet shops are there in Dortmund?
 query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','pet')),qtype(count))
@@ -86,9 +86,9 @@ How many bicycle parking lots are there in Berlin?
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('amenity','bicycle_parking')),qtype(count))
 number of bicycle parking lots in Berlin
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('amenity','bicycle_parking')),qtype(count))
-How many bicycle parking lots are there in Düsseldorf?
+How many bicycle parking lots are there in DÃ¼sseldorf?
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('amenity','bicycle_parking')),qtype(count))
-number of bicycle parking lots in Düsseldorf
+number of bicycle parking lots in DÃ¼sseldorf
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('amenity','bicycle_parking')),qtype(count))
 How many bicycle parking lots are there in Dortmund?
 query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('amenity','bicycle_parking')),qtype(count))
@@ -98,9 +98,9 @@ How many editorial departments are there in Berlin?
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('office','newspaper')),qtype(count))
 number of editorial departments in Berlin
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('office','newspaper')),qtype(count))
-How many editorial departments are there in Düsseldorf?
+How many editorial departments are there in DÃ¼sseldorf?
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('office','newspaper')),qtype(count))
-number of editorial departments in Düsseldorf
+number of editorial departments in DÃ¼sseldorf
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('office','newspaper')),qtype(count))
 How many editorial offices are there in Dortmund?
 query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('office','newspaper')),qtype(count))
@@ -110,9 +110,9 @@ How many gates are there in Berlin?
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('barrier','gate')),qtype(count))
 number of gates in Berlin
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('barrier','gate')),qtype(count))
-How many gates are there in Düsseldorf?
+How many gates are there in DÃ¼sseldorf?
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('barrier','gate')),qtype(count))
-number of gates in Düsseldorf
+number of gates in DÃ¼sseldorf
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('barrier','gate')),qtype(count))
 How many gates are there in Dortmund?
 query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('barrier','gate')),qtype(count))
@@ -122,9 +122,9 @@ How many auto repair shops are there in Berlin?
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','car_repair')),qtype(count))
 number of auto repair shops in Berlin
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','car_repair')),qtype(count))
-How many auto repair shops are there in Düsseldorf?
+How many auto repair shops are there in DÃ¼sseldorf?
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','car_repair')),qtype(count))
-number of auto repair shops in Düsseldorf
+number of auto repair shops in DÃ¼sseldorf
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','car_repair')),qtype(count))
 How many car repair shops are there in Dortmund?
 query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','car_repair')),qtype(count))
@@ -134,9 +134,9 @@ How many boutiques are there in Berlin?
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','boutique')),qtype(count))
 number of boutiques in Berlin
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','boutique')),qtype(count))
-How many boutiques are there in Düsseldorf?
+How many boutiques are there in DÃ¼sseldorf?
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','boutique')),qtype(count))
-number of boutiques in Düsseldorf
+number of boutiques in DÃ¼sseldorf
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','boutique')),qtype(count))
 How many boutiques are there in Dortmund?
 query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','boutique')),qtype(count))
@@ -146,9 +146,9 @@ How many travel agencies are there in Berlin?
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','travel_agency')),qtype(count))
 number of travel agencies in Berlin
 query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','travel_agency')),qtype(count))
-How many travel agencies are there in Düsseldorf?
+How many travel agencies are there in DÃ¼sseldorf?
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','travel_agency')),qtype(count))
-number of travel agencies in Düsseldorf
+number of travel agencies in DÃ¼sseldorf
 query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','travel_agency')),qtype(count))
 How many travel agencies are there in Dortmund?
 query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','travel_agency')),qtype(count))

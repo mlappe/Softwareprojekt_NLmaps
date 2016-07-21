@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#ignore nmt models
+nmt/tmp/
+
 # C extensions
 *.so
 

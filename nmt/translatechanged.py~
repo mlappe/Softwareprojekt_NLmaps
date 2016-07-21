@@ -62,7 +62,7 @@ tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
                           "Clip gradients to this norm.")
 tf.app.flags.DEFINE_integer("batch_size", 64,
                             "Batch size to use during training.")
-tf.app.flags.DEFINE_integer("size", 10, "Size of each model layer.")
+tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 3, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("en_vocab_size", 40000, "English vocabulary size.")
 tf.app.flags.DEFINE_integer("fr_vocab_size", 40000, "French vocabulary size.")
@@ -189,8 +189,11 @@ def train():
   # Prepare WMT data.
   print("Preparing WMT data in %s" % FLAGS.data_dir)
   en_train, fr_train, en_dev, fr_dev, _, _ = prepare_wmt_data(
-      FLAGS.data_dir, FLAGS.en_vocab_size, FLAGS.fr_vocab_size)
+      FLAGS.data_dir, FLAGS.en_vocab_size, FLAGS.fr_vocab_size,normalize_digits=False)
 
+      
+      
+      
   with tf.Session() as sess:
     # Create model.
     print("Creating %d layers of %d units." % (FLAGS.num_layers, FLAGS.size))
@@ -410,7 +413,7 @@ def isdevinstance(index):
 	else:
 		return False
 		
-mrlfilename = "../MRL_EN_TEST_linearized.txt"
+mrlfilename = "../MRL_EN_TEST_OHNELEER_linearized.txt"
 nlfilename = "../NL_EN_TEST_stem.txt"
 
 def traindataiterator():
