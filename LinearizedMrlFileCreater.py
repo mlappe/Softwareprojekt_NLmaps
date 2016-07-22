@@ -15,7 +15,7 @@ import MRL_Linearizer,sys
 #################################################################################################################################################
 
 def LinearizedFileCreater(txt):
-    lst = ["-",":","&"]
+    lst = ["-",":","&","."]
     with open(txt) as myfile:
         txt_lst = myfile.readlines()
     new_txtlst = []

@@ -59,7 +59,20 @@ def linearizeMRL(MRL):
                         continue
         else:
             continue
-    return " ".join(linearized_list).strip()
+    foreal = []
+    for a in range(len(linearized_list)):
+        if "(" in linearized_list[a] and ")" in linearized_list[a]:
+            normal,problem = linearized_list[a].split(" ",1)
+            foreal.append(normal.strip()+" "+problem.replace(" ",""))
+        elif ":" in linearized_list[a]:
+            normal,problem = linearized_list[a].split(":")
+            foreal.append(normal.strip()+":"+problem.replace(" ",""))
+        elif "." in linearized_list[a]:
+            normal,problem = linearized_list[a].split(".")
+            foreal.append(normal.strip()+". "+problem.replace(" ",""))
+        else:
+            foreal.append(linearized_list[a])
+    return " ".join(foreal).strip()
 
 def stemNL(nl):
     stemmer = PorterStemmer()
@@ -69,5 +82,6 @@ def stemNL(nl):
 
     return " ".join(stemmed).strip() 
     
+print (linearizeMRL("dist(query(area(keyval('name','Heidelberg'),keyval('de:place','city')),nwr(keyval('name','St. Laurentius')),qtype(latlong)),query(area(keyval('name','Heidelberg'),keyval('de:place','city')),nwr(keyval('name','Kirche Jesu Christi')),qtype(latlong)))"))
 
 
