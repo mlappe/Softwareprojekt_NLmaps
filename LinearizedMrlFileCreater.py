@@ -15,6 +15,7 @@ import MRL_Linearizer,sys
 #################################################################################################################################################
 
 def LinearizedFileCreater(txt):
+    lst = ["-",":","&"]
     with open(txt) as myfile:
         txt_lst = myfile.readlines()
     new_txtlst = []
@@ -27,9 +28,18 @@ def LinearizedFileCreater(txt):
                 sentence.append(a[b])
         new_txtlst.append("".join(sentence).strip())
         
-    with open('MRL_EN_TEST_linearized.txt','w') as newfile:
+    with open('MRL_EN_TRAIN_YANG_linearizedTEST1.train.LMRL','w') as newfile:
         for a in new_txtlst:
-            newfile.write(MRL_Linearizer.linearizeMRL(a).replace("§","'")+"\n")
+            s = MRL_Linearizer.linearizeMRL(a).replace("§","'")
+            finish = []
+            for b in range(len(s)):
+                if s[b] == " " and (s[b-1].isalpha() or s[b-1] in lst) and s[b-2] != "@":
+                    appender = s[b].replace(" ","%")
+                    finish.append(appender)
+                    
+                else:
+                    finish.append(s[b])
+            newfile.write("".join(finish)+"\n")
     
 
 
@@ -44,6 +54,6 @@ def stemmedFileCreater(txt):
 
 
 if __name__ == "__main__":
-    LinearizedFileCreater("MRL_train.txt")
+    LinearizedFileCreater("Schreibtisch/nlmaps/nlmaps.train.mrl")
     stemmedFileCreater("NL_en_training.txt")
 
