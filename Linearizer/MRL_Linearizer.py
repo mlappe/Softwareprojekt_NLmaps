@@ -59,7 +59,31 @@ def linearizeMRL(MRL):
                         continue
         else:
             continue
-    return " ".join(linearized_list).strip()
+    foreal = []
+    for a in range(len(linearized_list)):
+        if "(" in linearized_list[a] and ")" in linearized_list[a]:
+            normal,problem = linearized_list[a].split(" ",1)
+            foreal.append(normal.strip()+" "+problem.replace(" ",""))
+        elif ":" in linearized_list[a]:
+            count = 0
+            for b in linearized_list[a]:
+                if b == ":":
+                    count += 1
+                else:
+                    continue
+            if count == 1:
+                normal,problem = linearized_list[a].split(":")
+                foreal.append(normal.strip()+":"+problem.replace(" ",""))
+            elif count > 1:
+                foreal.append(linearized_list[a].replace(" ",""))
+        elif "." in linearized_list[a]:
+            normal,problem = linearized_list[a].split(".")
+            foreal.append(normal.strip()+". "+problem.replace(" ",""))
+        elif "<" in linearized_list[a] and ">" in linearized_list[a]:
+            foreal.append(linearized_list[a].replace(" ",""))       
+        else:
+            foreal.append(linearized_list[a])
+    return " ".join(foreal).strip()
 
 def stemNL(nl):
     stemmer = PorterStemmer()
@@ -69,5 +93,6 @@ def stemNL(nl):
 
     return " ".join(stemmed).strip() 
     
+#print (linearizeMRL("query(area(keyval('name','<nom> 3600539918</nom>')),nwr(keyval('name','Loreleyhafen')),qtype(findkey('seamark:harbour:category')))"))
 
 

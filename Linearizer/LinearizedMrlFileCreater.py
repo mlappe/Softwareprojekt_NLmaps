@@ -15,6 +15,7 @@ import MRL_Linearizer,sys
 #################################################################################################################################################
 
 def LinearizedFileCreater(txt):
+    lst = ["-",":","&","."]
     with open(txt) as myfile:
         txt_lst = myfile.readlines()
     new_txtlst = []
@@ -27,13 +28,15 @@ def LinearizedFileCreater(txt):
                 sentence.append(a[b])
         new_txtlst.append("".join(sentence).strip())
         
-    with open('MRL_EN_TRAIN_YANG_linearized.train.LMRL','w') as newfile:
+    with open('MRL_EN_TRAIN_YANG_linearizedTEST1.train.LMRL','w') as newfile:
         for a in new_txtlst:
             s = MRL_Linearizer.linearizeMRL(a).replace("§","'")
             finish = []
             for b in range(len(s)):
-                if s[b] == " " and s[b-1].isalpha() and s[b-2] != "@":
-                    finish.append(s[b].replace(" ","%"))
+                if s[b] == " " and (s[b-1].isalpha() or s[b-1] in lst) and s[b-2] != "@":
+                    appender = s[b].replace(" ","%")
+                    finish.append(appender)
+                    
                 else:
                     finish.append(s[b])
             newfile.write("".join(finish)+"\n")
