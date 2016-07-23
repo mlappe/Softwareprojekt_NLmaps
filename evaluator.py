@@ -73,7 +73,7 @@ class Evaluator:
 				pass
 			else:
 				incorrect += 1
-				inc_list.append(pos)
+				#inc_list.append(pos)
 		if incorrect:
 			sys.stdout.write("There were %d incorrect system MRLs.\n"%incorrect)
 			#print (inc_list)
