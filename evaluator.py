@@ -72,6 +72,7 @@ class Evaluator:
 			elif value ==0:
 				pass
 			else:
+				print pos
 				incorrect += 1
 				#inc_list.append(pos)
 		if incorrect:
