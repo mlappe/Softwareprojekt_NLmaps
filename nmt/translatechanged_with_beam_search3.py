@@ -264,12 +264,14 @@ def train():
           print("  eval: bucket %d perplexity %.2f" % (bucket_id, eval_ppx))
         sys.stdout.flush()
 
-
+outmrlfilename = "mrls.txt"
 def decode():
   with tf.Session() as sess:
     # Create model and load parameters.
     model = create_model(sess, True)
     model.batch_size = 1  # We decode one sentence at a time.
+    mrlf = open(outmrlfilename,"w+")
+
 
     # Load vocabularies.
     en_vocab_path = os.path.join(FLAGS.data_dir,
@@ -280,11 +282,14 @@ def decode():
     _, rev_fr_vocab = data_utils.initialize_vocabulary(fr_vocab_path)
 
     # Decode from standard input.
-    sys.stdout.write("> ")
-    sys.stdout.flush()
-    sentence = sys.stdin.readline()
-    sentence = MRL_Linearizer.stemNL(sentence)
-    while sentence:
+    #sys.stdout.write("> ")
+    #sys.stdout.flush()
+    #sentence = sys.stdin.readline()
+    #sentence = MRL_Linearizer.stemNL(sentence)
+    
+
+    def single_sentence_decoding(sentence):
+    
       # Get token-ids for the input sentence.
       token_ids = data_utils.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
       # Which bucket does it belong to?
@@ -297,13 +302,21 @@ def decode():
       _, _, output_logits = model.step(sess, encoder_inputs, decoder_inputs,
                                        target_weights, bucket_id, True)
       
-      decode_once(output_logits,rev_fr_vocab)
-
-      
-
-      sentence = sys.stdin.readline()
+      return decode_once(output_logits,rev_fr_vocab)
       
       
+    for mrl, sentence in devdataiterator():
+      print("translating:" +str(sentence))
+      sentence = MRL_Linearizer.stemNL(sentence)
+      value, counter=single_sentence_decoding(sentence)
+      print ('Found at iteration: '+str(counter))
+      print (value)
+      mrlf.write(value)
+      
+    
+    
+    
+    
 def process_decoding(outputs,rev_fr_vocab):
 	# If there is an EOS symbol in outputs, cut them at that point.
 	if data_utils.EOS_ID in outputs:
@@ -346,16 +359,28 @@ def decode_once(output_logits,rev_fr_vocab):
 	    meta=par[i][meta] 
 	  return hyp
 	
-	for i in range(FLAGS.beam):
-	  print (one_hyp(i))
-	  outstr, iswellformed = process_decoding(one_hyp(i),rev_fr_vocab)
+	iswellformed = False
+	counter = 0
+	while (not iswellformed) and counter < FLAGS.beam:
+	  outstr, iswellformed = process_decoding(one_hyp(counter),rev_fr_vocab)
+	  counter += 1
+	  #print(outstr)
+	  #print("this mrl is wellformed: "+ str(iswellformed))
+	  sys.stdout.flush()
+	if counter == FLAGS.beam: 
+	  return "No wellformed MRL found", counter
+	else:
+	  return outstr , counter
+#	for i in range(FLAGS.beam):
+#	  #print (one_hyp(i))
+#	  outstr, iswellformed = process_decoding(one_hyp(i),rev_fr_vocab)
 	  
 	 
-	  print(outstr)
-	  print("this mrl is wellformed: "+ str(iswellformed))
+#	  print(outstr)
+#	  print("this mrl is wellformed: "+ str(iswellformed))
 	 
-	  print("> ", end="")
-	  sys.stdout.flush()
+#	  print("> ", end="")
+#	  sys.stdout.flush()
 	 # elif count==len(best_outputs):
 	  #  print ("I don't know")
 	    
@@ -363,9 +388,9 @@ def decode_once(output_logits,rev_fr_vocab):
 	  
 	
 def decoding_iter(output_logits):
-	# This is a greedy decoder - outputs are just argmaxes of output_logits.
+	# This is a beam-search decoder - 
 	
-	#outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+	
 	with tf.Graph().as_default():
 	  beam_size = FLAGS.beam # Number of hypotheses in beam.
 	  num_symbols = FLAGS.fr_vocab_size  # Output vocabulary size
@@ -379,7 +404,7 @@ def decoding_iter(output_logits):
 	    if i>1:
 	      probs = tf.reshape(probs + log_beam_probs[-1],[-1, beam_size * num_symbols])
 	      prob.append(tf.shape(probs))
-	      #p.append(log_beam_probs[-1])
+	     
 	    best_probs, indices = tf.nn.top_k(probs, beam_size)
 	    indices = tf.stop_gradient(tf.squeeze(tf.reshape(indices, [-1, 1])))
 	    best_probs = tf.stop_gradient(tf.reshape(best_probs, [-1, 1]))
@@ -389,18 +414,7 @@ def decoding_iter(output_logits):
 	    beam_symbols.append(symbols)
 	    log_beam_probs.append(best_probs)
 	    beam_path.append(beam_parent)
-	    '''if log_beam_probs!=[]:
-	      probs = tf.reshape(probs + log_beam_probs[-1],[-1, beam_size * num_symbols])
-	    best_probs, indices = tf.nn.top_k(probs, beam_size)
-	    indices = tf.stop_gradient(tf.squeeze(tf.reshape(indices, [-1, 1])))
-	    best_probs = tf.stop_gradient(tf.reshape(best_probs, [-1, 1]))
-
-	    symbols = indices % num_symbols # Which word in vocabulary.
-	    beam_parent = indices // num_symbols # Which hypothesis it came from.
-
-	    beam_symbols.append(symbols)
-	    
-	    log_beam_probs.append(best_probs)'''
+	   
 	  
 	  
 	  inputs = [tf.placeholder(tf.float32, shape=[None, num_symbols]) for i in range(num_steps)]
@@ -418,20 +432,8 @@ def decoding_iter(output_logits):
 
 	
 	
-	while True:
-		outputs = [int(nplipud(np.argsort(logit, axis=1))[0]) for logit in output_logits] # sorts everytime, that can be done better
-		yield outputs
-
-	'''a=[(tf.nn.top_k(logit,k_best))[1] for logit in output_logits]			#Tensor withe the indices of the k best values, best one (=argmax) comes on position [0]
-	init = tf.initialize_all_variables()
-
-	sess = tf.Session()
-	sess.run(init)					#sieht nicht richtig aus, neue Session hier zu offen, aber nunr so kriegt man array mit int aus dem tensor, wo die indices der besten 5 liegen 
-	outputs = sess.run(a)'''
 	
-	#while True:
-		#outputs = [int(nplipud(np.argsort(logit, axis=1))[0]) for logit in output_logits] # sorts everytime, that can be done better
-		#yield outputs
+	
 		
 def decode_until_wellformed(output_logits,rev_fr_vocab):
 	pass
@@ -507,7 +509,7 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
           
 @functools.lru_cache(maxsize=None, typed=False)         
 def isdevinstance(index):
-	if random.random() < 0.10:
+	if random.random() < 2:
 		return True
 	else:
 		return False
@@ -528,6 +530,10 @@ def devdataiterator():
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
 				nl = nlfile.readline()
+				if index < 20:
+					continue
+				if index == 30:
+					continue
 				if isdevinstance(index):	
 					yield mrl,nl
 
@@ -560,7 +566,13 @@ gr = cfg.Grammar(grammar_file)
 parser.set_grammar(gr)
 def is_wellformed(mrl):
 	#mrl = "".join(mrllist)
-	output = parser.parse_mrl(Delinearizer.delinearize(mrl))
+	print (mrl)
+	try:
+	  delin = Delinearizer.delinearizer(mrl)
+	except IndexError:
+	  print("Delinearizer failed")
+	  delin = ""
+	output = parser.parse_mrl(delin)
 	return output
 	
 def main(_):
