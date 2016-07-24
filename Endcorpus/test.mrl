@@ -157,8 +157,6 @@ query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval('name','University
 query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('amenity','bank')),qtype(latlong(topx(1))))
 query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval('amenity','fast_food'),keyval('name','Burger King')),qtype(latlong))
 query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('amenity','postbox')),qtype(latlong(topx(1))))
-query(nwr(keyval('amenity','cinema')),qtype(latlong))
-query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval(keyval('amenity','cinema')),qtype(latlong))
 query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval('amenity','pharmacy')),qtype(latlong))
 query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('office','advertising_agency'))),qtype(least(topx(1))))
 query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))

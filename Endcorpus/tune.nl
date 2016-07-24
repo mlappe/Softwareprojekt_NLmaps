@@ -136,7 +136,6 @@ What is the youtube contact of Miniatur Wunderland in Hamburg?
 google+ contact of Miniatur Wunderland in Hamburg
 English name for 'Nürnberger Kaiserburg' in Nürnberg
 Where is a cafe in Treves?
-Where is a hairdresser?
 bank in Lissendorf
 postbox in Lissendorf
 where is a hotel in Munich?
@@ -147,7 +146,6 @@ where is a Citizens Registration Office in Aachen?
 where is a University in Stuttgart?
 Where is a restaurant in Trier?
 subway in Treves
-School in Stuttgart
 where is a postbox in colonia?
 pharmacy in Dresden
 where is a School in Aachen?
@@ -159,7 +157,6 @@ where is a postbox in Lissendorf?
 haircutter in Lissendorf
 bus stop in Munich
 where is a tree in Colonia?
-Where is a Burger King?
 Burger King in Aachen
 where is a university in Frankfurt?
 cinema in Frankfurt
@@ -167,7 +164,6 @@ subway in Lissendorf
 Where is a school?
 Where is a restaurant in Treves?
 where is a subway in Treves?
-University in Stuttgart
 tree in Lissendorf
 swimming pool in Aachen
 where is a postbox in Treves?

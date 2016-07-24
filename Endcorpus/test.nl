@@ -157,8 +157,6 @@ University in Frankfurt
 bank in Treves
 Burger King in Stuttgart
 postbox in Treves
-Where is a cinema?
-cinema in Stuttgart
 pharmacy in Hamburg
 Is there an advertising agency in the west of Brunswick?
 Is there a beauty salon in the west of Chemnitz?
