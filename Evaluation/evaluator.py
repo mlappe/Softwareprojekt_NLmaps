@@ -30,7 +30,7 @@
 #                                                                    #
 ######################################################################
 
-import subprocess, sys
+import subprocess, sys, os
 
 
 class Evaluator:
@@ -52,10 +52,11 @@ class Evaluator:
 	def compare_queries(self):
 		mrl_list = open(self.system_mrl_file).readlines()
 		gold_mrl_list = open(self.gold_mrl_file).readlines()
+		path_to_comp = os.path.abspath(os.path.join(os.path.dirname( __file__ ), 'compare.sh'))
 		for i,mrl in enumerate(mrl_list):
 			sys_mrl = '"'+mrl+'"'
 			gold_mrl = '"'+gold_mrl_list[i]+'"'
-			command = "bash ./compare.sh %s %s"%(sys_mrl,gold_mrl)
+			command = "bash %s %s %s"%(path_to_comp,sys_mrl,gold_mrl)
 			result = subprocess.call(command,shell=True)
 			self.result_list.append(result)
 			if i%10 == 0:
@@ -72,7 +73,7 @@ class Evaluator:
 			elif value ==0:
 				pass
 			else:
-				print pos
+				#print pos
 				incorrect += 1
 				#inc_list.append(pos)
 		if incorrect:
