@@ -60,6 +60,7 @@ def linearizeMRL(MRL):
         else:
             continue
     foreal = []
+    dic = {"0":"b","1":"c","2":"d","3":"f","4":"g","5":"h","6":"j","7":"k","8":"l","9":"m"}
     for a in range(len(linearized_list)):
         if "(" in linearized_list[a] and ")" in linearized_list[a]:
             normal,problem = linearized_list[a].split(" ",1)
@@ -80,7 +81,11 @@ def linearizeMRL(MRL):
             normal,problem = linearized_list[a].split(".")
             foreal.append(normal.strip()+". "+problem.replace(" ",""))
         elif "<" in linearized_list[a] and ">" in linearized_list[a]:
-            foreal.append(linearized_list[a].replace(" ",""))       
+            nom = linearized_list[a].replace(" ","").replace("<nom>","").replace("</nom>","").replace("@s","")
+            stri = ""
+            for b in nom:
+                stri = stri+dic[b]
+            foreal.append(stri+" ")       
         else:
             foreal.append(linearized_list[a])
     return " ".join(foreal).strip()
@@ -93,6 +98,6 @@ def stemNL(nl):
 
     return " ".join(stemmed).strip() 
     
-#print (linearizeMRL("query(area(keyval('name','<nom> 3600539918</nom>')),nwr(keyval('name','Loreleyhafen')),qtype(findkey('seamark:harbour:category')))"))
+print (linearizeMRL("query(area(keyval('name','<nom> 3600539918</nom>')),nwr(keyval('name','Loreleyhafen')),qtype(findkey('seamark:harbour:category')))"))
 
 
