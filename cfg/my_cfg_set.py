@@ -1,8 +1,8 @@
-import re
+import re,sys,os
 
 class Grammar:
 	
-	def __init__(self, grammarfile = None):
+	def __init__(self, grammarfile = os.path.abspath(os.path.join(os.path.dirname( __file__ ), './cfg.txt'))):
 		self.rules = dict()
 		self.start_symbol = "[S]"
 		self.nonterminals = set([])

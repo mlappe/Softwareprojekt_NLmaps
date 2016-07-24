@@ -9,7 +9,7 @@ Um eine MRl auf Korrektheit zu überprüfen, braucht ihr folgende Schritte zu ma
 	parser = cfg.EarleyParser()
 	
 	grammar_file = "cfg.txt"
-	gr = cfg.Grammar(grammar_file)
+	gr = cfg.Grammar(grammar_file) #NEU: Defaultmäßig wird "cfg.txt" benutzt
 	parser.set_grammar(gr)
 
 	output = parser.parse_mrl(mrl)

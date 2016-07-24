@@ -54,7 +54,7 @@ def fileWriter(inpt,outpt):
     
         
 
-fileReader("MRL_EN_TRAIN_YANG_linearizedTEST1.train.LMRL","Schreibtisch/nlmaps/nlmaps.train.mrl")    
+#fileReader("MRL_EN_TRAIN_YANG_linearizedTEST1.train.LMRL","Schreibtisch/nlmaps/nlmaps.train.mrl")    
 #print (fileReader2("Schreibtisch/nlmaps/nlmaps.train.mrl"))
 #print (delinearizer("query@2 around@4 center@2 area@1 keyval@2 name@0 City%of%Edinburgh@s nwr@1 keyval@2 name@0 Edinburgh%Waverley@s search@1 nwr@1 keyval@2 amenity@0 drinking_water@s maxdist@1 DIST_INTOWN@0 topx@1 1@0 qtype@1 latlong@0"))
 #fileWriter("MRL_EN_TRAIN_YANG_linearized.train.LMRL","Schreibtisch/Delinearized.txt")
