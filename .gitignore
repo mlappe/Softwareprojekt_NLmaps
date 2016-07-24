@@ -5,6 +5,7 @@ __pycache__/
 
 #ignore nmt models
 nmt/tmp/
+nmt/modelle/
 
 # C extensions
 *.so
