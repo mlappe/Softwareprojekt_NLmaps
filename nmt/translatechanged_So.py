@@ -514,16 +514,15 @@ def isdevinstance(index):
 	else:
 		return False
 		
-mrlfilename = "../MRL_EN_TEST_linearized.txt"
-nlfilename = "../NL_EN_TEST_stem.txt"
+mrlfilename = "../Endcorpus/train.mrl"
+nlfilename = "../Endcorpus/train.nl"
 
 def traindataiterator():
 	with open(mrlfilename) as mrlfile:
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
 				nl = nlfile.readline()
-				if not isdevinstance(index):
-					yield mrl,nl
+				yield mrl,nl
 
 def devdataiterator():
 	with open(mrlfilename) as mrlfile:

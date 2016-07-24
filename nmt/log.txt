@@ -1,0 +1,1598 @@
+Reading model parameters from ./tmp/translate.ckpt-19600
+translating:Where are kindergarten in the south of Edinburgh
+
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 amenity@0 qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 s_Close@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 INF_325@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 police@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 Hohenlohekreis@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 1@0 qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 housenumber@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 50000@0 qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 amenity@0 stars@0 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 cliff_diving@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 Rue_Lauriston@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 christian@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 Stuttgart@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 Berlin_Hauptbahnhof@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 amenity@0 exhibition_center@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 soccer@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 fr@0 qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 amenity@0 qtype@1 keyval@2 amenity@0 stars@0 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 amenity@0 townhall@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 MaaÃŸstraÃŸe@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 s_Close@s qtype@1 keyval@2 amenity@0 stars@0 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 INF_325@s qtype@1 keyval@2 amenity@0 stars@0 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 amenity@0 findkey@2 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 amenity@0 italian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 Mairie_du_XV@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 13@0 qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 amenity@0 qtype@1 keyval@2 amenity@0 exhibition_center@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 apartments@s qtype@1 keyval@2 amenity@0 christian@s nwr@1 latlong@0
+Found at iteration: 30
+No wellformed MRL found
+translating:Can you give me the websit of bike rental in Pari
+
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 street@0 search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Hohenlohekreis@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 christian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 street@0 search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Hohenlohekreis@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 christian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Hohenlohekreis@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 street@0 search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 street@0 search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Boulevard_de_SÃ©bastopol@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 migrant@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 pharmacy@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 internet_access@0 maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Hohenlohekreis@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 christian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 christian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Hohenlohekreis@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 street@0 search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 street@0 search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 keyval@2 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s keyval@2 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Wieblingen@s maxdist@1 maxdist@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Boulevard_de_SÃ©bastopol@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 migrant@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 pharmacy@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 internet_access@0 maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 italian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Wieblingen@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 bureau_de_change@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 name@0 Hohenlohekreis@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 christian@s search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Boulevard_de_SÃ©bastopol@s maxdist@1 qtype@1 DIST_INTOWN@0 keyval@2 amenity@0 street@0 search@1 DIST_INTOWN@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Found at iteration: 30
+No wellformed MRL found
+translating:How mani memori can be found in Edinburgh
+
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 attraction@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 attraction@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 10@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 roundabout@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 nwr@3 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 Neckarsonne_Ausflugsschiff@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 skateboard@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 10@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 Malmaison@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 animal_shelter@s attraction@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de topx@1 topx@1 city@s qtype@1 keyval@2 name@0 attraction@s nwr@1
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 aerodrome@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 roundabout@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 social_facility nwr@1
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 nwr@3 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 Neckarsonne_Ausflugsschiff@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 skateboard@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 La_Garrigue@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 Heidelberger_Schloss@s attraction@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 around@3 attraction@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 Cash_Converters@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 prison@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 True_Jesus_Church@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 nwr@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 attraction@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 CathÃ©drale_Notre-Dame_de_Paris@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 Bretagne@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 Bastille@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 water_tower@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 name@0 Malmaison@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 animal_shelter@s attraction@s nwr@1
+Blöde Daten
+Blöde Daten
+Found at iteration: 30
+No wellformed MRL found
+translating:How mani 3 star hotel are in the north of Heidelberg
+
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 nwr@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 least@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 qtype@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 craft@0 nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 aeroway@0 nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 school@s nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 latlong@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 craft@0 nwr@1 nwr@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 aeroway@0 nwr@1 nwr@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 craft@0 nwr@1 least@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 school@s nwr@1 nwr@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 aeroway@0 nwr@1 least@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 school@s nwr@1 least@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 memorial@s nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 nwr@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 craft@0 nwr@1 qtype@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 least@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 aeroway@0 nwr@1 qtype@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 school@s nwr@1 qtype@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 nwr@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 school@s nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 findkey@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 La_Garrigue@s nwr@1 count@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 craft@0 nwr@1 latlong@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 memorial@s nwr@1 nwr@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 least@1
+Found at iteration: 30
+No wellformed MRL found
+translating:Can you give me the locat of all picnic site in Pari
+
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 nwr@1 helipad@s name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 search@1 helipad@s name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 nwr@1 latlong@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 search@1 latlong@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 nwr@1 helipad@s name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 search@1 helipad@s name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 nwr@1 latlong@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 search@1 latlong@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 nwr@1 DIST_INTOWN@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 search@1 DIST_INTOWN@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 nwr@1 DIST_INTOWN@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 search@1 DIST_INTOWN@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 nwr@1 helipad@s name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 search@1 helipad@s name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 nwr@1 latlong@0 name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 search@1 latlong@0 name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 nwr@1 helipad@s name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 search@1 helipad@s name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 nwr@1 latlong@0 name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 search@1 latlong@0 name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 nwr@1 helipad@s name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 search@1 helipad@s name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 nwr@1 latlong@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 search@1 latlong@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 nwr@1 DIST_INTOWN@0 name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 keyval@2 is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 WALKDING_DIST@0 around@4 search@1 DIST_INTOWN@0 name@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 nwr@1 helipad@s name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 search@1 helipad@s name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 nwr@1 latlong@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s is_in : : country@0 France@s nwr@2 keyval@2 name@0 cuisine@0 keyval@2 operator@0 around@4 search@1 latlong@0 name@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Found at iteration: 30
+No wellformed MRL found
+translating:Which town are around Heidelberg
+
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 attraction@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 dentist@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 nwr@3 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 population@0 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 10@0 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 La_Garrigue@s nwr@1 findkey@1 name@0
+query@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 attraction@s nwr@1 findkey@1 name@0
+query@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 dentist@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 quarry@s nwr@1 findkey@1 name@0
+query@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 nwr@3 nwr@1 findkey@1 name@0
+query@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 population@0 nwr@1 findkey@1 name@0
+query@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 10@0 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 Heidelberger_Schloss@s attraction@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 Heidelberger_Schloss@s dentist@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 CathÃ©drale_Notre-Dame_de_Paris@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 skateboard@s nwr@1 findkey@1 name@0
+query@3 nwr@2 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 attraction@s nwr@1 findkey@1 name@0
+query@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 La_Garrigue@s nwr@1 findkey@1 name@0
+query@3 nwr@2 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 dentist@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 Heidelberger_Schloss@s nwr@3 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 Heidelberger_Schloss@s population@0 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 Princes_Street@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 latlong@1 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 Heidelberger_Schloss@s 10@0 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 Jet@s nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 prison@s nwr@1 findkey@1 name@0
+query@3 nwr@2 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 nwr@3 nwr@1 findkey@1 name@0
+query@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 quarry@s nwr@1 findkey@1 name@0
+query@3 nwr@2 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 population@0 nwr@1 findkey@1 name@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 around@3 Whitehouse_Loan@s nwr@1 findkey@1 name@0
+Found at iteration: 30
+No wellformed MRL found
+translating:How mani car share point are there in Edinburgh
+
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 car_sharing@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 seafood@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 water_well@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 keyval@2 topx@1 city@s nwr@1 findkey@1 car_sharing@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 copyshop@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 20@0
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 nwr@1 nwr@1 findkey@1 car_sharing@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 de city@s nwr@1 findkey@1 car_sharing@s
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 keyval@2 topx@1 city@s nwr@1 findkey@1 seafood@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 nwr@1 nwr@1 findkey@1 seafood@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 inscription@0
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 de city@s nwr@1 findkey@1 seafood@s
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Pays_de_la_Loire@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 car_sharing@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 only@s nwr@1 findkey@1 car_sharing@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 Hawes_Pier@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 keyval@2 topx@1 city@s nwr@1 findkey@1 water_well@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 nwr@1 nwr@1 findkey@1 water_well@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 tower city@s nwr@1 findkey@1 car_sharing@s
+Blöde Daten
+query@3 area@1 keyval@2 name@0 police@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 car_sharing@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 de city@s nwr@1 findkey@1 water_well@s
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Pays_de_la_Loire@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 seafood@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 historic@0 city@s nwr@1 findkey@1 car_sharing@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 only@s nwr@1 findkey@1 seafood@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 Baden-WÃ¼rttemberg@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 keyval@2 topx@1 city@s nwr@1 findkey@1 copyshop@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 keyval@2 topx@1 city@s nwr@1 findkey@1 20@0
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 city@s nwr@1 findkey@1 findkey@1
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 keyval@2 topx@1 nwr@1 nwr@1 findkey@1 car_sharing@s
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 topx@1 nwr@1 nwr@1 findkey@1 copyshop@s
+Found at iteration: 30
+No wellformed MRL found
+translating:Are there ani quarri in the east of Heidelberg
+
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 communication@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 stolperstein@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 Deutschland@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 bridge@0 nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 Lyon@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 DIST_DAYTRIP@0 nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 street@0 nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 La_Garrigue@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 social_facility nwr@1 least@1 place@0 1@0
+Blöde Daten
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 wlan@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 school@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 latlong@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 search@1 nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 bar@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 Palace_of_Holyroodhouse@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 craft@0 nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 amenity@0 communication@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 amenity@0 stolperstein@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 man_made@0 nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 amenity@0 Deutschland@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 Whitehouse_Loan@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 underground@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 camp_site@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 Eure-et-Loir@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 Marseille@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 amenity@0 bridge@0 nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 dentist@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 around@4 nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 indian@s nwr@1 least@1 place@0 1@0
+query@2 west@2 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 historic@0 north@1 nwr@1 least@1 place@0 1@0
+Found at iteration: 30
+No wellformed MRL found
+translating:How mani place to tread water are there in Germani
+
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s bureau_de_change@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s supermarket@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s type@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s Whitehouse_Loan@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s Lothian_Road@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 shop@0 bureau_de_change@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s artwork_type@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 shop@0 supermarket@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 amenity@0 bureau_de_change@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s memorial nwr@1 count@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s museum@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 shop@0 type@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 amenity@0 supermarket@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s phone@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s prison@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s person nwr@1 count@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 amenity@0 type@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 shop@0 Whitehouse_Loan@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s nature_reserve@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s DIST_OUTTOWN@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s artwork nwr@1 count@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s ele@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s Bastille@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s camp_site@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 shop@0 Lothian_Road@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s Languedoc-Roussillon@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 amenity@0 Whitehouse_Loan@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s 3@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 shop@0 artwork_type@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 city@s qtype@1 keyval@2 hotel@s Spencer_Food@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+Found at iteration: 30
+No wellformed MRL found
+translating:Pleas list the locat of all Stolperstein that can be access with a wheelchair in the north of Heidelberg
+
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 school@s nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 name@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 addr
+Blöde Daten
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 city@s nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 Sainsbury
+Blöde Daten
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 cemetery@s nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s aeroway@0 nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 around@4 nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 school@s nwr@1 findkey@1 name@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 KÃ¶nigstuhl@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 school@s nwr@1 findkey@1 addr
+Blöde Daten
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 place@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 group@0 nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 San_Francisco@s nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 arts_centre@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 copyshop@s
+query@2 restaurant@s area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 library@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 bicycle_rental@s nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 or@2 nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 seafood@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 latlong@s nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 oneway@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 city@s nwr@1 findkey@1 name@0
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 town@s nwr@1 findkey@1 car_sharing@s
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 aeroway@0 nwr@1 findkey@1 tower
+Blöde Daten
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 natural@0 city@s nwr@1 findkey@1 addr
+Blöde Daten
+query@2 sport@0 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 topx@1 aeroway@0 nwr@1 findkey@1 car_sharing@s
+Found at iteration: 30
+No wellformed MRL found
+translating:Where in Pari are theatr
+
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 italian@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 date_of_birth@0 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 italian@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 date_of_birth@0 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 : nwr@1
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 townhall@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 cricket@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 post_office@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 Quai_de_BÃ©thune@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 african@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 italian@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 5000@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 south@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 Avenue_du_GÃ©nÃ©ral_Lemonnier@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 : nwr@1
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 townhall@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 cricket@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 findkey@2 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 post_office@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 Quai_de_BÃ©thune@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 Alaise@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 african@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 date_of_birth@0 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 italian@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 5000@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 south@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 around@4 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 Avenue_du_GÃ©nÃ©ral_Lemonnier@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 name nwr@1
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 amenity@0 parking@0 nwr@1
+Blöde Daten
+Blöde Daten
+Found at iteration: 30
+No wellformed MRL found
+translating:How mani McDonald are there in Edinburgh
+
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 50000@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 50000@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 50000@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : only@s nwr@1 qtype@1 keyval@2 name@0 50000@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 50000@0 city@s
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 50000@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 cliff_diving@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 50000@0 city@s
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 50000@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 cliff_diving@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 Heidelberg@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 Heidelberg@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 50000@0 city@s
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 50000@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 cliff_diving@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : only@s nwr@1 qtype@1 keyval@2 name@0 50000@0 city@s
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : only@s nwr@1 qtype@1 keyval@2 name@0 50000@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : only@s nwr@1 qtype@1 keyval@2 name@0 cliff_diving@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 cliff_diving@s city@s
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 cliff_diving@s
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 cliff_diving@s city@s
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 cliff_diving@s
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 temple@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : only@s nwr@1 qtype@1 keyval@2 name@0 temple@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 Heidelberg@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 de : only@s nwr@1 qtype@1 keyval@2 name@0 Heidelberg@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 True_Jesus_Church@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@1 keyval@2 name@0 Heidelberg@s keyval@2 de : topx@1 nwr@1 qtype@1 keyval@2 name@0 Heidelberg@s city@s
+Blöde Daten
+Blöde Daten
+Found at iteration: 30
+No wellformed MRL found
+translating:How mani cemeteri are there in the north of Pari
+
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 city@s qtype@1 keyval@2 leisure@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 natural@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 city@s qtype@1 keyval@2 leisure@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 latlong@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 France@s qtype@1 keyval@2 natural@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : topx@1 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 latlong@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 city@s qtype@1 keyval@2 leisure@0 school@s nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 natural@0 school@s nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 France@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : topx@1 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 city@s qtype@1 keyval@2 leisure@0 school@s nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 city@s qtype@1 keyval@2 natural@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 France@s qtype@1 keyval@2 natural@0 school@s nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 leisure@0 aeroway@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : topx@1 France@s qtype@1 keyval@2 leisure@0 school@s nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 city@s qtype@1 keyval@2 leisure@0 school@s nwr@1 latlong@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 city@s qtype@1 keyval@2 natural@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 natural@0 school@s nwr@1 latlong@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 France@s qtype@1 keyval@2 leisure@0 aeroway@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 city@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 de : country@0 France@s qtype@1 keyval@2 leisure@0 craft@0 nwr@1 least@1
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 natural@0 craft@0 nwr@1 count@0
+Blöde Daten
+Blöde Daten
+query@2 sport@0 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : topx@1 city@s qtype@1 keyval@2 leisure@0 school@s nwr@1 count@0
+Blöde Daten
+Blöde Daten
+Found at iteration: 30
+No wellformed MRL found
+translating:Is it possibl to walk to the closest gym from Rue Lauriston in Pari
+
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 map@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 east@2 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 map@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 east@2 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 nodup@1 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 nodup@1 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Lyon@s keyval@2 map@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Lyon@s keyval@2 east@2 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Lyon@s keyval@2 nodup@1 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 map@s around@4 nwr@1 least@1 place@0 tennis@s
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 east@2 around@4 nwr@1 least@1 place@0 tennis@s
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 oneway@0 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 map@s around@4 nwr@1 least@1 place@0 tennis@s
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 east@2 around@4 nwr@1 least@1 place@0 tennis@s
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 oneway@0 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 nodup@1 around@4 nwr@1 least@1 place@0 tennis@s
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 map@s tomb@s nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 east@2 tomb@s nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s nwr@1 map@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s nwr@1 east@2 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 nodup@1 around@4 nwr@1 least@1 place@0 tennis@s
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 map@s tomb@s nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 toilets@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 east@2 tomb@s nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 nwr@1 map@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 nwr@1 east@2 around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 tomb@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 advertising@0 keyval@2 toilets@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 east@2 Languedoc-Roussillon@s keyval@2 map@s around@4 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s nwr@2 keyval@2 around@3 Languedoc-Roussillon@s keyval@2 nodup@1 tomb@s nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Found at iteration: 30
+No wellformed MRL found
+translating:Can you give me the websit of art centr in Pari
+
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 *@s 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 distillery@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Palace_of_Holyroodhouse@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 *@s 2@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 *@s 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 distillery@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 distillery@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Palace_of_Holyroodhouse@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 *@s website@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 distillery@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Chapelle_Sainte-Marie@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Palace_of_Holyroodhouse@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 *@s 2@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 distillery@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 climbing@s search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 *@s website@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 *@s website@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 distillery@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+latlong@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Chapelle_Sainte-Marie@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 distillery@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Chapelle_Sainte-Marie@s maxdist@1 qtype@1 keyval@2 shop@0 2@0 search@1 DIST_INTOWN@0 place@0 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Palace_of_Holyroodhouse@s yes@s area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Avenue_des_Ternes@s maxdist@1 qtype@1 keyval@2 shop@0 website@0 search@1 DIST_INTOWN@0 nwr@1 1@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Found at iteration: 30
+No wellformed MRL found
+translating:Is there a histor manor in day trip distanc from Edinburgh
+
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Edinburgh_Waverley@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Edinburgh_Waverley@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : or@2 bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Neuenheim@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : or@2 bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Neuenheim@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : conference_centre@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : conference_centre@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Tesco@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Tesco@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 : : Edinburgh_Waverley@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 : : Edinburgh_Waverley@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 : : or@2 bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 : : Neuenheim@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 : : or@2 bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : bmx@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 MaaÃŸstraÃŸe@s qtype@1 keyval@2 : : Edinburgh_Waverley@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Edinburgh_Waverley@s memorial DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 Heidelberg@s qtype@1 keyval@2 : : Neuenheim@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : bmx@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s keyval@2 keyval@2 : : Edinburgh_Waverley@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 MaaÃŸstraÃŸe@s qtype@1 keyval@2 : : Edinburgh_Waverley@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Edinburgh_Waverley@s memorial DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 MaaÃŸstraÃŸe@s qtype@1 keyval@2 : : or@2 bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : or@2 memorial DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 MaaÃŸstraÃŸe@s qtype@1 keyval@2 : : Neuenheim@s bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s keyval@2 keyval@2 : : Edinburgh_Waverley@s bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s qtype@1 keyval@2 : : Neuenheim@s memorial DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 post_box@s keyval@2 keyval@2 : : or@2 bicycle_parking@s DIST_INTOWN@0 nwr@1 least@1 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@1 keyval@2 name@0 MaaÃŸstraÃŸe@s qtype@1 keyval@2 : : or@2 bicycle_parking@s DIST_INTOWN@0 nwr@1 landuse@0 place@0 1@0
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+Found at iteration: 30
+No wellformed MRL found
+translating:How mani theatr are in Heidelberg
+
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s website@0 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s supermarket@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s website@0 nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s supermarket@s nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 shop@0 website@0 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s town@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s person nwr@1 latlong@0
+Blöde Daten
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s website@0 nwr@1 nwr@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s website@0 nwr@1 count@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s artwork_type@0 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 shop@0 supermarket@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s caravan_site@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s wlan@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s supermarket@s nwr@1 nwr@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s supermarket@s nwr@1 count@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 shop@0 website@0 nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s town@s nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s mural@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s person nwr@1 findkey@1
+Blöde Daten
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s bureau_de_change@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s memorial nwr@1 latlong@0
+Blöde Daten
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s artwork_type@0 nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 shop@0 supermarket@s nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s website@0 nwr@1 center@2
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s website@0 nwr@1 qtype@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 amenity@0 website@0 nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s caravan_site@s nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s wlan@s nwr@1 findkey@1
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s prison@s nwr@1 latlong@0
+query@3 area@1 keyval@2 name@0 City_of_Edinburgh@s qtype@1 keyval@2 *@s mural@s nwr@1 findkey@1
+Found at iteration: 30
+No wellformed MRL found
+translating:How mani caravan site are in the south of Pari
+
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s website@0 nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s ele@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s Kirche_Jesu_Christi@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s memorial nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s Neuenheim@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s website@0 nwr@1 qtype@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s toilets@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s ele@s nwr@1 qtype@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s person nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s Spencer_Food@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s group@0 nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s website@0 nwr@1 findkey@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 shop@0 website@0 nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 keyval@2 keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s website@0 nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s Bretagne@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s 2@0 nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s ele@s nwr@1 findkey@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s dentist@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+Palace_of_Holyroodhouse@s area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s website@0 nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 shop@0 ele@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 keyval@2 keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s ele@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s Kirche_Jesu_Christi@s nwr@1 qtype@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s Camera_Obscura@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+Palace_of_Holyroodhouse@s area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s ele@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s memorial nwr@1 qtype@1
+Blöde Daten
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s town@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s and@2 nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s Basilique_du_SacrÃ©-CÅ“ur@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+latlong@s area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s website@0 nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@2 area@2 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 *@s LycÃ©e_Buffon@s nwr@1 nwr@1
+Blöde Daten
+Blöde Daten
+Found at iteration: 30
+No wellformed MRL found
+translating:Pleas , can you tell me the name of all attract in Edinburgh
+
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 topx@1 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 topx@1 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 topx@1 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 topx@1 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 topx@1 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 topx@1 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 tourism@0 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 keyval@2 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 topx@1 topx@1 city@s nwr@1 latlong@0
+query@2 north@2 center@2 area@1 keyval@2 name@0 japanese@s qtype@1 topx@1 topx@1 city@s nwr@1 latlong@0
+Found at iteration: 30
+No wellformed MRL found
+translating:Where are Monoprix supermarket in Pari
+
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 3@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 martial_arts@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 date_of_birth@0 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Alaise@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 around@4 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 hotel@s 3@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 hotel@s martial_arts@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 hotel@s date_of_birth@0 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 townhall@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Fernsehturm_Heidelberg@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 DIST_OUTTOWN@0 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 east@1 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 WALKDING_DIST@0 3@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 5000@0 nwr@1
+Blöde Daten
+Blöde Daten
+Delinearizer failed
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Boulevard_de_SÃ©bastopol@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 badminton@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 latlong@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 hotel@s Alaise@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 WALKDING_DIST@0 martial_arts@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 hotel@s around@4 nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Lampertheim@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Tesco@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Burger_King@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 name@0 Starenweg@s nwr@1
+Blöde Daten
+Blöde Daten
+query@3 area@2 keyval@2 name@0 Paris@s keyval@2 is_in : country@0 France@s qtype@1 keyval@2 WALKDING_DIST@0 date_of_birth@0 nwr@1
+Blöde Daten
+Blöde Daten
