@@ -6,4 +6,4 @@ def traindataiterator():
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
 				nl = nlfile.readline()
-				yield mrl,nl
+				yield MRL_Linearizer.linearizeMRL(mrl),MRL_Linearizer.stemNL(nl)
