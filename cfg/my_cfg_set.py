@@ -143,9 +143,12 @@ class EarleyParser:
 		
 		
 	def parse_mrl(self, mrl):
+		if "$" in mrl:
+			return False
 		gr = self.grammar
 		start = gr.start_symbol
 		self.edges = set([])
+		self.built_phrases = dict()
 		old_edges = set([])
 		
 		mrl = self.preprocess_mrl(mrl)

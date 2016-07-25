@@ -42,6 +42,7 @@ if __name__ == "__main__":
 	
 	first_line = True
 	for candidates in n_best.values():
+		print ("\nNew Query:\n")
 		if not first_line:
 			outfile.write("\n")
 		first_line = False
