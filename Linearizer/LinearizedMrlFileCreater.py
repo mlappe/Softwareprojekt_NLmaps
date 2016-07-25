@@ -30,7 +30,7 @@ def LinearizedFileCreater(txt):
                 sentence.append(a[b])
         new_txtlst.append("".join(sentence).strip())
         
-    with open('Schreibtisch/progTest2/test.mrl','w') as newfile:
+    with open('MRL_EN_TRAIN_YANG_linearizedTEST3.train.LMRL','w') as newfile:
         for a in new_txtlst:
             s = MRL_Linearizer.linearizeMRL(a).replace("§","'")
             finish = []
@@ -55,6 +55,6 @@ def stemmedFileCreater(txt):
 
 
 if __name__ == "__main__":
-    LinearizedFileCreater("Schreibtisch/progTest2/corps/test.mrl")
+    LinearizedFileCreater("Downloads/Softwareprojekt_NLmaps-master/Endcorpus/train.mrl")
     #stemmedFileCreater("Schreibtisch/progTest2/corps/tune.nl")
 

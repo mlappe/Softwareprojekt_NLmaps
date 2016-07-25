@@ -97,7 +97,6 @@ def stemNL(nl):
         stemmed.append(stemmer.stem(a))
 
     return " ".join(stemmed).strip() 
-    
-print (linearizeMRL("query(area(keyval('name','<nom> 3600539918</nom>')),nwr(keyval('name','Loreleyhafen')),qtype(findkey('seamark:harbour:category')))"))
+
 
 
