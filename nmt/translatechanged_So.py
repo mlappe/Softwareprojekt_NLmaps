@@ -305,7 +305,7 @@ def decode():
       return decode_once(output_logits,rev_fr_vocab)
       
       
-    for mrl, sentence in devdataiterator():
+    for mrl, sentence in traindataiterator():
       print("translating:" +str(sentence))
       sentence = MRL_Linearizer.stemNL(sentence)
       value, counter=single_sentence_decoding(sentence)
@@ -478,6 +478,9 @@ nlfilename = "../Endcorpus/train.nl"
 tunemrlfilename = "../Endcorpus/tune.mrl"
 tunenlfilename = "../Endcorpus/tune.nl"
 
+trainmrlfilename = "../Endcorpus/train.mrl"
+trainnlfilename = "../Endcorpus/train.nl"
+
 def traindataiterator():
 	with open(mrlfilename) as mrlfile:
 		with open(nlfilename) as nlfile:
@@ -490,6 +493,16 @@ def traindataiterator():
 def devdataiterator():
 	with open(tunemrlfilename) as mrlfile:
 		with open(tunenlfilename) as nlfile:
+			for index,mrl in enumerate(mrlfile):
+				nl = nlfile.readline()
+				mrl = MRL_Linearizer.linearizeMRL(mrl)
+				nl = MRL_Linearizer.stemNL(nl)
+				print (nl)
+				yield mrl,nl
+
+def traindataiterator():
+	with open(trainmrlfilename) as mrlfile:
+		with open(trainnlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
 				nl = nlfile.readline()
 				mrl = MRL_Linearizer.linearizeMRL(mrl)
