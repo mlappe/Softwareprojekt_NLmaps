@@ -99,10 +99,12 @@ tf.app.flags.DEFINE_boolean("decode", sys.argv[1],
                             "Set to True for interactive decoding.")
 tf.app.flags.DEFINE_boolean("self_test", False,
                             "Run a self-test if this is set to True.")
-tf.app.flags.DEFINE_integer("beam", 5,
+tf.app.flags.DEFINE_integer("beam", 100,
                             "Find the [beam]-best translations.")
 tf.app.flags.DEFINE_integer("maxSteps", 1600,
                             "Number of Training Steps")
+tf.app.flags.DEFINE_boolean("demo", False,
+                            "Runs a demo if set to True")
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -327,19 +329,37 @@ def decode():
       return decode_once(output_logits,rev_fr_vocab)
       
 
-      
-    for mrl, sentence in testdataiterator():
+    if FLAGS.demo==False:  
+      for mrl, sentence in testdataiterator():
     
-    #decoding the whole test corpus
+      #decoding the whole test corpus
 
+        print("translating:" +str(sentence))
+        sentence = MRL_Linearizer.stemNL(sentence)
+        value, counter=single_sentence_decoding(sentence)
+        print ('Found at iteration: '+str(counter))
+        print (value)
+        #writing the translations on a file
+        mrlf.write(str(counter)+"|||"+value+"|||"+Delinearizer.delinearizer(value)+"\n")
+        mrlf.flush()
+    else:
+      sys.stdout.write("> ")
+      sys.stdout.flush()
+      sentence = sys.stdin.readline()
       print("translating:" +str(sentence))
       sentence = MRL_Linearizer.stemNL(sentence)
       value, counter=single_sentence_decoding(sentence)
       print ('Found at iteration: '+str(counter))
       print (value)
-      #writing the translations on a file
-      mrlf.write(str(counter)+"|||"+value+"|||"+Delinearizer.delinearizer(value)+"\n")
-      mrlf.flush()
+      print("> ", end="")
+      sys.stdout.flush()
+      sentence = sys.stdin.readline()
+
+  with open("out.txt") as f:
+    with open("nmtout.mrl","w+") as out:
+      for line in f:
+        tokens = line.split("|||")
+        out.write(tokens[2].replace("$",""))
       
     
     
