@@ -1,0 +1,21 @@
+5|||No wellformed MRL found|||$
+1|||query@3 area@1 keyval@2 name@0 <nom>3600062559</nom>@s nwr@1 keyval@2 shop@0 liquor@s qtype@1 count@0|||query(area(keyval('name','<nom>3600062559</nom>')),nwr(keyval('shop','liquor')),qtype(count))
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+1|||query@3 area@1 keyval@2 name@0 <nom>3600062594</nom>@s nwr@1 keyval@2 shop@0 dry_cleaning@s qtype@1 least@1 topx@1 1@0|||query(area(keyval('name','<nom>3600062594</nom>')),nwr(keyval('shop','dry_cleaning')),qtype(least(topx(1))))
+5|||No wellformed MRL found|||$
+1|||query@2 north@2 area@1 keyval@2 name@0 <nom>3600062646</nom>@s nwr@1 keyval@2 sport@0 equestrian@s qtype@1 least@1 topx@1 1@0|||query(north(area(keyval('name','<nom>3600062646</nom>')),nwr(keyval('sport','equestrian'))),qtype(least(topx(1))))
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
