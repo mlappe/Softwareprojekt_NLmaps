@@ -1,0 +1,252 @@
+How many parkings are there in Mannheim?
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('name','parking')),qtype(count))
+number of parkings Mannheim
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('name','parking')),qtype(count))
+How many parkings are there in Leipzig?
+query(area(keyval('name','<nom> 3600062649</nom>')),nwr(keyval('name','parking')),qtype(count))
+number of parkings in Leipzig
+query(area(keyval('name','<nom> 3600062649</nom>')),nwr(keyval('name','parking')),qtype(count))
+How many parkings are there in Nuremberg?
+query(area(keyval('name','<nom> 3600062780</nom>')),nwr(keyval('name','parking')),qtype(count))
+number of parkings in Nuremberg
+query(area(keyval('name','<nom> 3600062780</nom>')),nwr(keyval('name','parking')),qtype(count))
+How many zoos are there in Mannheim?
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('tourism','zoo')),qtype(count))
+number of zoos in Mannheim
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('tourism','zoo')),qtype(count))
+How many zoos are there in Leipzig?
+query(area(keyval('name','<nom>3600062649</nom>')),nwr(keyval('tourism','zoo')),qtype(count))
+number of zoos in Leipzig
+query(area(keyval('name','<nom> 3600062649</nom>')),nwr(keyval('tourism','zoo')),qtype(count))
+How many zoos are there in Nuremberg?
+query(area(keyval('name','<nom>3600062780</nom>')),nwr(keyval('tourism','zoo')),qtype(count))
+number of zoos in Nuremberg
+query(area(keyval('name','<nom> 3600062780</nom>')),nwr(keyval('tourism','zoo')),qtype(count))
+How many international airports are there in Mannheim?
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('aeroway','aerodrome'), keyval('aerodrome', 'international')),qtype(count))
+number of international airports in Mannheim
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('aeroway','aerodrome'), keyval('aerodrome', 'international')),qtype(count))
+How many international airports are there in Leipzig?
+query(area(keyval('name','<nom>3600062649</nom>')), nwr(keyval('aeroway','aerodrome'), keyval('aerodrome', 'international')),qtype(count))
+number of international airports in Leipzig
+query(area(keyval('name','<nom>3600062649</nom>')), nwr(keyval('aeroway','aerodrome'), keyval('aerodrome', 'international')),qtype(count))
+How many international airports are there in Nuremberg?
+query(area(keyval('name','<nom>3600062780</nom>')), nwr(keyval('aeroway','aerodrome'), keyval('aerodrome', 'international')),qtype(count))
+number of international airports in Nuremberg
+query(area(keyval('name','<nom>3600062780</nom>')), nwr(keyval('aeroway','aerodrome'), keyval('aerodrome', 'international')),qtype(count))
+How many opticians are there in Mannheim?
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('shop','optician')),qtype(count))
+number of opticians in Mannheim
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('shop','optician')),qtype(count))
+How many opticians are there in Leipzig?
+query(area(keyval('name','<nom>3600062649</nom>')), nwr(keyval('shop','optician')),qtype(count))
+number of opticians in Leipzig
+query(area(keyval('name','<nom>3600062649</nom>')), nwr(keyval('shop','optician')),qtype(count))
+How many opticians are there in Nuremberg?
+query(area(keyval('name','<nom>3600062780</nom>')), nwr(keyval('shop','optician')),qtype(count))
+number of opticians in Nuremberg
+query(area(keyval('name','<nom>3600062780</nom>')), nwr(keyval('shop','optician')),qtype(count))
+How many bookstores are there in Mannheim?
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('shop','books')),qtype(count))
+number of bookstores in Mannheim
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('shop','books')),qtype(count))
+How many bookstores are there in Leipzig?
+query(area(keyval('name','<nom>3600062649</nom>')), nwr(keyval('shop','books')),qtype(count))
+number of bookstores in Leipzig
+query(area(keyval('name','<nom>3600062649</nom>')), nwr(keyval('shop','books')),qtype(count))
+How many opticians are there in Nuremberg?
+query(area(keyval('name','<nom>3600062780</nom>')), nwr(keyval('shop','books')),qtype(count))
+number of bookstores in Nuremberg
+query(area(keyval('name','<nom>3600062780</nom>')), nwr(keyval('shop','books')),qtype(count))
+How many jewelers are there in Mannheim?
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('shop','jewelry')),qtype(count))
+number of jewelers in Mannheim
+query(area(keyval('name','<nom>3600062691</nom>')),nwr(keyval('shop','jewelry')),qtype(count))
+How many jewelers are there in Leipzig?
+query(area(keyval('name','<nom>3600062649</nom>')), nwr(keyval('shop','jewelry')),qtype(count))
+number of jewelers in Leipzig
+query(area(keyval('name','<nom>3600062649</nom>')), nwr(keyval('shop','jewelry')),qtype(count))
+How many jewelers are there in Nuremberg?
+query(area(keyval('name','<nom>3600062780</nom>')), nwr(keyval('shop','jewelry')),qtype(count))
+number of jewelers in Nuremberg
+query(area(keyval('name','<nom>3600062780</nom>')), nwr(keyval('shop','jewelry')),qtype(count))
+How many pet shops are there in Berlin?
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','pet')),qtype(count))
+number of pet shops in Berlin
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','pet')),qtype(count))
+How many pet shops are there in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','pet')),qtype(count))
+number of pet shops in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','pet')),qtype(count))
+How many pet shops are there in Dortmund?
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','pet')),qtype(count))
+number of pet shops in Dortmund
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','pet')),qtype(count))
+How many bicycle parking lots are there in Berlin?
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('amenity','bicycle_parking')),qtype(count))
+number of bicycle parking lots in Berlin
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('amenity','bicycle_parking')),qtype(count))
+How many bicycle parking lots are there in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('amenity','bicycle_parking')),qtype(count))
+number of bicycle parking lots in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('amenity','bicycle_parking')),qtype(count))
+How many bicycle parking lots are there in Dortmund?
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('amenity','bicycle_parking')),qtype(count))
+number of bicycle parking lots in Dortmund
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('amenity','bicycle_parking')),qtype(count))
+How many editorial departments are there in Berlin?
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('office','newspaper')),qtype(count))
+number of editorial departments in Berlin
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('office','newspaper')),qtype(count))
+How many editorial departments are there in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('office','newspaper')),qtype(count))
+number of editorial departments in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('office','newspaper')),qtype(count))
+How many editorial offices are there in Dortmund?
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('office','newspaper')),qtype(count))
+number of editorial newspapers in Dortmund
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('office','newspaper')),qtype(count))
+How many gates are there in Berlin?
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('barrier','gate')),qtype(count))
+number of gates in Berlin
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('barrier','gate')),qtype(count))
+How many gates are there in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('barrier','gate')),qtype(count))
+number of gates in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('barrier','gate')),qtype(count))
+How many gates are there in Dortmund?
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('barrier','gate')),qtype(count))
+number of gate in Dortmund
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('barrier','gate')),qtype(count))
+How many auto repair shops are there in Berlin?
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','car_repair')),qtype(count))
+number of auto repair shops in Berlin
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','car_repair')),qtype(count))
+How many auto repair shops are there in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','car_repair')),qtype(count))
+number of auto repair shops in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','car_repair')),qtype(count))
+How many car repair shops are there in Dortmund?
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','car_repair')),qtype(count))
+number of car repair shops in Dortmund
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','car_repair')),qtype(count))
+How many boutiques are there in Berlin?
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','boutique')),qtype(count))
+number of boutiques in Berlin
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','boutique')),qtype(count))
+How many boutiques are there in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','boutique')),qtype(count))
+number of boutiques in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','boutique')),qtype(count))
+How many boutiques are there in Dortmund?
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','boutique')),qtype(count))
+number of boutiques in Dortmund
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','boutiques')),qtype(count))
+How many travel agencies are there in Berlin?
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','travel_agency')),qtype(count))
+number of travel agencies in Berlin
+query(area(keyval('name','<nom> 3600062422</nom>')),nwr(keyval('shop','travel_agency')),qtype(count))
+How many travel agencies are there in Düsseldorf?
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','travel_agency')),qtype(count))
+number of travel agencies in Düsseldorf
+query(area(keyval('name','<nom> 3600062539</nom>')), nwr(keyval('shop','travel_agency')),qtype(count))
+How many travel agencies are there in Dortmund?
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','travel_agency')),qtype(count))
+number of travel agencies in Dortmund
+query(area(keyval('name','<nom> 3601829065</nom>')), nwr(keyval('shop','travel_agency')),qtype(count))
+How many parks are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('leisure','park')),qtype(count))
+number of parks in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('leisure','park')),qtype(count))
+How many parks are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('leisure','park')),qtype(count))
+number of parks in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('leisure','park')),qtype(count))
+How many parks are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('leisure','park')),qtype(count))
+number of parks in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('leisure','park')),qtype(count))
+How many coin telephones are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('amenity','telephone'), keyval('payment:coins','yes')),qtype(count))
+number of coin telephones in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('amenity','telephone'), keyval('payment:coins','yes')),qtype(count))
+How many coin telephones are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('amenity','telephone'), keyval('payment:coins','yes')),qtype(count))
+number of coin telephones in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('amenity','telephone'), keyval('payment:coins','yes')),qtype(count))
+How many coin telephones are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('amenity','telephone'), keyval('payment:coins','yes')),qtype(count))
+number of coin telephones in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('amenity','telephone'), keyval('payment:coins','yes')),qtype(count))
+How many cashpoints are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('amenity','atm')),qtype(count))
+number of cashpoints in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('amenity','atm')),qtype(count))
+How many cashpoints are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('amenity','atm')),qtype(count))
+number of cashpoints in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('amenity','atm')),qtype(count))
+How many cashpoints are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('amenity','atm')),qtype(count))
+number of cashpoints in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('amenity','atm')),qtype(count))
+How many douglas are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('shop','chemist'), keyval('name','douglas')),qtype(count))
+number of douglas in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('shop','chemist'), keyval('name','douglas')),qtype(count))
+How many douglas are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('shop','chemist'), keyval('name','douglas')),qtype(count))
+number of douglas in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('shop','chemist'), keyval('name','douglas')),qtype(count))
+How many douglas are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','chemist'), keyval('name','douglas')),qtype(count))
+number of douglas in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','chemist'), keyval('name','douglas')),qtype(count))
+How many mobile phone shops are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('shop','mobile_phone')),qtype(count))
+number of mobile phone shops in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('shop','mobile_phone')),qtype(count))
+How many mobile phone shops are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('shop','mobile_phone')),qtype(count))
+number of mobile phone shops in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('shop','mobile_phone')),qtype(count))
+How many mobile phone shops are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','mobile_phone')),qtype(count))
+number of mobile phone shops in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','mobile_phone')),qtype(count))
+How many tea stores are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('shop','tea')),qtype(count))
+number of tea stores in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('shop','tea')),qtype(count))
+How many tea stores are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('shop','tea')),qtype(count))
+number of tea stores in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('shop','tea')),qtype(count))
+How many tea stores are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','tea')),qtype(count))
+number of tea stores in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','tea')),qtype(count))
+How many liquor stores are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('shop','alcohol')),qtype(count))
+number of liquor stores in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('shop','liquor')),qtype(count))
+How many liquor stores are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('shop','liquor')),qtype(count))
+number of liquor stores in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('shop','liquor')),qtype(count))
+How many liquor stores are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','alcohol')),qtype(count))
+number of liquor stores in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('shop','liquor')),qtype(count))
+How many districts are there in Duisburg?
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('place','suburb')),qtype(count))
+number of districts in Duisburg
+query(area(keyval('name','<nom> 3600062456</nom>')),nwr(keyval('place','suburb')),qtype(count))
+How many districts are there in Bremen?
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('place','suburb')),qtype(count))
+number of districts in Bremen
+query(area(keyval('name','<nom> 3600062559</nom>')), nwr(keyval('place','suburb')),qtype(count))
+How many districts are there in Hannover?
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('place','suburb')),qtype(count))
+number of districts in Hannover
+query(area(keyval('name','<nom> 3600059418</nom>')), nwr(keyval('place','suburb')),qtype(count))

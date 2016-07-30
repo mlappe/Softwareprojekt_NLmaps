@@ -1,0 +1,252 @@
+Where is a restaurant in lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('amenity','restaurant')),qtype(latlong))
+Where is a cafe in lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('amenity',’cafe’)),qtype(latlong))
+where is a postbox in Lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('amenity',’postbox’)),qtype(latlong))
+where is a flowershop in Lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('name',’Blumenladen’)),qtype(latlong))
+where is a flowershop in Lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval(‘shop’,’florist’)),qtype(latlong))
+Where is a restaurant in colonia?
+query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('amenity','restaurant')),qtype(latlong))
+Where is a cafe in colonia?
+query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('amenity',’cafe’)),qtype(latlong))
+where is a postbox in colonia?
+query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('amenity',’postbox’)),qtype(latlong))
+where is a flowershop in Colonia?
+query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval('name',’Blumenladen’)),qtype(latlong))
+where is a flowershop in Colonia?
+query(area(keyval('name','<nom> 3600062578</nom>')),nwr(keyval(‘shop’,’florist’)),qtype(latlong))
+Where is a restaurant in Treves?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval('amenity','restaurant')),qtype(latlong))
+Where is a cafe in Treves?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval('amenity',’cafe’)),qtype(latlong))
+where is a postbox in Treves?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval('amenity',’postbox’)),qtype(latlong))
+where is a flowershop in treves?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval('name',’Blumenladen’)),qtype(latlong))
+where is a flowershop in treves?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval(‘shop’,’florist’)),qtype(latlong))
+Where is a restaurant in Trier?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval('amenity','restaurant')),qtype(latlong))
+Where is a cafe in Trier?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval('amenity',’cafe’)),qtype(latlong))
+where is a postbox in Trier?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval('amenity',’postbox’)),qtype(latlong))
+where is a flowershop in trier?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval('name',’Blumenladen’)),qtype(latlong))
+where is a flowershop in trier?
+query(area(keyval('name','<nom> 3600172679 </nom>')),nwr(keyval(‘shop’,’florist’)),qtype(latlong))
+bank in Heidelberg
+query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('amenity','bank')),qtype(latlong(topx(1))))
+bank in Lissendorf
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('amenity','bank')),qtype(latlong(topx(1))))
+bank in Colonia
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('amenity','bank')),qtype(latlong(topx(1))))
+bank in Treves
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('amenity','bank')),qtype(latlong(topx(1))))
+postbox in Heidelberg
+query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('amenity',’postbox’)),qtype(latlong(topx(1))))
+postbox in Lissendorf
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('amenity','postbox')),qtype(latlong(topx(1))))
+Where is a postbox?
+query(nwr(keyval('amenity','postbox')),qtype(latlong(topx(1)))
+postbox in Colonia
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('amenity','postbox')),qtype(latlong(topx(1))))
+postbox in Treves
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('amenity','postbox')),qtype(latlong(topx(1))))
+where is a hairdresser in Lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+hairdresser in Lissendorf
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+haircutter in Lissendorf
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+where is a hairdresser in Colonia?
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+hairdresser in Colonia
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+haircutter in Colonia
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+where is a hairdresser in Treves?
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+hairdresser in Treves
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+haircutter in Treves
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+where is a hairdresser in Lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+hairdresser in Lissendorf
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+haircutter in Lissendorf
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+where is a hairdresser in Colonia?
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+hairdresser in Colonia
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+haircutter in Colonia
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+where is a hairdresser in Treves?
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+hairdresser in Treves
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+Where is a hairdresser?
+query(nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1)))
+haircutter in Treves
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
+Where is a haircutter?
+query(nwr(keyval('name','Frisör')),qtype(latlong(topx(1))))
+where is a tree in Lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('name','baum')),qtype(latlong(topx(1))))
+tree in Lissendorf
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('name','baum')),qtype(latlong(topx(1))))
+Where is a tree?
+query(nwr(keyval('name','baum')),qtype(latlong(topx(1)))
+where is a tree in Colonia?
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','baum')),qtype(latlong(topx(1))))
+tree in Colonia
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','baum')),qtype(latlong(topx(1))))
+where is a tree in Treves?
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('name','baum')),qtype(latlong(topx(1))))
+tree in Treves
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('name','baum')),qtype(latlong(topx(1))))
+where is a subway in Lissendorf?
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('amenity','restaurant'), keyval(‘name’,’subway’)),qtype(latlong(topx(1))))
+subway in Lissendorf
+query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('amenity','restaurant'), keyval(‘name’,’subway’)),qtype(latlong(topx(1))))
+Where is a subway?
+query(nwr(keyval('amenity','restaurant'), keyval(‘name’,’subway’)),qtype(latlong(topx(1)))
+where is a subway in Colonia?
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('amenity','restaurant'), keyval(‘name’,’subway’)),qtype(latlong(topx(1))))
+subway in Colonia
+query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('amenity','restaurant'), keyval(‘name’,’subway’)),qtype(latlong(topx(1))))
+where is a subway in Treves?
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('amenity','restaurant'), keyval(‘name’,’subway’)),qtype(latlong(topx(1))))
+subway in Treves
+query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('amenity','restaurant'), keyval(‘name’,’subway’)),qtype(latlong(topx(1))))
+where is a Burger King in Frankfurt?
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval('amenity','fast_food'), keyval(‘name’, ‘Burger King’)),qtype(latlong))
+Burger King in Frankfurt
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval('amenity','fast_food'), keyval(‘name’, ‘Burger King’)),qtype(latlong))
+where is a Burger King in Stuttgart?
+query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval('amenity','fast_food'), keyval(‘name’, ‘Burger King’)),qtype(latlong))
+Burger King in Stuttgart
+query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval('amenity','fast_food'), keyval(‘name’, ‘Burger King’)),qtype(latlong))
+where is a Burger King in Aachen?
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval('amenity','fast_food'), keyval(‘name’, ‘Burger King’)),qtype(latlong))
+Burger King in Aachen
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval('amenity','fast_food'), keyval(‘name’, ‘Burger King’)),qtype(latlong))
+Where is a Burger King?
+query(nwr(keyval('amenity','fast_food'), keyval(‘name’, ‘Burger King’)),qtype(latlong))
+where is a cinema in Frankfurt?
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘amenity’, ‘cinema’)),qtype(latlong))
+cinema in Frankfurt
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘amenity’, ‘cinema’)),qtype(latlong))
+Where is a cinema?
+query(nwr(keyval(‘amenity’, ‘cinema’)),qtype(latlong))
+where is a cinema in Stuttgart?
+query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval(‘amenity’, ‘cinema’)),qtype(latlong))
+cinema in Stuttgart
+query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval(keyval(‘amenity’, ‘cinema’)),qtype(latlong))
+where is a cinema in Aachen?
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval(‘amenity’, ‘cinema’)),qtype(latlong))
+cinema in Aachen
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval(‘amenity’, ‘cinema’)),qtype(latlong))
+where is a School in Frankfurt?
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘name’, ‘School’)),qtype(latlong))
+School in Frankfurt
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘name’, ‘School’)),qtype(latlong))
+Where is a school?
+query(nwr(keyval(‘name’, ‘School’)),qtype(latlong))
+where is a School in Stuttgart?
+query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval(‘name’, ‘School’)),qtype(latlong))
+School in Stuttgart
+query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval(keyval(‘name’, ‘School’)),qtype(latlong))
+where is a School in Aachen?
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval(‘name’, ‘School’)),qtype(latlong))
+School in Aachen
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval(‘name’, ‘School’)),qtype(latlong))
+where is a university in Frankfurt?
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘name’, ‘University’)),qtype(latlong))
+University in Frankfurt
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘name’, ‘University’)),qtype(latlong))
+where is a University in Stuttgart?
+query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval(‘name’, ‘University’)),qtype(latlong))
+University in Stuttgart
+query(area(keyval('name','<nom> 3602793104</nom>')),nwr(keyval(keyval(‘name’, ‘University’)),qtype(latlong))
+where is a University in Aachen?
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval(‘name’, ‘University’)),qtype(latlong))
+University in Aachen
+query(area(keyval('name','<nom> 3600062564</nom>')),nwr(keyval(‘name’, ‘University’)),qtype(latlong))
+where is a swimming pool in Frankfurt?
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘leisure’, ‘swimming_pool’)),qtype(latlong))
+swimming pool in Frankfurt
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘leisure’, ‘swimming_pool’)),qtype(latlong))
+where is a swimming pool in Stuttgart?
+query(area(keyval('name','<nom>3602793104</nom>')),nwr(keyval(‘leisure’, ‘swimming_pool’)),qtype(latlong))
+swimming pool in Stuttgart
+query(area(keyval('name','<nom>3602793104</nom>')),nwr(keyval(‘leisure’, ‘swimming_pool’)),qtype(latlong))
+where is a swimming pool in Aachen?
+query(area(keyval('name','<nom>3600062564</nom>')),nwr(keyval(‘leisure’, ‘swimming_pool’)),qtype(latlong))
+swimming pool in Aachen
+query(area(keyval('name','<nom>3600062564</nom>')),nwr(keyval(‘leisure’, ‘swimming_pool’)),qtype(latlong))
+where is a Citizens Registration Office in Frankfurt?
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘amenity’, ‘townhall’), keyval(‘name’, ‘Bürgeramt’)),qtype(latlong))
+Citizens Registration Office in Frankfurt
+query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval(‘amenity’, ‘townhall’), keyval(‘name’, ‘Bürgeramt’)),qtype(latlong))
+where is a Citizens Registration Office in Stuttgart?
+query(area(keyval('name','<nom>3602793104</nom>')),nwr(keyval(‘amenity’, ‘townhall’), keyval(‘name’, ‘Bügeramt’)),qtype(latlong))
+Citizens Registration Office in Stuttgart
+query(area(keyval('name','<nom>3602793104</nom>')),nwr(keyval(‘amenity’, ‘townhall’), keyval(‘name’, ‘Bürgeramt’)),qtype(latlong))
+where is a Citizens Registration Office in Aachen?
+query(area(keyval('name','<nom>3600062564</nom>')),nwr(keyval(‘amenity’, ‘townhall’), keyval(‘name’, ‘Bürgeramt’)),qtype(latlong))
+Citizens Registration Office in Aachen
+query(area(keyval('name','<nom>3600062564</nom>')),nwr(keyval(‘amenity’, ‘townhall’), keyval(‘name’, ‘Bürgeramt’)),qtype(latlong))
+where is a pharmacy in Munich?
+query(area(keyval('name','<nom> 3600062428 </nom>')),nwr(keyval(‘amenity’, ‘pharmacy’)),qtype(latlong))
+pharmacy in Munich
+query(area(keyval('name','<nom> 3600062428 </nom>')),nwr(keyval(‘amenity’, ‘pharmacy’)),qtype(latlong))
+where is a pharmacy in Hamburg?
+query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval(‘amenity’, ‘pharmacy’)),qtype(latlong))
+pharmacy in Hamburg
+query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval(‘amenity’, ‘pharmacy’)),qtype(latlong))
+where is a pharmacy in Dresden?
+query(area(keyval('name','<nom> 3600191645 </nom>')),nwr(keyval(‘amenity’, ‘pharmacy’)),qtype(latlong))
+pharmacy in Dresden
+query(area(keyval('name','<nom>3600191645</nom>')),nwr(keyval(‘amenity’, ‘pharmacy’)),qtype(latlong))
+where is a bus stop in Munich?
+query(area(keyval('name','<nom> 3600062428 </nom>')),nwr(keyval(‘highway’, ‘bus_stop’)),qtype(latlong))
+bus stop in Munich
+query(area(keyval('name','<nom> 3600062428 </nom>')),nwr(keyval(‘highway’, ‘bus_stop’)),qtype(latlong))
+where is a bus stop in Hamburg?
+query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval(‘highway’, ‘bus_stop’)),qtype(latlong))
+bus stop in Hamburg
+query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval(‘highway’, ‘bus_stop’)),qtype(latlong))
+where is a bus stop in Dresden?
+query(area(keyval('name','<nom> 3600191645 </nom>')),nwr(keyval(‘highway’, ‘bus_stop’)),qtype(latlong))
+bus stop in Dresden
+query(area(keyval('name','<nom>3600191645</nom>')),nwr(keyval(‘highway’, ‘bus_stop’)),qtype(latlong))
+where is a railway station in Munich?
+query(area(keyval('name','<nom> 3600062428 </nom>')),nwr(keyval(‘public_transport’, ‘station’), keyval(‘railway’, ‘station’)),qtype(latlong))
+railway station in Munich
+query(area(keyval('name','<nom> 3600062428 </nom>')),nwr(keyval(‘public_transport’, ‘station’), keyval(‘railway’,’station’)),qtype(latlong))
+where is a railway station in Hamburg?
+query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval(‘public_transport’, ‘station’), keyval(‘railway’, ‘station’)),qtype(latlong))
+railway station in Hamburg
+query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval(‘public_transport’, ‘station’), keyval(‘railway’, ‘station’)),qtype(latlong))
+where is a railway station in Dresden?
+query(area(keyval('name','<nom> 3600191645 </nom>')),nwr(keyval(‘public_transport’, ‘station’), keyval(‘railway’, ‘station’)),qtype(latlong))
+where is a hotel in Munich?
+query(area(keyval('name','<nom> 3600062428 </nom>')),nwr(keyval(‘building’, ‘hotel’), keyval(‘tourism’, ‘hotel’)),qtype(latlong))
+railway station in Dresden
+query(area(keyval('name','<nom>3600191645</nom>')),nwr(keyval(‘public_transport’, ‘station’), keyval(‘railway’, ‘station’)),qtype(latlong))
+hotel in Munich
+query(area(keyval('name','<nom> 3600062428 </nom>')),nwr(keyval(‘building’, ‘hotel’), keyval(‘tourism’,’hotel’)),qtype(latlong))
+where is a hotel in Hamburg?
+query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval(‘building’, ‘hotel’), keyval(‘tourism’, ‘hotel’)),qtype(latlong))
+hotel in Hamburg
+query(area(keyval('name','<nom> 3602618040 </nom>')),nwr(keyval(‘building’, ‘hotel’), keyval(‘tourism’, ‘hotel’)),qtype(latlong))
+where is a hotel in Dresden?
+query(area(keyval('name','<nom> 3600191645 </nom>')),nwr(keyval(‘building’, ‘hotel’), keyval(‘tourism’, ‘hotel’)),qtype(latlong))
+railway station in Dresden
+query(area(keyval('name','<nom>3600191645</nom>')),nwr(keyval(‘building’, ‘hotel’), keyval(‘tourism’, ‘hotel’)),qtype(latlong))

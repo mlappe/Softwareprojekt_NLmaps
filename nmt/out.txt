@@ -1,129 +1,21 @@
-query(area(keyval('name','<nom>3600062539</nom>')),nwr(keyval('office','newspaper')),qtype(count))
-
-query(area(keyval('name','<nom>3600062539</nom>')),nwr(keyval('shop','car_repair')),qtype(count))
-query(area(keyval('name','<nom>3600062559</nom>')),nwr(keyval('shop','liquor')),qtype(count))
-query(area(keyval('name','<nom>3600062456</nom>')),nwr(keyval('leisure','park')),qtype(count))
-query(area(keyval('name','<nom>3600059418</nom>')),nwr(keyval('place','suburb')),qtype(count))
-query(area(keyval('name','<nom>3600062780</nom>')),nwr(keyval('leisure','aerodrome')),qtype(count))
-
-
-
-
-
-dist(query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','Schloss')),qtype(latlong)),query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','alt_name')),qtype(latlong)))
-
-query(area(keyval('name','<nom>3602783849</nom>')),nwr(keyval('name','Chiemsee')),qtype(findkey('ele')))
-query(area(keyval('name','<nom>3600941745</nom>')),nwr(keyval('name','Chiemsee')),qtype(findkey('place')))
-query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','Heidelberg')),qtype(findkey('access')))
-query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','Botanik')),qtype(findkey('horse')))
-
-query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval('name','Tower')),qtype(findkey('housenumber')))
-
-query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','florist')),qtype(latlong))
-query(area(keyval('name','<nom>3600062564</nom>')),nwr(keyval('leisure','swimming_pool')),qtype(latlong))
-query(area(keyval('name','<nom>3602793104</nom>')),nwr(keyval('amenity','cinema')),qtype(latlong))
-query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','hairdresser')),qtype())
-query(area(keyval('name','<nom>3600062564</nom>')),nwr(keyval('amenity','School')),qtype(latlong))
-query(area(keyval('name','<nom>3601075996</nom>')),nwr(keyval('shop','hairdresser')),qtype(latlong(topx(1))))
-query(area(keyval('name','<nom>3600062428</nom>')),nwr(keyval('highway','bus_stop')),qtype())
-query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','postbox')),qtype())
-query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('amenity','postbox')),qtype())
-
-query(area(keyval('name','<nom>3600062522</nom>')),nwr(keyval('amenity','car_sharing')),qtype(least(topx(1))))
-query(west(area(keyval('name','<nom>3600062410</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))
-
-query(area(keyval('name','<nom>3600062478</nom>')),nwr(keyval('shop','electronics')),qtype(least(topx(1))))
-query(south(area(keyval('name','<nom>3600062591</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
-query(west(area(keyval('name','<nom>3600062410</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))
-query(area(keyval('name','<nom>3600062478</nom>')),nwr(keyval('sport','equestrian')),qtype(least(topx(1))))
-
-query(area(keyval('name','<nom>3600062422</nom>')),nwr(keyval('shop','travel_agency')),qtype(count))
-query(area(keyval('name','<nom>3600062539</nom>')),nwr(keyval('shop','pet')),qtype(count))
-query(area(keyval('name','<nom>3600062780</nom>')),nwr(keyval('shop','jewelry')),qtype(count))
-query(area(keyval('name','<nom>3600062780</nom>')),nwr(keyval('shop','jewelry')),qtype(count))
-
-
-
-
-dist(query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('name','Wartburg')),qtype(latlong)),query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('name','Pferdeinsel')),qtype(latlong)))
-
-
-
-
-dist(query(area(keyval('name','<nom>3600062464</nom>')),nwr(keyval('name','Würzburg')),qtype(latlong)),query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','alt_name')),qtype(latlong)))
-query(area(keyval('name','<nom>3600062464</nom>')),nwr(keyval('name','Straße')),qtype(findkey('horse')))
-query(area(keyval('name','<nom>3600941745</nom>')),nwr(keyval('name','Chiemsee')),qtype(findkey('turism')))
-query(area(keyval('name','<nom>3600539918</nom>')),nwr(keyval('name','Zugspitze')),qtype(findkey('cross')))
-query(area(keyval('name','<nom>3600062428</nom>')),nwr(keyval('name','Chiemsee')),qtype(findkey('turism')))
-query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','Botanik')),qtype(findkey('horse')))
-query(area(keyval('name','<nom>3600062422</nom>')),nwr(keyval('name','Heidelberg')),qtype(findkey('height')))
-query(area(keyval('name','<nom>3600453001</nom>')),nwr(keyval('name','Elbphilharmonie')),qtype(findkey('turism')))
-query(area(keyval('name','<nom>3600062464</nom>')),nwr(keyval('name','Straße')),qtype(findkey('horse')))
-query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','Gewächshaus')),qtype(findkey('horse')))
-query(area(keyval('name','<nom>3600941745</nom>')),nwr(keyval('name','Chiemsee')),qtype(findkey('turism')))
-
-query(area(keyval('name','<nom>3600062564</nom>')),nwr(keyval('name','Kaiserburg')),qtype(findkey('housenumber')))
-query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','hairdresser')),qtype())
-query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval('amenity','bicycle_parking')),qtype())
-
-query(east(area(keyval('name','<nom>3600062407</nom>')),nwr(keyval('amenity','beachvolleyball'),keyval('surface','sand'))),qtype(least(topx(1))))
-
-query(area(keyval('name','<nom>3600062591</nom>')),nwr(keyval('man_made','surveillance')),qtype(least(topx(1))))
-query(area(keyval('name','<nom>3600062594</nom>')),nwr(keyval('amenity','boat_rental')),qtype(least(topx(1))))
-query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('sport','equestrian')),qtype(least(topx(1))))
-query(area(keyval('name','<nom>3600062518</nom>')),nwr(keyval('shop','beverages')),qtype(least(topx(1))))
-query(south(area(keyval('name','<nom>3600062518</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
-query(east(area(keyval('name','<nom>3600062407</nom>')),nwr(keyval('sport','beachvolleyball'),keyval('surface','sand'))),qtype(least(topx(1))))
-query(area(keyval('name','<nom>3600062518</nom>')),nwr(keyval('man_made','surveillance')),qtype(least(topx(1))))
-
-
-query(area(keyval('name','<nom>3600062591</nom>')),nwr(keyval('recycling_type','container')),qtype(least(topx(1))))
-
-query(area(keyval('name','<nom>3600062422</nom>')),nwr(keyval('shop','boutique')),qtype(count))
-query(area(keyval('name','<nom>3600062559</nom>')),nwr(keyval('shop','liquor')),qtype(count))
-query(area(keyval('name','<nom>3600062539</nom>')),nwr(keyval('barrier','gate')),qtype(count))
-query(area(keyval('name','<nom>3600059418</nom>')),nwr(keyval('shop','mobile_phone')),qtype(count))
-query(area(keyval('name','<nom>3600062649</nom>')),nwr(keyval('shop','jewelry')),qtype(count))
-query(area(keyval('name','<nom>3600059418</nom>')),nwr(keyval('shop','mobile_phone')),qtype(count))
-query(area(keyval('name','<nom>3600062456</nom>')),nwr(keyval('amenity','atm')),qtype(count))
-query(area(keyval('name','<nom>3600062539</nom>')),nwr(keyval('shop','pet')),qtype(count))
-query(area(keyval('name','<nom>3600062559</nom>')),nwr(keyval('amenity','atm')),qtype(count))
-query(area(keyval('name','<nom>3600062780</nom>')),nwr(keyval('shop','jewelry')),qtype(count))
-query(area(keyval('name','<nom>3600062780</nom>')),nwr(keyval('tourism','zoo')),qtype(count))
-query(area(keyval('name','<nom>3600062649</nom>')),nwr(keyval('shop','jewelry')),qtype(count))
-
-dist(query(area(keyval('name','<nom>3600062685</nom>')),nwr(keyval('name','Schloss')),qtype(latlong)),query(area(keyval('name','<nom>3600062685</nom>')),nwr(keyval('name','alt_name')),qtype(latlong)))
-
-
-
-dist(query(area(keyval('name','<nom>3600062422</nom>')),nwr(keyval('name','Reichstagsgebäude')),qtype(latlong)),query(area(keyval('name','<nom>3600062422</nom>')),nwr(keyval('name','Kanzlerpark')),qtype(latlong)))
-
-query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','bicycle_parking')),qtype(latlong))
-query(area(keyval('name','<nom>3600453001</nom>')),nwr(keyval('name','Bodensee')),qtype(findkey('turism')))
-query(area(keyval('name','<nom>3600285864</nom>')),nwr(keyval('name','Botanik')),qtype(findkey('smoke')))
-query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','florist')),qtype())
-query(area(keyval('name','<nom>3600062422</nom>')),nwr(keyval('name','Chiemsee')),qtype(findkey('description')))
-query(area(keyval('name','<nom>3600941745</nom>')),nwr(keyval('name','Bode-Museum')),qtype(findkey('turism')))
-query(area(keyval('name','<nom>3602618040</nom>')),nwr(keyval('name','Wunderland')),qtype(findkey('facebook')))
-query(area(keyval('name','<nom>3602618040</nom>')),nwr(keyval('name','Wunderland')),qtype(findkey('facebook')))
-query(area(keyval('name','<nom>3600062539</nom>')),nwr(keyval('name','Rheinturm')),qtype(findkey('email')))
-
-query(area(keyval('name','<nom>3600062464</nom>')),nwr(keyval('name','Straße')),qtype(findkey('horse')))
-query(area(keyval('name','<nom>3600062522</nom>')),nwr(keyval('name','Veltins-Arena')),qtype(findkey('phone')))
-
-query(area(keyval('name','<nom>3603734731</nom>')),nwr(keyval('name','Harz')),qtype(findkey('protect_class')))
-query(area(keyval('name','<nom>3600062578</nom>')),nwr(keyval('shop','florist')),qtype(latlong))
-query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval('amenity','swimming_pool')),qtype(latlong))
-query(area(keyval('name','<nom>3600172679</nom>')),nwr(keyval('name','baum')),qtype(latlong(topx(1))))
-
-
-query(area(keyval('name','<nom>3600062400</nom>')),nwr(keyval('amenity','cinema')),qtype())
-query(west(area(keyval('name','<nom>3600062594</nom>')),nwr(keyval('shop','dry_cleaning'))),qtype(least(topx(1))))
-query(west(area(keyval('name','<nom>3600062410</nom>')),nwr(keyval('amenity','boat_rental'))),qtype(least(topx(1))))
-query(south(area(keyval('name','<nom>3600062508</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
-query(south(area(keyval('name','<nom>3600062508</nom>')),nwr(keyval('man_made','surveillance'))),qtype(least(topx(1))))
-
-query(area(keyval('name','<nom>3600062496</nom>')),nwr(keyval('shop','beauty')),qtype(least(topx(1))))
-query(west(area(keyval('name','<nom>3600062594</nom>')),nwr(keyval('shop','dry_cleaning'))),qtype(least(topx(1))))
-
-query(area(keyval('name','<nom>3600062496</nom>')),nwr(keyval('amenity','car_sharing')),qtype(least(topx(1))))
+5|||No wellformed MRL found|||$
+1|||query@3 area@1 keyval@2 name@0 <nom>3600062559</nom>@s nwr@1 keyval@2 shop@0 liquor@s qtype@1 count@0|||query(area(keyval('name','<nom>3600062559</nom>')),nwr(keyval('shop','liquor')),qtype(count))
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+1|||query@3 area@1 keyval@2 name@0 <nom>3600062594</nom>@s nwr@1 keyval@2 shop@0 dry_cleaning@s qtype@1 least@1 topx@1 1@0|||query(area(keyval('name','<nom>3600062594</nom>')),nwr(keyval('shop','dry_cleaning')),qtype(least(topx(1))))
+5|||No wellformed MRL found|||$
+1|||query@2 north@2 area@1 keyval@2 name@0 <nom>3600062646</nom>@s nwr@1 keyval@2 sport@0 equestrian@s qtype@1 least@1 topx@1 1@0|||query(north(area(keyval('name','<nom>3600062646</nom>')),nwr(keyval('sport','equestrian'))),qtype(least(topx(1))))
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$
+5|||No wellformed MRL found|||$

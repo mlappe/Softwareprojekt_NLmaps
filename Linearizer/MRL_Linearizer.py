@@ -4,21 +4,21 @@ import nltk,shlex
 
 #################################################################################################################################################
 #                                                                                                                                               #
-# Autor: Ozan Yilmaz                                                                                                                            #
+# Author: Ozan Yilmaz                                                                                                                           #
 #                                                                                                                                               #
-# Dies ist das MRL_Linearizer-Modul für das Softwareprojekt Semantic Parsing as Monolingual Machine Translation.                                #
+# This is the MRL_Linearizer module(Map-numbers-to-consonants) for the softwareprojekt Semantic Parsing as Monolingual Machine Translation.      #
 #                                                                                                                                               #
-# Enthält folgende Funktionen:                                                                                                                  #
+# Contains following functions:                                                                                                                 #
 #                                                                                                                                               #
-# 1) linearizeMRL(MRL) --> returniert linearisierte Form                                                                                        #
+# 1) linearizeMRL(MRL) --> returns linearized form                                                                                              #
 #                                                                                                                                               #
-#    Beispielaufruf: linearizeMRL("query(area(keyval(name,'Paris')), nwr(keyval(tourism,'hotel'),keyval(wheelchair,'yes')),find-key(name)))")   #
+#    Example: linearizeMRL("query(area(keyval(name,'Paris')), nwr(keyval(tourism,'hotel'),keyval(wheelchair,'yes')),find-key(name)))")          #
 #                                                                                                                                               #
 #    Return: query@3 area@1 keyval@2 name@0 Paris@s nwr@2 keyval@2 tourism@0 hotel@s keyval@2 wheelchair@0 yes@s find-key@1 name@0              #
 #                                                                                                                                               #
-# 2) stemNL(nl) --> returniert gestemmte Version der Frage ohne Fragezeichen.                                                                   #
+# 2) stemNL(nl) --> returns stemmed verions of question without question mark.                                                                  #
 #                                                                                                                                               #
-#    Beispielaufruf: stemNL("Which hotels in Paris have wheelchair access?")                                                                    #
+#    Example: stemNL("Which hotels in Paris have wheelchair access?")                                                                           #
 #                                                                                                                                               #
 #    Return: Which hotel in Pari have wheelchair access                                                                                         #
 #                                                                                                                                               #

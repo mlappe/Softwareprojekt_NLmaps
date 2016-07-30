@@ -1,0 +1,66 @@
+query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 office@0 newspaper@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 fjbbbhmgcl nwr@1 keyval@2 shop@0 tea@s qtype@1 count@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdjgm nwr@1 keyval@2 name@0 Völkerschlachtdenkmal@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdjgm nwr@1 keyval@2 name@0 Rosa-Luxemburg-Straße@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdfkb nwr@1 keyval@2 name@0 Wartburg@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdgmh nwr@1 keyval@2 name@0 Ulmer%Münster@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbggldmk nwr@1 keyval@2 name@0 Schloss%Neuschwanstein@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdhkl nwr@1 keyval@2 name@0 Kölner%Dom@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 St.%Marienkirche@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 Siegessäule@s qtype@1 latlong@0
+query@3 area@1 keyval@2 name@0 fjbbcjlglc nwr@1 keyval@2 name@0 Schloss%Augustusburg@s qtype@1 findkey@1 building:colour@0
+query@3 area@1 keyval@2 name@0 fjbbbhmgcl nwr@1 keyval@2 name@0 Neues%Rathaus@s qtype@1 findkey@1 type@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 DDR-Museum@s qtype@1 findkey@1 level@0
+query@3 area@1 keyval@2 name@0 fjbbbjdhkl nwr@1 keyval@2 name@0 Kölnturm@s qtype@1 findkey@1 owner@0
+query@3 area@1 keyval@2 name@0 fjbfkfgkfc nwr@1 keyval@2 name@0 Nationalpark%Harz@s qtype@1 findkey@1 wikidata@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 DDR-Museum@s qtype@1 findkey@1 level@0
+query@3 area@1 keyval@2 name@0 fjbbmjgjcf nwr@1 keyval@2 name@0 Walhalla@s qtype@1 findkey@1 historic@0
+query@3 area@1 keyval@2 name@0 fjbbckdjkm nwr@1 keyval@2 shop@0 hairdresser@s qtype@1 latlong@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbdlhljg nwr@1 keyval@2 amenity@0 bank@s qtype@1 latlong@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgmj nwr@1 keyval@2 shop@0 dry_cleaning@s qtype@1 least@1 topx@1 1@0
+query@2 south@2 area@1 keyval@2 name@0 fjbbbjdhbl nwr@1 keyval@2 building@0 greenhouse@s qtype@1 least@1 topx@1 1@0
+query@2 north@2 area@1 keyval@2 name@0 fjbbbjdgkl nwr@1 keyval@2 sport@0 equestrian@s qtype@1 least@1 topx@1 1@0
+query@2 east@2 area@1 keyval@2 name@0 fjbbbjdhdd nwr@2 keyval@2 sport@0 beachvolleyball@s keyval@2 surface@0 sand@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbhmgcl nwr@1 keyval@2 leisure@0 park@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 fjbbbjdjgm nwr@1 keyval@2 shop@0 books@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 office@0 newspaper@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 fjbbbjdklb nwr@1 keyval@2 name@0 parking@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 barrier@0 gate@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 fjbbbjdjgm nwr@1 keyval@2 tourism@0 zoo@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 shop@0 car_repair@s qtype@1 count@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdgbb nwr@1 keyval@2 name@0 Commerzbank%Tower@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 Rotes%Rathaus@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 Reichstagsgebäude@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdhkl nwr@1 keyval@2 name@0 Kölner%Dom@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdgjg nwr@1 keyval@2 name@0 Residenz%Würzburg@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdgjg nwr@1 keyval@2 name@0 Hauptfriedhof@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdjlh nwr@1 keyval@2 name@0 Schweriner%Schloss@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbckdjkm nwr@1 keyval@2 name@0 Porta%Nigra@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdfkb nwr@1 keyval@2 name@0 Wartburg@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdfkb nwr@1 keyval@2 name@0 Petersberg@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdgmh nwr@1 keyval@2 name@0 Ulmer%Münster@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdjgm nwr@1 keyval@2 name@0 Völkerschlachtdenkmal@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdgjg nwr@1 keyval@2 name@0 Residenz%Würzburg@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 Fernsehturm@s qtype@1 latlong@0
+query@3 area@1 keyval@2 name@0 fjbfkfgkfc nwr@1 keyval@2 name@0 Nationalpark%Harz@s qtype@1 findkey@1 wikidata@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgdl nwr@1 keyval@2 name@0 Theresienwiese@s qtype@1 findkey@1 reg_name@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgdl nwr@1 keyval@2 name@0 Allianz%Arena@s qtype@1 findkey@1 start_date@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgjg nwr@1 keyval@2 name@0 Romantische%Straße@s qtype@1 findkey@1 smoothness@0
+query@3 area@1 keyval@2 name@0 fjbbhgfcdk nwr@1 keyval@2 name@0 Burg%Eltz@s qtype@1 findkey@1 castle_type@0
+query@3 area@1 keyval@2 name@0 fjbbbjdhdd nwr@1 keyval@2 name@0 Veltins-Arena@s qtype@1 findkey@1 team@0
+query@3 area@1 keyval@2 name@0 fjbbdlhljg nwr@1 keyval@2 name@0 Café%Botanik@s qtype@1 findkey@1 delivery@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgbb nwr@1 keyval@2 name@0 Deutsches%Architekturmuseum@s qtype@1 findkey@1 opening_hours@0
+query@3 area@1 keyval@2 name@0 fjbbbjdhkl nwr@1 keyval@2 shop@0 hairdresser@s qtype@1 latlong@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbckdjkm nwr@1 keyval@2 amenity@0 postbox@s qtype@1 latlong@0
+query@3 area@1 keyval@2 name@0 fjbdkmfcbg nwr@2 keyval@2 amenity@0 fast_food@s keyval@2 name@0 Burger%King@s qtype@1 latlong@0
+query@3 area@1 keyval@2 name@0 fjbbbjdhbl nwr@1 keyval@2 shop@0 beverages@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgmj nwr@1 keyval@2 shop@0 dry_cleaning@s qtype@1 least@1 topx@1 1@0
+query@2 east@2 area@1 keyval@2 name@0 fjbbbjdgmj nwr@2 keyval@2 sport@0 beachvolleyball@s keyval@2 surface@0 sand@s qtype@1 least@1 topx@1 1@0
+query@2 north@2 area@1 keyval@2 name@0 fjbbbjdjgg nwr@1 keyval@2 highway@0 street_lamp@s qtype@1 least@1 topx@1 1@0
+query@2 west@2 area@1 keyval@2 name@0 fjbbbjdgcb nwr@1 keyval@2 office@0 advertising_agency@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbjdjgg nwr@1 keyval@2 highway@0 street_lamp@s qtype@1 least@1 topx@1 1@0
+query@2 east@2 area@1 keyval@2 name@0 fjbbbjdhdd nwr@2 keyval@2 amenity@0 artwork@s keyval@2 artwork_type@0 sculpture@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbhmgcl nwr@2 keyval@2 amenity@0 telephone@s keyval@2 payment:coins@0 yes@s qtype@1 count@0
+query@3 area@1 keyval@2 name@0 fjbcldmbjh nwr@1 keyval@2 shop@0 pet@s qtype@1 count@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 Rotes%Rathaus@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdgdd nwr@1 keyval@2 name@0 Berliner%Dom@s qtype@1 latlong@0
+dist@2 query@3 area@1 keyval@2 name@0 fjbbbjdgmh nwr@1 keyval@2 name@0 Ulmer%Münster@s qtype@1 latlong@0 query@3 area@1 keyval@2 name@0 fjbbbjdgmh nwr@2 keyval@2 name@0 Theater%Ulm@s keyval@2 addr:street@0 Herbert-von-Karajan-Platz@s qtype@1 latlong@0
+query@3 area@1 keyval@2 name@0 fjbcbkhmmj nwr@1 keyval@2 amenity@0 restaurant@s qtype@1 latlong@0
+query@3 area@1 keyval@2 name@0 fjbbckdjkm nwr@1 keyval@2 amenity@0 postbox@s qtype@1 latlong@0
+query@3 area@1 keyval@2 name@0 fjbcbkhmmj nwr@1 keyval@2 name@0 baum@s qtype@1 latlong@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbdjclbgb nwr@1 keyval@2 amenity@0 pharmacy@s qtype@1 latlong@0
+query@2 south@2 area@1 keyval@2 name@0 fjbbbjdhmc nwr@1 keyval@2 man_made@0 surveillance@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgcb nwr@1 keyval@2 shop@0 dry_cleaning@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbjdhmg nwr@1 keyval@2 shop@0 dry_cleaning@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbjdhbl nwr@1 keyval@2 recycling_type@0 container@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbjdhbl nwr@1 keyval@2 man_made@0 surveillance@s qtype@1 least@1 topx@1 1@0
+query@3 area@1 keyval@2 name@0 fjbbbjdgmj nwr@2 keyval@2 sport@0 beachvolleyball@s keyval@2 surface@0 sand@s qtype@1 least@1 topx@1 1@0
+query@2 east@2 area@1 keyval@2 name@0 fjbbbjdgmj nwr@2 keyval@2 amenity@0 recycling@s keyval@2 recycling:glass@0 yes@s qtype@1 least@1 topx@1 1@0

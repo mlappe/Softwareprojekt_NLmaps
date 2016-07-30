@@ -5,8 +5,9 @@
 # Also you should have GIZA++ with all it's necessary dependencies installed in ~/mosesdecoder/tools
 # Just change the paths below and start. Final output in Terminal should be a bleuscore.
 
+#Relative path to folder with Corpus and pipeline script:
 BASIC_PATH_RELATIVE="~/Desktop/swp/"
-
+#Absolute path to folder with Corpus and pipeline script:
 BASIC_PATH_ABSOLUTE="/home/david/Desktop/swp/"
 
 TUNING=true
@@ -38,13 +39,13 @@ wait
 if [ $TUNING ]
 	then
 		nohup nice ~/mosesdecoder/scripts/training/mert-moses.pl $BASIC_PATH_ABSOLUTE$TUNE_INPUTLANG $BASIC_PATH_ABSOLUTE$TUNE_OUTPUTLANG ~/mosesdecoder/bin/moses train/model/moses.ini --mertdir ~/mosesdecoder/bin/ &> $BASIC_PATH_ABSOLUTE"mert.out" &
-
+50
 		wait
-
+		#add/remove parameters ("-n-best-list listfile" for n-best translations, "50 distinct" for 50 different translations
 		~/mosesdecoder/bin/moses -f mert-work/moses.ini -n-best-list listfile 50 distinct < $BASIC_PATH_ABSOLUTE$TEST_INPUTLANG > outputOfTest.txt
 
 else
-		
+		#add/remove parameters ("-n-best-list listfile" for n-best translations, "50 distinct" for 50 different translations
 		~/mosesdecoder/bin/moses -f train/model/moses.ini -n-best-list listfile 50 distinct < $BASIC_PATH_ABSOLUTE$TEST_INPUTLANG > outputOfTest.txt
 
 

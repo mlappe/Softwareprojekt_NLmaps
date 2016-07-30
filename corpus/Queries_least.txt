@@ -1,0 +1,384 @@
+Is there a riding stable in the north of Bochum?
+query(north(area(keyval('name','<nom> 3600062644 </nom>')),nwr(keyval('sport','equestrian'))),qtype(least(topx(1))))
+does a riding stable in the north of Bochum exist?
+query(north(area(keyval('name','<nom> 3600062644 </nom>')),nwr(keyval('sport','equestrian'))),qtype(least(topx(1))))
+Is there a riding stable in Bochum?
+query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('sport','equestrian')),qtype(least(topx(1))))
+does a riding stable exist in Bochum?
+query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('sport','equestrian')),qtype(least(topx(1))))
+Is there a riding stable in the north of Wuppertal?
+query(north(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('sport','equestrian'))),qtype(least(topx(1))))
+does a riding stable in the north of Wuppertal exist?
+query(north(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('sport','equestrian'))),qtype(least(topx(1))))
+Is there a riding stable in Wuppertal?
+query(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('sport','equestrian')),qtype(least(topx(1))))
+does a riding stable exist in Wuppertal?
+query(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('sport','equestrian')),qtype(least(topx(1))))
+Is there a riding stable in the north of Bielefeld?
+query(north(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('sport','equestrian'))),qtype(least(topx(1))))
+does a riding stable in the north of Bielefeld exist?
+query(north(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('sport','equestrian'))),qtype(least(topx(1))))
+Is there a riding stable in Bielefeld?
+query(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('sport','equestrian')),qtype(least(topx(1))))
+does a riding stable exist in Bielefeld?
+query(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('sport','equestrian')),qtype(least(topx(1))))
+Is there a veterinarian in the north of Bochum?
+query(north(area(keyval('name','<nom> 3600062644 </nom>')),nwr(keyval('amenity','veterinary'))),qtype(least(topx(1))))
+does a veterinarian in the north of Bochum exist?
+query(north(area(keyval('name','<nom> 3600062644 </nom>')),nwr(keyval('amenity','veterinary'))),qtype(least(topx(1))))
+Is there a veterinarian in Bochum?
+query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('amenity','veterinary')),qtype(least(topx(1))))
+does a veterinarian exist in Bochum?
+query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('amenity','veterinary')),qtype(least(topx(1))))
+Is there a veterinarian in the north of Wuppertal?
+query(north(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('amenity','veterinary'))),qtype(least(topx(1))))
+does a veterinarian in the north of Wuppertal exist?
+query(north(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('amenity','veterinary'))),qtype(least(topx(1))))
+Is there a veterinarian in Wuppertal?
+query(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('amenity','veterinary')),qtype(least(topx(1))))
+does a veterinarian exist in Wuppertal?
+query(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('amenity','veterinary')),qtype(least(topx(1))))
+Is there a veterinarian in the north of Bielefeld?
+query(north(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('amenity','veterinary'))),qtype(least(topx(1))))
+does a veterinarian in the north of Bielefeld exist?
+query(north(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('amenity','veterinary'))),qtype(least(topx(1))))
+Is there a veterinarian in Bielefeld?
+query(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('amenity','veterinary')),qtype(least(topx(1))))
+does a veterinarian exist in Bielefeld?
+query(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('amenity','veterinary')),qtype(least(topx(1))))
+Is there an electronic shop in the north of Bochum?
+query(north(area(keyval('name','<nom> 3600062644 </nom>')),nwr(keyval('shop','electronics'))),qtype(least(topx(1))))
+does an electronic shop in the north of Bochum exist?
+query(north(area(keyval('name','<nom> 3600062644 </nom>')),nwr(keyval('shop','electronics'))),qtype(least(topx(1))))
+Is there an electronic shop in Bochum?
+query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('shop','electronics')),qtype(least(topx(1))))
+does an electronic shop exist in Bochum?
+query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('shop','electronics')),qtype(least(topx(1))))
+Is there an electronic shop in the north of Wuppertal?
+query(north(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('shop','electronics'))),qtype(least(topx(1))))
+does an electronic shop in the north of Wuppertal exist?
+query(north(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('shop','electronics'))),qtype(least(topx(1))))
+Is there an electronic shop in Wuppertal?
+query(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('shop','electronics')),qtype(least(topx(1))))
+does an electronic shop exist in Wuppertal?
+query(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('shop','electronics')),qtype(least(topx(1))))
+Is there an electronic shop in the north of Bielefeld?
+query(north(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('shop','electronics'))),qtype(least(topx(1))))
+does an electronic shop in the north of Bielefeld exist?
+query(north(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('shop','electronics'))),qtype(least(topx(1))))
+Is there an electronic shop in Bielefeld?
+query(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('shop','electronics')),qtype(least(topx(1))))
+does an electronic shop exist in Bielefeld?
+query(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('shop','electronics')),qtype(least(topx(1))))
+Is there a streetlamp in the north of Bochum?
+query(north(area(keyval('name','<nom> 3600062644 </nom>')),nwr(keyval('highway','street_lamp'))),qtype(least(topx(1))))
+does a streetlamp in the north of Bochum exist?
+query(north(area(keyval('name','<nom> 3600062644 </nom>')),nwr(keyval('highway','street_lamp'))),qtype(least(topx(1))))
+Is there a streetlamp in Bochum?
+query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('highway','street_lamp')),qtype(least(topx(1))))
+does a streetlamp exist in Bochum?
+query(area(keyval('name','<nom>3600062644</nom>')),nwr(keyval('highway','street_lamp')),qtype(least(topx(1))))
+Is there a streetlamp in the north of Wuppertal?
+query(north(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('highway','street_lamp'))),qtype(least(topx(1))))
+does a streetlamp in the north of Wuppertal exist?
+query(north(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('highway','street_lamp'))),qtype(least(topx(1))))
+Is there a streetlamp in Wuppertal?
+query(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('highway','street_lamp')),qtype(least(topx(1))))
+does a streetlamp exist in Wuppertal?
+query(area(keyval('name','<nom> 3600062478 </nom>')),nwr(keyval('highway','street_lamp')),qtype(least(topx(1))))
+Is there a streetlamp in the north of Bielefeld?
+query(north(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('highway','street_lamp'))),qtype(least(topx(1))))
+does a streetlamp in the north of Bielefeld exist?
+query(north(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('highway','street_lamp'))),qtype(least(topx(1))))
+Is there a streetlamp in Bielefeld?
+query(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('highway','street_lamp')),qtype(least(topx(1))))
+does a streetlamp exist in Bielefeld?
+query(area(keyval('name','<nom> 3600062646 </nom>')),nwr(keyval('highway','street_lamp')),qtype(least(topx(1))))
+Is there an observation camera in the south of Bonn?
+query(south(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('man_made','surveillance'))),qtype(least(topx(1))))
+does an observation camera in the south of Bonn exist?
+query(south(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('man_made','surveillance'))),qtype(least(topx(1))))
+Is there an observation camera in Bonn?
+query(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('man_made','surveillance')),qtype(least(topx(1))))
+does an observation camera exist in Bonn?
+query(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('man_made','surveillance')),qtype(least(topx(1))))
+Is there an observation camera in the south of Münster?
+query(south(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('man_made','surveillance'))),qtype(least(topx(1))))
+does an observation camera in the south of Münster exist?
+query(south(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('man_made','surveillance'))),qtype(least(topx(1))))
+Is there an observation camera in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('man_made','surveillance')),qtype(least(topx(1))))
+does an observation camera exist in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('man_made','surveillance')),qtype(least(topx(1))))
+Is there an observation camera in the south of Karlsruhe?
+query(south(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('man_made','surveillance'))),qtype(least(topx(1))))
+does an observation camera in the south of Karlsruhe exist?
+query(south(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('man_made','surveillance'))),qtype(least(topx(1))))
+Is there an observation camera in Karlsruhe?
+query(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('man_made','surveillance')),qtype(least(topx(1))))
+does an observation camera exist in Karlsruhe?
+query(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('man_made','surveillance')),qtype(least(topx(1))))
+Is there a greenhouse in the south of Bonn?
+query(south(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('building','greenhouse'))),qtype(least(topx(1))))
+does a greenhouse in the south of Bonn exist?
+query(south(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('building','greenhouse'))),qtype(least(topx(1))))
+Is there a greenhouse in Bonn?
+query(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('building','greenhouse')),qtype(least(topx(1))))
+does a greenhouse exist in Bonn?
+query(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('building','greenhouse')),qtype(least(topx(1))))
+Is there a greenhouse in the south of Münster?
+query(south(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('building','greenhouse'))),qtype(least(topx(1))))
+does a greenhouse in the south of Münster exist?
+query(south(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('building','greenhouse'))),qtype(least(topx(1))))
+Is there a greenhouse in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('building','greenhouse')),qtype(least(topx(1))))
+does a greenhouse exist in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('building','greenhouse')),qtype(least(topx(1))))
+Is there a greenhouse in the south of Karlsruhe?
+query(south(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('building','greenhouse'))),qtype(least(topx(1))))
+does a greenhouse in the south of Karlsruhe exist?
+query(south(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('building','greenhouse'))),qtype(least(topx(1))))
+Is there a greenhouse in Karlsruhe?
+query(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('building','greenhouse')),qtype(least(topx(1))))
+does a greenhouse exist in Karlsruhe?
+query(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('building','greenhouse')),qtype(least(topx(1))))
+Is there a dumpster in the south of Bonn?
+query(south(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('recycling_type','container'))),qtype(least(topx(1))))
+does a dumpster in the south of Bonn exist?
+query(south(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('recycling_type','container'))),qtype(least(topx(1))))
+Is there a dumpster in Bonn?
+query(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('recycling_type','container')),qtype(least(topx(1))))
+does a dumpster exist in Bonn?
+query(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('recycling_type','container')),qtype(least(topx(1))))
+Is there a dumpster in the south of Münster?
+query(south(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('recycling_type','container'))),qtype(least(topx(1))))
+does a dumpster in the south of Münster exist?
+query(south(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('recycling_type','container'))),qtype(least(topx(1))))
+Is there a dumpster in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('recycling_type','container')),qtype(least(topx(1))))
+does a dumpster exist in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('recycling_type','container')),qtype(least(topx(1))))
+Is there a dumpster in the south of Karlsruhe?
+query(south(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('recycling_type','container'))),qtype(least(topx(1))))
+does a dumpster in the south of Karlsruhe exist?
+query(south(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('recycling_type','container'))),qtype(least(topx(1))))
+Is there a dumpster in Karlsruhe?
+query(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('recycling_type','container')),qtype(least(topx(1))))
+does a dumpster exist in Karlsruhe?
+query(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('recycling_type','container')),qtype(least(topx(1))))
+Is there a beverage shop in the south of Bonn?
+query(south(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
+does a beverage shop in the south of Bonn exist?
+query(south(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
+Is there a beverage shop in Bonn?
+query(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('shop','beverages')),qtype(least(topx(1))))
+does a beverage shop exist in Bonn?
+query(area(keyval('name','<nom> 3600062508</nom>')),nwr(keyval('shop','beverages')),qtype(least(topx(1))))
+Is there a beverage shop in the south of Münster?
+query(south(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
+does a beverage shop in the south of Münster exist?
+query(south(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
+Is there a beverage shop in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('shop','beverages')),qtype(least(topx(1))))
+does a beverage shop exist in Münster?
+query(area(keyval('name','<nom> 3600062591</nom>')),nwr(keyval('shop','beverages')),qtype(least(topx(1))))
+Is there a beverage shop in the south of Karlsruhe?
+query(south(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
+does a beverage shop in the south of Karlsruhe exist?
+query(south(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('shop','beverages'))),qtype(least(topx(1))))
+Is there a beverage shop in Karlsruhe?
+query(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('shop','beverages')),qtype(least(topx(1))))
+does a beverage shop exist in Karlsruhe?
+query(area(keyval('name','<nom> 3600062518</nom>')),nwr(keyval('shop','beverages')),qtype(least(topx(1))))
+Is there a bottle bank in the east of Augsburg?
+query(east(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes'))),qtype(least(topx(1))))
+does a bottle bank in the east of Augsburg exist?
+query(east(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes'))),qtype(least(topx(1))))
+Is there a bottle bank in Augsburg?
+query(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes')),qtype(least(topx(1))))
+does a bottle bank exist in Augsburg?
+query(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes')),qtype(least(topx(1))))
+Is there a bottle bank in the east of Wiesbaden?
+query(east(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes'))),qtype(least(topx(1))))
+does a bottle bank in the east of Wiesbaden exist?
+query(east(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes'))),qtype(least(topx(1))))
+Is there a bottle bank in Wiesbaden?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes')),qtype(least(topx(1))))
+does a bottle bank exist in Wiesbaden?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes')),qtype(least(topx(1))))
+Is there a bottle bank in the east of Gelsenkirchen?
+query(east(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes'))),qtype(least(topx(1))))
+does a bottle bank in the east of Gelsenkirchen exist?
+query(east(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes'))),qtype(least(topx(1))))
+Is there a bottle bank in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes')),qtype(least(topx(1))))
+does a bottle bank exist in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','recycling'), keyval('recycling:glass','yes')),qtype(least(topx(1))))
+Is there a sculpture in the east of Augsburg?
+query(east(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture'))),qtype(least(topx(1))))
+does a sculpture in the east of Augsburg exist?
+query(east(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture'))),qtype(least(topx(1))))
+Is there a sculpture in Augsburg?
+query(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture')),qtype(least(topx(1))))
+does a sculpture exist in Augsburg?
+query(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture')),qtype(least(topx(1))))
+Is there a sculpture in the east of Wiesbaden?
+query(east(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture'))),qtype(least(topx(1))))
+does a sculpture in the east of Wiesbaden exist?
+query(east(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture'))),qtype(least(topx(1))))
+Is there a sculpture in Wiesbaden?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture')),qtype(least(topx(1))))
+does a sculpture exist in Wiesbaden?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture')),qtype(least(topx(1))))
+Is there a sculpture in the east of Gelsenkirchen?
+query(east(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture'))),qtype(least(topx(1))))
+does a sculpture in the east of Gelsenkirchen exist?
+query(east(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture'))),qtype(least(topx(1))))
+Is there a sculpture in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture')),qtype(least(topx(1))))
+does a sculpture exist in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','artwork'), keyval('artwork_type','sculpture')),qtype(least(topx(1))))
+Is there a beach volleyball field in the east of Augsburg?
+query(east(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand'))),qtype(least(topx(1))))
+does a beach volleyball field in the east of Augsburg exist?
+query(east(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand'))),qtype(least(topx(1))))
+Is there a beach volleyball field in Augsburg?
+query(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand')),qtype(least(topx(1))))
+does a beach volleyball field exist in Augsburg?
+query(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand')),qtype(least(topx(1))))
+Is there a beach volleyball field in the east of Wiesbaden?
+query(east(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand'))),qtype(least(topx(1))))
+does a beach volleyball field in the east of Wiesbaden exist?
+query(east(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand'))),qtype(least(topx(1))))
+Is there a beach volleyball field in Wiesbaden?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand')),qtype(least(topx(1))))
+does a beach volleyball field exist in Wiesbaden?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand')),qtype(least(topx(1))))
+Is there a beach volleyball field in the east of Gelsenkirchen?
+query(east(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand'))),qtype(least(topx(1))))
+does a beach volleyball field in the east of Gelsenkirchen exist?
+query(east(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand'))),qtype(least(topx(1))))
+Is there a beach volleyball field in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand')),qtype(least(topx(1))))
+does a beach volleyball field exist in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('sport','beachvolleyball'), keyval('surface','sand')),qtype(least(topx(1))))
+Is there a carsharing in the east of Augsburg?
+query(east(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','car_sharing'))),qtype(least(topx(1))))
+does a carsharing in the east of Augsburg exist?
+query(east(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','car_sharing'))),qtype(least(topx(1))))
+Is there a carsharing in Augsburg?
+query(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','car_sharing')),qtype(least(topx(1))))
+does a carsharing exist in Augsburg?
+query(area(keyval('name','<nom> 3600062407</nom>')),nwr(keyval('amenity','car_sharing')),qtype(least(topx(1))))
+Is there a carsharing in the east of Wiesbaden?
+query(east(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','car_sharing'))),qtype(least(topx(1))))
+does a carsharing in the east of Wiesbaden exist?
+query(east(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','car_sharing'))),qtype(least(topx(1))))
+Is there a carsharing in Wiesbaden?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','car_sharing')),qtype(least(topx(1))))
+does a carsharing exist in Wiesbaden?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','car_sharing')),qtype(least(topx(1))))
+Is there a carsharing in the east of Gelsenkirchen?
+query(east(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','car_sharing'))),qtype(least(topx(1))))
+does a carsharing in the east of Gelsenkirchen exist?
+query(east(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','car_sharing'))),qtype(least(topx(1))))
+Is there a carsharing in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','car_sharing')),qtype(least(topx(1))))
+does a carsharing exist in Gelsenkirchen?
+query(area(keyval('name','<nom> 3600062522</nom>')),nwr(keyval('amenity','car_sharing')),qtype(least(topx(1))))
+Is there an advertising agency in the west of Mönchengladbach?
+query(west(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('office','advertising_agency'))),qtype(least(topx(1))))
+does an advertising agency in the west of Mönchengladbach exist?
+query(west(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('office','advertising_agency'))),qtype(least(topx(1))))
+Is there an advertising agency in Mönchengladbach?
+query(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('office','advertising_agency')),qtype(least(topx(1))))
+does an advertising agency exist in Mönchengladbach?
+query(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('office','advertising_agency')),qtype(least(topx(1))))
+Is there an advertising agency in the west of Brunswick?
+query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('office','advertising_agency'))),qtype(least(topx(1))))
+does an advertising agency in the west of Braunschweig exist?
+query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('office','advertising_agency'))),qtype(least(topx(1))))
+Is there an advertising agency in Brunswick?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('office','advertising_agency')),qtype(least(topx(1))))
+does an advertising agency exist in Braunschweig?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('office','advertising_agency')),qtype(least(topx(1))))
+Is there an advertising agency in the west of Chemnitz?
+query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('office','advertising_agency'))),qtype(least(topx(1))))
+does an advertising agency in the west of Chemnitz exist?
+query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('office','advertsing_agency'))),qtype(least(topx(1))))
+Is there an advertising agency in Chemnitz?
+query(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('office','advertsing_agency')),qtype(least(topx(1))))
+does an advertising agency exist in Chemnitz?
+query(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('office','advertising_agency')),qtype(least(topx(1))))
+Is there a dry cleaner in the west of Mönchengladbach?
+query(west(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('shop','dry_cleaning'))),qtype(least(topx(1))))
+does a dry cleaner in the west of Mönchengladbach exist?
+query(west(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('shop','dry_cleaning'))),qtype(least(topx(1))))
+Is there a dry cleaner in Mönchengladbach?
+query(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('shop','dry_cleaning')),qtype(least(topx(1))))
+does a dry cleaner exist in Mönchengladbach?
+query(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('shop','dry_cleaning')),qtype(least(topx(1))))
+Is there a dry cleaner in the west of Brunswick?
+query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('shop','dry_cleaning'))),qtype(least(topx(1))))
+does a dry cleaner in the west of Braunschweig exist?
+query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('shop','dry_cleaning'))),qtype(least(topx(1))))
+Is there a dry cleaner in Brunswick?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('shop','dry_cleaning')),qtype(least(topx(1))))
+does a dry cleaner exist in Braunschweig?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('shop','dry_cleaning')),qtype(least(topx(1))))
+Is there a dry cleaner in the west of Chemnitz?
+query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','dry_cleaning'))),qtype(least(topx(1))))
+does a dry cleaner in the west of Chemnitz exist?
+query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','dry_cleaning'))),qtype(least(topx(1))))
+Is there a dry cleaner in Chemnitz?
+query(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','dry_cleaning')),qtype(least(topx(1))))
+does a dry cleaner exist in Chemnitz?
+query(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','dry_cleaning')),qtype(least(topx(1))))
+Is there a boat rental in the west of Mönchengladbach?
+query(west(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('amenity','boat_rental'))),qtype(least(topx(1))))
+does a boat rental in the west of Mönchengladbach exist?
+query(west(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('amenity','boat_rental'))),qtype(least(topx(1))))
+Is there a boat rental in Mönchengladbach?
+query(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('amenity','boat_rental')),qtype(least(topx(1))))
+does a boat rental exist in Mönchengladbach?
+query(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('amenity','boat_rental')),qtype(least(topx(1))))
+Is there a boat rental in the west of Brunswick?
+query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('amenity','boat_rental'))),qtype(least(topx(1))))
+does a boat rental in the west of Braunschweig exist?
+query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('amenity','boat_rental'))),qtype(least(topx(1))))
+Is there a boat rental in Brunswick?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','boat_rental')),qtype(least(topx(1))))
+does a boat rental exist in Braunschweig?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('amenity','boat_rental')),qtype(least(topx(1))))
+Is there a boat rental in the west of Chemnitz?
+query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('amenity','boat_rental'))),qtype(least(topx(1))))
+does a boat rental in the west of Chemnitz exist?
+query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('amenity','boat_rental'))),qtype(least(topx(1))))
+Is there a boat rental in Chemnitz?
+query(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('amenity','boat_rental')),qtype(least(topx(1))))
+does a boat rental exist in Chemnitz?
+query(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('amenity','boat_rental')),qtype(least(topx(1))))
+Is there a beauty salon in the west of Mönchengladbach?
+query(west(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))
+does a beauty salon in the west of Mönchengladbach exist?
+query(west(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))
+Is there a beauty salon in Mönchengladbach?
+query(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('shop','beauty')),qtype(least(topx(1))))
+does a beauty salon exist in Mönchengladbach?
+query(area(keyval('name','<nom> 3600062410</nom>')),nwr(keyval('shop','beauty')),qtype(least(topx(1))))
+Is there a beauty salon in the west of Brunswick?
+query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))
+does a beauty salon in the west of Braunschweig exist?
+query(west(area(keyval('name','<nom> 3600062531</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))
+Is there a beauty salon in Brunswick?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('shop','beauty')),qtype(least(topx(1))))
+does a beauty salon exist in Braunschweig?
+query(area(keyval('name','<nom> 3600062496</nom>')),nwr(keyval('shop','beauty')),qtype(least(topx(1))))
+Is there a beauty salon in the west of Chemnitz?
+query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))
+does a beauty salon in the west of Chemnitz exist?
+query(west(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','beauty'))),qtype(least(topx(1))))
+Is there a beauty salon in Chemnitz?
+query(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','beauty')),qtype(least(topx(1))))
+does a beauty salon exist in Chemnitz?
+query(area(keyval('name','<nom> 3600062594</nom>')),nwr(keyval('shop','beauty')),qtype(least(topx(1))))
