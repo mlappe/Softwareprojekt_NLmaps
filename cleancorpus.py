@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+##################################################
+# a short program to clean the corpus, no need to execute again
+#by Max Lappé
 import os
 
 inputfolder = "./Endcorpus"

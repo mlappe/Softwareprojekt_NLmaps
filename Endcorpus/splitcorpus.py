@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+##################################################################################
+#this program was used to create the random split of our data
+#	create_corpussplit(0.7,0.2,0.1)
+#	--->70% Train 20% Dev 10% Test
+#
+#by Max Lappé
+#
 import random
 mrlfilename = "all.mrl"
 nlfilename = "all.nl"
