@@ -95,8 +95,8 @@ tf.app.flags.DEFINE_integer("max_train_data_size", 0,
                             "Limit on the size of training data (0: no limit).")
 tf.app.flags.DEFINE_integer("steps_per_checkpoint", 200,
                             "How many training steps to do per checkpoint.")
-tf.app.flags.DEFINE_boolean("decode", sys.argv[1],
-                            "Set to True for interactive decoding.")
+tf.app.flags.DEFINE_boolean("decode", False,
+                            "Set to True for decoding.")
 tf.app.flags.DEFINE_boolean("self_test", False,
                             "Run a self-test if this is set to True.")
 tf.app.flags.DEFINE_integer("beam", 100,
@@ -104,7 +104,7 @@ tf.app.flags.DEFINE_integer("beam", 100,
 tf.app.flags.DEFINE_integer("maxSteps", 1600,
                             "Number of Training Steps")
 tf.app.flags.DEFINE_boolean("demo", False,
-                            "Runs a demo if set to True")
+                            "Set to True for interactive decoding.")
 
 FLAGS = tf.app.flags.FLAGS
 
