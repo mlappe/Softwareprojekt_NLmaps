@@ -3,8 +3,8 @@ First of all, follow the instructions in this video to install moses properly an
 
 https://www.youtube.com/watch?v=aaalgJoRy54
 
-Eventually, create a folder containing another folder "corps" with six files: train.nl/mrl, test.nl/mrl and tune.nl/mrl
-and "mosespipe.sh".
+Eventually, create a folder containing a folder "corps" with six files: train.nl/mrl, test.nl/mrl and tune.nl/mrl
+and "mosespipe.sh"(mosespipe should be in the main folder, not in "corps").
 
 The last step is to run the script.
 
