@@ -326,15 +326,12 @@ def decode():
       
       return decode_once(output_logits,rev_fr_vocab)
       
-<<<<<<< HEAD:nmt/translate.py
+
       
     for mrl, sentence in testdataiterator():
-=======
-    
     
     #decoding the whole test corpus
-    for mrl, sentence in devdataiterator():
->>>>>>> b42b81ac491fafc1fea4644d388ede067707b0bf:nmt/translatechanged_So.py
+
       print("translating:" +str(sentence))
       sentence = MRL_Linearizer.stemNL(sentence)
       value, counter=single_sentence_decoding(sentence)
@@ -469,12 +466,7 @@ def decoding_iter(output_logits):
 	
 	
 		
-<<<<<<< HEAD:nmt/translate.py
 
-=======
-'''def decode_until_wellformed(output_logits,rev_fr_vocab):
-	pass'''
->>>>>>> b42b81ac491fafc1fea4644d388ede067707b0bf:nmt/translatechanged_So.py
 
 
 	
@@ -512,16 +504,13 @@ nlfilename = "../Endcorpus/train.nl"
 tunemrlfilename = "../Endcorpus/tune.mrl"
 tunenlfilename = "../Endcorpus/tune.nl"
 
-<<<<<<< HEAD:nmt/translate.py
+
 testmrlfilename = "../Endcorpus/test.mrl"
 testnlfilename = "../Endcorpus/test.nl"
 
 #data is always fetched with these three iterators
 
-=======
 
-#reading the corpus
->>>>>>> b42b81ac491fafc1fea4644d388ede067707b0bf:nmt/translatechanged_So.py
 def traindataiterator():
 	"""
 	iterates over traindata, yields mrl, nl
@@ -596,16 +585,12 @@ grammar_file = "../cfg/cfg.txt"
 gr = cfg.Grammar(grammar_file)
 parser.set_grammar(gr)
 
-<<<<<<< HEAD:nmt/translate.py
+
 def is_wellformed(mrl):
 	"""
 	calls cfg checks on the given linearized mrl
 	see directory ../cfg 
 	"""
-=======
-#checks whether a translated MRL is a wellformed according to the CFG
-def is_wellformed(mrl):		
->>>>>>> b42b81ac491fafc1fea4644d388ede067707b0bf:nmt/translatechanged_So.py
 	#mrl = "".join(mrllist)
 	print (mrl)
 	try:
