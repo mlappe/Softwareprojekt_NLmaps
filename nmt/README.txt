@@ -12,7 +12,21 @@ the output can be found in
 		contains the decoding step, linearized mrl and mrl
 
 
+if you want to execute the program manually
+	translate.py --maxSteps 1600 --size 256 --num_layers 3 --learning_rate 0.5
+		trains a new model 
+			size: number of cells in a layer
+			num_layers: number of layers
+			maxSteps: number of trainig steps
 
+	translate.py --decode --beam 100
+			translates the test data
+
+	translate.py --decode --demo
+			start interactive translation
+			will prompt you to give a sentence to translate
+
+for more command line options see translate.py
 
 
 
