@@ -88,7 +88,7 @@ tf.app.flags.DEFINE_integer("batch_size", 64,
 tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 3, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("en_vocab_size", 40000, "English vocabulary size.")
-tf.app.flags.DEFINE_integer("fr_vocab_size", 40000, "French vocabulary size.")
+tf.app.flags.DEFINE_integer("fr_vocab_size", 40000, "MRL vocabulary size.")
 tf.app.flags.DEFINE_string("data_dir", "./tmp", "Data directory")
 tf.app.flags.DEFINE_string("train_dir", "./tmp", "Training directory.")
 tf.app.flags.DEFINE_integer("max_train_data_size", 0,
@@ -171,18 +171,18 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
   Args:
     data_dir: directory in which the data sets will be stored.
     en_vocabulary_size: size of the English vocabulary to create and use.
-    fr_vocabulary_size: size of the French vocabulary to create and use.
+    fr_vocabulary_size: size of the MRL vocabulary to create and use.
     tokenizer: a function to use to tokenize each data sentence;
       if None, basic_tokenizer will be used.
 
   Returns:
     A tuple of 6 elements:
       (1) path to the token-ids for English training data-set,
-      (2) path to the token-ids for French training data-set,
+      (2) path to the token-ids for MRL training data-set,
       (3) path to the token-ids for English development data-set,
-      (4) path to the token-ids for French development data-set,
+      (4) path to the token-ids for MRL development data-set,
       (5) path to the English vocabulary file,
-      (6) path to the French vocabulary file.
+      (6) path to the MRL vocabulary file.
   """
   # Get wmt data to the specified directory.
   train_path = get_nlmaptrain(data_dir)
@@ -212,7 +212,7 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
 
 
 def train():
-  """Train a en->fr translation model using WMT data."""
+  """Train a en->mrl translation model using WMT data."""
   # Prepare WMT data.
   print("Preparing WMT data in %s" % FLAGS.data_dir)
   en_train, fr_train, en_dev, fr_dev, _, _ = prepare_wmt_data(
@@ -326,13 +326,21 @@ def decode():
       
       return decode_once(output_logits,rev_fr_vocab)
       
+<<<<<<< HEAD:nmt/translate.py
       
     for mrl, sentence in testdataiterator():
+=======
+    
+    
+    #decoding the whole test corpus
+    for mrl, sentence in devdataiterator():
+>>>>>>> b42b81ac491fafc1fea4644d388ede067707b0bf:nmt/translatechanged_So.py
       print("translating:" +str(sentence))
       sentence = MRL_Linearizer.stemNL(sentence)
       value, counter=single_sentence_decoding(sentence)
       print ('Found at iteration: '+str(counter))
       print (value)
+      #writing the translations on a file
       mrlf.write(str(counter)+"|||"+value+"|||"+Delinearizer.delinearizer(value)+"\n")
       mrlf.flush()
       
@@ -363,19 +371,18 @@ def decode_once(output_logits,rev_fr_vocab):
 	f_iter = decoding_iter(output_logits)
 	outputs = f_iter.__next__()
 	
-	#print (output_logits)
+	
 	best_outputs=[]
 	for out in outputs:
 	  best_outputs.append(out.tolist())
 	  
-	#print (best_outputs)	#list of the best outputs, to be feeded for computing multiple outstr
-	symb=best_outputs[:int(len(best_outputs))//2]
-	par=best_outputs[int(len(best_outputs))//2:]
-	#print (symb)
-	#print (par)
+	#to backtrack hypothesis we need:  
+	symb=best_outputs[:int(len(best_outputs))//2] #the symbols 
+	par=best_outputs[int(len(best_outputs))//2:] #and which hypothesis they came from 
 	
-	 
-	def one_hyp(rank_hyp):
+	
+	#reconstructing a single hypothesis
+	def one_hyp(rank_hyp):			
 	  hyp=[]
 	  hyp.append(symb[-1][rank_hyp])    #appending the symbol to the right hypothesis, starting backwards
 	  meta=par[-1][rank_hyp]
@@ -387,11 +394,12 @@ def decode_once(output_logits,rev_fr_vocab):
 	
 	iswellformed = False
 	counter = 0
-	while (not iswellformed) and counter < FLAGS.beam:
-	  outstr, iswellformed = process_decoding(one_hyp(counter),rev_fr_vocab)
+	#process the decoding with a single beam-search hypothesis at a time
+	# in order to find a wellformed one 
+	while (not iswellformed) and counter < FLAGS.beam:				
+	  outstr, iswellformed = process_decoding(one_hyp(counter),rev_fr_vocab)     	
 	  counter += 1
-	  #print(outstr)
-	  #print("this mrl is wellformed: "+ str(iswellformed))
+	 
 	  sys.stdout.flush()
 	if counter == FLAGS.beam: 
 	  return "No wellformed MRL found", counter
@@ -425,7 +433,7 @@ def decoding_iter(output_logits):
 	  prob=[]
 	  def beam_search(logit,i):
 	    
-	    probs=logit
+	    probs=logit		#applying beam-search on the ommited sentence logits 
 	    
 	    if i>1:
 	      probs = tf.reshape(probs + log_beam_probs[-1],[-1, beam_size * num_symbols])
@@ -436,7 +444,7 @@ def decoding_iter(output_logits):
 	    best_probs = tf.stop_gradient(tf.reshape(best_probs, [-1, 1]))
 	    symbols = indices % num_symbols # Which word in vocabulary.
 	    
-	    beam_parent = indices // num_symbols # Which hypothesis it came from.
+	    beam_parent = indices // num_symbols # Which hypothesis it cames from.
 	    beam_symbols.append(symbols)
 	    log_beam_probs.append(best_probs)
 	    beam_path.append(beam_parent)
@@ -450,7 +458,7 @@ def decoding_iter(output_logits):
 	  
 	  
 	  input_feed = {inputs[i]: output_logits[i][:beam_size] for i in xrange(num_steps)}
-	  output_feed = beam_symbols + beam_path
+	  output_feed = beam_symbols + beam_path	#to backtrack hypothesis we need the k-best symbols and their parent hypothesis
 	  session = tf.InteractiveSession()
 	  outputs = session.run(output_feed, feed_dict=input_feed)
 	  
@@ -461,7 +469,12 @@ def decoding_iter(output_logits):
 	
 	
 		
+<<<<<<< HEAD:nmt/translate.py
 
+=======
+'''def decode_until_wellformed(output_logits,rev_fr_vocab):
+	pass'''
+>>>>>>> b42b81ac491fafc1fea4644d388ede067707b0bf:nmt/translatechanged_So.py
 
 
 	
@@ -499,11 +512,16 @@ nlfilename = "../Endcorpus/train.nl"
 tunemrlfilename = "../Endcorpus/tune.mrl"
 tunenlfilename = "../Endcorpus/tune.nl"
 
+<<<<<<< HEAD:nmt/translate.py
 testmrlfilename = "../Endcorpus/test.mrl"
 testnlfilename = "../Endcorpus/test.nl"
 
 #data is always fetched with these three iterators
 
+=======
+
+#reading the corpus
+>>>>>>> b42b81ac491fafc1fea4644d388ede067707b0bf:nmt/translatechanged_So.py
 def traindataiterator():
 	"""
 	iterates over traindata, yields mrl, nl
@@ -578,11 +596,16 @@ grammar_file = "../cfg/cfg.txt"
 gr = cfg.Grammar(grammar_file)
 parser.set_grammar(gr)
 
+<<<<<<< HEAD:nmt/translate.py
 def is_wellformed(mrl):
 	"""
 	calls cfg checks on the given linearized mrl
 	see directory ../cfg 
 	"""
+=======
+#checks whether a translated MRL is a wellformed according to the CFG
+def is_wellformed(mrl):		
+>>>>>>> b42b81ac491fafc1fea4644d388ede067707b0bf:nmt/translatechanged_So.py
 	#mrl = "".join(mrllist)
 	print (mrl)
 	try:
