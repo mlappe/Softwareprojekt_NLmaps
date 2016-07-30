@@ -1,5 +1,25 @@
 
 #!/usr/bin/env python3
+
+# This is a changed Version of 
+#	https://github.com/tensorflow/tensorflow/blob/01c87f55ca7b64a2dc680aff8b2a60aa079746ec/tensorflow/models/rnn/translate/translate.py
+#
+# by the TenorFlow Authors.
+# Changes were made by Stoyan Dimitrov and Max Lappé in July 2016
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+
+#original Copyright notice:
+
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -81,6 +101,8 @@ tf.app.flags.DEFINE_boolean("self_test", False,
                             "Run a self-test if this is set to True.")
 tf.app.flags.DEFINE_integer("beam", 5,
                             "Find the [beam]-best translations.")
+tf.app.flags.DEFINE_integer("maxSteps", 1600,
+                            "Number of Training Steps")
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -219,7 +241,7 @@ def train():
     step_time, loss = 0.0, 0.0
     current_step = 0
     previous_losses = []
-    while True:
+    while current_step < FLAGS.maxSteps+1:
       # Choose a bucket according to data distribution. We pick a random number
       # in [0, 1] and use the corresponding interval in train_buckets_scale.
       random_number_01 = np.random.random_sample()
@@ -325,7 +347,7 @@ def process_decoding(outputs,rev_fr_vocab):
 		outputs = outputs[:outputs.index(data_utils.EOS_ID)]
 		
 		
-	# Print out French sentence corresponding to outputs.
+	# Get out French sentence/mrl corresponding to outputs.
 	outstr = " ".join([tf.compat.as_str(rev_fr_vocab[output]) for output in outputs])
 	 
 	
@@ -334,6 +356,9 @@ def process_decoding(outputs,rev_fr_vocab):
 	return outstr,iswellformed
 	
 def decode_once(output_logits,rev_fr_vocab):
+	"""
+	decode one sentence until a wellformed translation is found or all nbest translations were tried
+	"""
 						
 	f_iter = decoding_iter(output_logits)
 	outputs = f_iter.__next__()
@@ -436,8 +461,7 @@ def decoding_iter(output_logits):
 	
 	
 		
-def decode_until_wellformed(output_logits,rev_fr_vocab):
-	pass
+
 
 
 	
@@ -465,12 +489,9 @@ def self_test():
 
 
           
-@functools.lru_cache(maxsize=None, typed=False)         
-def isdevinstance(index):
-	if random.random() < 2:
-		return True
-	else:
-		return False
+
+
+# data paths
 		
 mrlfilename = "../Endcorpus/train.mrl"
 nlfilename = "../Endcorpus/train.nl"
@@ -481,7 +502,12 @@ tunenlfilename = "../Endcorpus/tune.nl"
 testmrlfilename = "../Endcorpus/test.mrl"
 testnlfilename = "../Endcorpus/test.nl"
 
+#data is always fetched with these three iterators
+
 def traindataiterator():
+	"""
+	iterates over traindata, yields mrl, nl
+	"""
 	with open(mrlfilename) as mrlfile:
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
@@ -491,6 +517,9 @@ def traindataiterator():
 				print (nl)
 				yield mrl,nl
 def devdataiterator():
+	"""
+	iterates over devdata, yields mrl, nl
+	"""
 	with open(tunemrlfilename) as mrlfile:
 		with open(tunenlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
@@ -501,6 +530,9 @@ def devdataiterator():
 				yield mrl,nl
 
 def testdataiterator():
+	"""
+	iterates over testdata, yields mrl, nl
+	"""
 	with open(testmrlfilename) as mrlfile:
 		with open(testnlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
@@ -511,6 +543,10 @@ def testdataiterator():
 				yield mrl,nl
 
 def get_nlmaptrain(data_dir):
+	"""
+	gets training data for prepare_wmt_data 
+	if you want to change the data, change traindataiterator()
+	"""
 	trainpath = os.path.join(data_dir, "traindata")
 	os.makedirs(trainpath)
 	#files have to end with .fr and .en
@@ -523,6 +559,10 @@ def get_nlmaptrain(data_dir):
 	return trainpath
 
 def get_nlmapdev(data_dir):
+	"""
+	gets dev data for prepare_wmt_data 
+	if you want to change the data, change devdataiterator()
+	"""
 	devpath = os.path.join(data_dir, "devdata")
 	os.makedirs(devpath)
 	with open(devpath+".fr","w+") as mrlfile:
@@ -532,12 +572,17 @@ def get_nlmapdev(data_dir):
 				nlfile.write(nl)
 	return devpath
 
+"""init cfg"""
 parser = cfg.EarleyParser()
-	
 grammar_file = "../cfg/cfg.txt"
 gr = cfg.Grammar(grammar_file)
 parser.set_grammar(gr)
+
 def is_wellformed(mrl):
+	"""
+	calls cfg checks on the given linearized mrl
+	see directory ../cfg 
+	"""
 	#mrl = "".join(mrllist)
 	print (mrl)
 	try:
