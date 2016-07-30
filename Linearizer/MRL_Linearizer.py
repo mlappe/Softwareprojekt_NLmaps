@@ -6,7 +6,7 @@ import nltk,shlex
 #                                                                                                                                               #
 # Author: Ozan Yilmaz                                                                                                                           #
 #                                                                                                                                               #
-# This is the MRL_Linearizer module(Map-numbers-to-consonants for the softwareprojekt Semantic Parsing as Monolingual Machine Translation.      #
+# This is the MRL_Linearizer module(Map-numbers-to-consonants) for the softwareprojekt Semantic Parsing as Monolingual Machine Translation.      #
 #                                                                                                                                               #
 # Contains following functions:                                                                                                                 #
 #                                                                                                                                               #
