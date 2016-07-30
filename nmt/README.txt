@@ -18,6 +18,8 @@ if you want to execute the program manually
 			size: number of cells in a layer
 			num_layers: number of layers
 			maxSteps: number of trainig steps
+		before execution you have to delete the tmp(with all model data) directory, we did not automate this because we
+		want to make sure the deletion is intentional
 
 	translate.py --decode --beam 100
 			translates the test data
