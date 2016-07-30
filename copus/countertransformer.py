@@ -5,6 +5,7 @@
 # counts the produced MRL-natural language pairs and transforms them into a useable format
 
 # when calling this method, an input file (MRL-natural language pairs) and an two output files have to be specified
+# Bsp.: python3 countertransformer.py Queries_least.txt questions_least.txt mrls_least.txt
 
 import sys
 
