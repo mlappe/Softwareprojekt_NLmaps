@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
@@ -40,12 +41,15 @@ import random
 import sys
 import time
 import random
+import itertools
 
 
 # Path hack.
 import sys, os
 sys.path.insert(0, os.path.abspath('..'))
 from cfg import my_cfg_set as cfg
+from oldLinearizer import MRL_Linearizer
+from oldLinearizer import Delinearizer
 
 import numpy as np
 from six.moves import xrange  # pylint: disable=redefined-builtin
@@ -53,7 +57,6 @@ import tensorflow as tf
 
 from tensorflow.models.rnn.translate import data_utils
 from tensorflow.models.rnn.translate import seq2seq_model
-
 
 tf.app.flags.DEFINE_float("learning_rate", 0.5, "Learning rate.")
 tf.app.flags.DEFINE_float("learning_rate_decay_factor", 0.99,
@@ -76,6 +79,8 @@ tf.app.flags.DEFINE_boolean("decode", True,
                             "Set to True for interactive decoding.")
 tf.app.flags.DEFINE_boolean("self_test", False,
                             "Run a self-test if this is set to True.")
+tf.app.flags.DEFINE_integer("beam", 5,
+                            "Find the [beam]-best translations.")
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -158,26 +163,26 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
       (6) path to the French vocabulary file.
   """
   # Get wmt data to the specified directory.
-  train_path = get_wmt_enfr_train_set(data_dir)
-  dev_path = get_wmt_enfr_dev_set(data_dir)
+  train_path = get_nlmaptrain(data_dir)
+  dev_path = get_nlmapdev(data_dir)
 
   # Create vocabularies of the appropriate sizes.
   fr_vocab_path = os.path.join(data_dir, "vocab%d.fr" % fr_vocabulary_size)
   en_vocab_path = os.path.join(data_dir, "vocab%d.en" % en_vocabulary_size)
-  create_vocabulary(fr_vocab_path, train_path + ".fr", fr_vocabulary_size, tokenizer)
-  create_vocabulary(en_vocab_path, train_path + ".en", en_vocabulary_size, tokenizer)
+  data_utils.create_vocabulary(fr_vocab_path, train_path + ".fr", fr_vocabulary_size, tokenizer,normalize_digits=False)
+  data_utils.create_vocabulary(en_vocab_path, train_path + ".en", en_vocabulary_size, tokenizer,normalize_digits=False)
 
   # Create token ids for the training data.
   fr_train_ids_path = train_path + (".ids%d.fr" % fr_vocabulary_size)
   en_train_ids_path = train_path + (".ids%d.en" % en_vocabulary_size)
-  data_to_token_ids(train_path + ".fr", fr_train_ids_path, fr_vocab_path, tokenizer)
-  data_to_token_ids(train_path + ".en", en_train_ids_path, en_vocab_path, tokenizer)
+  data_utils.data_to_token_ids(train_path + ".fr", fr_train_ids_path, fr_vocab_path, tokenizer, normalize_digits=False)
+  data_utils.data_to_token_ids(train_path + ".en", en_train_ids_path, en_vocab_path, tokenizer, normalize_digits=False)
 
   # Create token ids for the development data.
   fr_dev_ids_path = dev_path + (".ids%d.fr" % fr_vocabulary_size)
   en_dev_ids_path = dev_path + (".ids%d.en" % en_vocabulary_size)
-  data_to_token_ids(dev_path + ".fr", fr_dev_ids_path, fr_vocab_path, tokenizer)
-  data_to_token_ids(dev_path + ".en", en_dev_ids_path, en_vocab_path, tokenizer)
+  data_utils.data_to_token_ids(dev_path + ".fr", fr_dev_ids_path, fr_vocab_path, tokenizer, normalize_digits=False)
+  data_utils.data_to_token_ids(dev_path + ".en", en_dev_ids_path, en_vocab_path, tokenizer, normalize_digits=False)
 
   return (en_train_ids_path, fr_train_ids_path,
           en_dev_ids_path, fr_dev_ids_path,
@@ -189,11 +194,8 @@ def train():
   # Prepare WMT data.
   print("Preparing WMT data in %s" % FLAGS.data_dir)
   en_train, fr_train, en_dev, fr_dev, _, _ = prepare_wmt_data(
-      FLAGS.data_dir, FLAGS.en_vocab_size, FLAGS.fr_vocab_size,normalize_digits=False)
+      FLAGS.data_dir, FLAGS.en_vocab_size, FLAGS.fr_vocab_size)
 
-      
-      
-      
   with tf.Session() as sess:
     # Create model.
     print("Creating %d layers of %d units." % (FLAGS.num_layers, FLAGS.size))
@@ -262,12 +264,14 @@ def train():
           print("  eval: bucket %d perplexity %.2f" % (bucket_id, eval_ppx))
         sys.stdout.flush()
 
-
+outmrlfilename = "out.txt"
 def decode():
   with tf.Session() as sess:
     # Create model and load parameters.
     model = create_model(sess, True)
     model.batch_size = 1  # We decode one sentence at a time.
+    mrlf = open(outmrlfilename,"w+")
+
 
     # Load vocabularies.
     en_vocab_path = os.path.join(FLAGS.data_dir,
@@ -278,10 +282,14 @@ def decode():
     _, rev_fr_vocab = data_utils.initialize_vocabulary(fr_vocab_path)
 
     # Decode from standard input.
-    sys.stdout.write("> ")
-    sys.stdout.flush()
-    sentence = sys.stdin.readline()
-    while sentence:
+    #sys.stdout.write("> ")
+    #sys.stdout.flush()
+    #sentence = sys.stdin.readline()
+    #sentence = MRL_Linearizer.stemNL(sentence)
+    
+
+    def single_sentence_decoding(sentence):
+    
       # Get token-ids for the input sentence.
       token_ids = data_utils.sentence_to_token_ids(tf.compat.as_bytes(sentence), en_vocab)
       # Which bucket does it belong to?
@@ -294,13 +302,22 @@ def decode():
       _, _, output_logits = model.step(sess, encoder_inputs, decoder_inputs,
                                        target_weights, bucket_id, True)
       
-      decode_once(output_logits,rev_fr_vocab)
-
-      
-
-      sentence = sys.stdin.readline()
+      return decode_once(output_logits,rev_fr_vocab)
       
       
+    for mrl, sentence in testdataiterator():
+      print("translating:" +str(sentence))
+      sentence = MRL_Linearizer.stemNL(sentence)
+      value, counter=single_sentence_decoding(sentence)
+      print ('Found at iteration: '+str(counter))
+      print (value)
+      mrlf.write(str(counter)+"|||"+value+"|||"+Delinearizer.delinearizer(value)+"\n")
+      mrlf.flush()
+      
+    
+    
+    
+    
 def process_decoding(outputs,rev_fr_vocab):
 	# If there is an EOS symbol in outputs, cut them at that point.
 	if data_utils.EOS_ID in outputs:
@@ -317,30 +334,115 @@ def process_decoding(outputs,rev_fr_vocab):
 	return outstr,iswellformed
 	
 def decode_once(output_logits,rev_fr_vocab):
+						
 	f_iter = decoding_iter(output_logits)
 	outputs = f_iter.__next__()
 	
-	outstr, iswellformed = process_decoding(outputs,rev_fr_vocab)
+	#print (output_logits)
+	best_outputs=[]
+	for out in outputs:
+	  best_outputs.append(out.tolist())
+	  
+	#print (best_outputs)	#list of the best outputs, to be feeded for computing multiple outstr
+	symb=best_outputs[:int(len(best_outputs))//2]
+	par=best_outputs[int(len(best_outputs))//2:]
+	#print (symb)
+	#print (par)
 	
-
-	print(outstr)
-	print("this mrl is wellformed: "+ str(iswellformed))
-	print("> ", end="")
-	sys.stdout.flush()
+	 
+	def one_hyp(rank_hyp):
+	  hyp=[]
+	  hyp.append(symb[-1][rank_hyp])    #appending the symbol to the right hypothesis, starting backwards
+	  meta=par[-1][rank_hyp]
+	  for i in range(2,len(symb)+1):
+	    i=-i
+	    hyp.insert(0, symb[i][meta])
+	    meta=par[i][meta] 
+	  return hyp
+	
+	iswellformed = False
+	counter = 0
+	while (not iswellformed) and counter < FLAGS.beam:
+	  outstr, iswellformed = process_decoding(one_hyp(counter),rev_fr_vocab)
+	  counter += 1
+	  #print(outstr)
+	  #print("this mrl is wellformed: "+ str(iswellformed))
+	  sys.stdout.flush()
+	if counter == FLAGS.beam: 
+	  return "No wellformed MRL found", counter
+	else:
+	  return outstr , counter
+#	for i in range(FLAGS.beam):
+#	  #print (one_hyp(i))
+#	  outstr, iswellformed = process_decoding(one_hyp(i),rev_fr_vocab)
+	  
+	 
+#	  print(outstr)
+#	  print("this mrl is wellformed: "+ str(iswellformed))
+	 
+#	  print("> ", end="")
+#	  sys.stdout.flush()
+	 # elif count==len(best_outputs):
+	  #  print ("I don't know")
+	    
+	  #print (outstr, iswellformed)
+	  
 	
 def decoding_iter(output_logits):
-	# This is a greedy decoder - outputs are just argmaxes of output_logits.
-	outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
+	# This is a beam-search decoder - 
+	
+	
+	with tf.Graph().as_default():
+	  beam_size = FLAGS.beam # Number of hypotheses in beam.
+	  num_symbols = FLAGS.fr_vocab_size  # Output vocabulary size
+	  num_steps = len(output_logits)
+	  log_beam_probs, beam_symbols, beam_path = [], [], []
+	  prob=[]
+	  def beam_search(logit,i):
+	    
+	    probs=logit
+	    
+	    if i>1:
+	      probs = tf.reshape(probs + log_beam_probs[-1],[-1, beam_size * num_symbols])
+	      prob.append(tf.shape(probs))
+	     
+	    best_probs, indices = tf.nn.top_k(probs, beam_size)
+	    indices = tf.stop_gradient(tf.squeeze(tf.reshape(indices, [-1, 1])))
+	    best_probs = tf.stop_gradient(tf.reshape(best_probs, [-1, 1]))
+	    symbols = indices % num_symbols # Which word in vocabulary.
+	    
+	    beam_parent = indices // num_symbols # Which hypothesis it came from.
+	    beam_symbols.append(symbols)
+	    log_beam_probs.append(best_probs)
+	    beam_path.append(beam_parent)
+	   
+	  
+	  
+	  inputs = [tf.placeholder(tf.float32, shape=[None, num_symbols]) for i in range(num_steps)]
+	  for i in range(len(output_logits)):
+	    beam_search(inputs[i],i+1)
+	  #beam_search(inputs[1], 0)
+	  
+	  
+	  input_feed = {inputs[i]: output_logits[i][:beam_size] for i in xrange(num_steps)}
+	  output_feed = beam_symbols + beam_path
+	  session = tf.InteractiveSession()
+	  outputs = session.run(output_feed, feed_dict=input_feed)
+	  
 	yield outputs
 
 	
 	
-	while True:
-		outputs = [int(nplipud(np.argsort(logit, axis=1))[0]) for logit in output_logits] # sorts everytime, that can be done better
-		yield outputs
+	
+	
 		
 def decode_until_wellformed(output_logits,rev_fr_vocab):
 	pass
+
+
+	
+	
+	
 
 def self_test():
   """Test the translation model."""
@@ -361,76 +463,52 @@ def self_test():
       model.step(sess, encoder_inputs, decoder_inputs, target_weights,
                  bucket_id, False)
 
-def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer=None):
-  """Get WMT data into data_dir, create vocabularies and tokenize data.
 
-  Args:
-    data_dir: directory in which the data sets will be stored.
-    en_vocabulary_size: size of the English vocabulary to create and use.
-    fr_vocabulary_size: size of the French vocabulary to create and use.
-    tokenizer: a function to use to tokenize each data sentence;
-      if None, basic_tokenizer will be used.
-
-  Returns:
-    A tuple of 6 elements:
-      (1) path to the token-ids for English training data-set,
-      (2) path to the token-ids for French training data-set,
-      (3) path to the token-ids for English development data-set,
-      (4) path to the token-ids for French development data-set,
-      (5) path to the English vocabulary file,
-      (6) path to the French vocabulary file.
-  """
-  # Get wmt data to the specified directory.
-  train_path = get_nlmaptrain(data_dir)
-  dev_path = get_nlmapdev(data_dir)
-
-  # Create vocabularies of the appropriate sizes.
-  fr_vocab_path = os.path.join(data_dir, "vocab%d.fr" % fr_vocabulary_size)
-  en_vocab_path = os.path.join(data_dir, "vocab%d.en" % en_vocabulary_size)
-  data_utils.create_vocabulary(fr_vocab_path, train_path + ".fr", fr_vocabulary_size, tokenizer)
-  data_utils.create_vocabulary(en_vocab_path, train_path + ".en", en_vocabulary_size, tokenizer)
-
-  # Create token ids for the training data.
-  fr_train_ids_path = train_path + (".ids%d.fr" % fr_vocabulary_size)
-  en_train_ids_path = train_path + (".ids%d.en" % en_vocabulary_size)
-  data_utils.data_to_token_ids(train_path + ".fr", fr_train_ids_path, fr_vocab_path, tokenizer)
-  data_utils.data_to_token_ids(train_path + ".en", en_train_ids_path, en_vocab_path, tokenizer)
-
-  # Create token ids for the development data.
-  fr_dev_ids_path = dev_path + (".ids%d.fr" % fr_vocabulary_size)
-  en_dev_ids_path = dev_path + (".ids%d.en" % en_vocabulary_size)
-  data_utils.data_to_token_ids(dev_path + ".fr", fr_dev_ids_path, fr_vocab_path, tokenizer)
-  data_utils.data_to_token_ids(dev_path + ".en", en_dev_ids_path, en_vocab_path, tokenizer)
-
-  return (en_train_ids_path, fr_train_ids_path,
-          en_dev_ids_path, fr_dev_ids_path,
-          en_vocab_path, fr_vocab_path)
           
 @functools.lru_cache(maxsize=None, typed=False)         
 def isdevinstance(index):
-	if random.random() < 0.10:
+	if random.random() < 2:
 		return True
 	else:
 		return False
 		
-mrlfilename = "../MRL_EN_TEST_OHNELEER_linearized.txt"
-nlfilename = "../NL_EN_TEST_stem.txt"
+mrlfilename = "../Endcorpus/train.mrl"
+nlfilename = "../Endcorpus/train.nl"
+
+tunemrlfilename = "../Endcorpus/tune.mrl"
+tunenlfilename = "../Endcorpus/tune.nl"
+
+testmrlfilename = "../Endcorpus/test.mrl"
+testnlfilename = "../Endcorpus/test.nl"
 
 def traindataiterator():
 	with open(mrlfilename) as mrlfile:
 		with open(nlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
 				nl = nlfile.readline()
-				if not isdevinstance(index):
-					yield mrl,nl
-
+				mrl = MRL_Linearizer.linearizeMRL(mrl)
+				nl = MRL_Linearizer.stemNL(nl)
+				print (nl)
+				yield mrl,nl
 def devdataiterator():
-	with open(mrlfilename) as mrlfile:
-		with open(nlfilename) as nlfile:
+	with open(tunemrlfilename) as mrlfile:
+		with open(tunenlfilename) as nlfile:
 			for index,mrl in enumerate(mrlfile):
 				nl = nlfile.readline()
-				if isdevinstance(index):	
-					yield mrl,nl
+				mrl = MRL_Linearizer.linearizeMRL(mrl)
+				nl = MRL_Linearizer.stemNL(nl)
+				print (nl)
+				yield mrl,nl
+
+def testdataiterator():
+	with open(testmrlfilename) as mrlfile:
+		with open(testnlfilename) as nlfile:
+			for index,mrl in enumerate(mrlfile):
+				nl = nlfile.readline()
+				mrl = MRL_Linearizer.linearizeMRL(mrl)
+				nl = MRL_Linearizer.stemNL(nl)
+				print (nl)
+				yield mrl,nl
 
 def get_nlmaptrain(data_dir):
 	trainpath = os.path.join(data_dir, "traindata")
@@ -439,8 +517,8 @@ def get_nlmaptrain(data_dir):
 	with open(trainpath+".fr","w+") as mrlfile:
 		with open(trainpath+ ".en","w+") as nlfile:
 			for mrl,nl in traindataiterator():
-				mrlfile.write(mrl)
-				nlfile.write(nl)
+				mrlfile.write(mrl+"\n")
+				nlfile.write(nl+"\n")
 			
 	return trainpath
 
@@ -461,7 +539,13 @@ gr = cfg.Grammar(grammar_file)
 parser.set_grammar(gr)
 def is_wellformed(mrl):
 	#mrl = "".join(mrllist)
-	output = parser.parse_mrl(mrl)
+	print (mrl)
+	try:
+	  delin = Delinearizer.delinearizer(mrl)
+	except IndexError:
+	  print("Delinearizer failed")
+	  delin = ""
+	output = parser.parse_mrl(delin)
 	return output
 	
 def main(_):
@@ -474,3 +558,4 @@ def main(_):
 
 if __name__ == "__main__":
   tf.app.run()
+  print (1)
