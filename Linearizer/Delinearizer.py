@@ -1,4 +1,7 @@
-# Noch nicht ganz fertig.... Aufruf: fileWriter(LinearisiertesFile,ZielFile(Delinearisiert))
+# This is a module for delinearization of linearized MRLs(Map-Numbers-to-Consonants-Version).
+# Contains functions: delinearizer --> Takes linearized MRL as argument, returns delinearized(normal) MRL.
+#                     fileReader --> Takes delinearized file and goldstandard MRL file to check delinearization.
+#                     fileWriter --> Takes files with linearized MRLs and a target file for the delinearized MRLs as input and generates them.
 
 def delinearizer(LMRL):
     inpt = filter(None,LMRL.split(" "))
@@ -38,7 +41,7 @@ def delinearizer(LMRL):
                     else:
                         first_strng = first_strng.replace("$","'"+que+"'",1)
         except ValueError:
-            print("Blöde Daten")
+            print("Bad Data")
             blöd += 1
             continue
     return (first_strng.replace("%"," "))
@@ -65,7 +68,5 @@ def fileWriter(inpt,outpt):
     
         
 if __name__ == "__main__":
-    #fileReader("MRL_EN_TRAIN_YANG_linearizedTEST3.train.LMRL","Downloads/Softwareprojekt_NLmaps-master/Endcorpus/train.mrl")    
-    #print (fileReader2("Schreibtisch/nlmaps/nlmaps.train.mrl"))
     #fileWriter("MRL_EN_TRAIN_YANG_linearizedTEST3.train.LMRL","Schreibtisch/Delinearized3.txt")
     #print (delinearizer("query@3 area@1 keyval@2 name@0 fjbbbjdgbk  nwr@2 keyval@2 amenity@0 recycling@s keyval@2 recycling:glass@0 yes@s qtype@1 least@1 topx@1 1@0"))
