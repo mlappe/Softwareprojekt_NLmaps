@@ -49,3 +49,7 @@ For Evaluation you need to have bestofList and the unlinearized test.mrl [!NOTE:
 Than you can get the Precision,Recall and F1-Score with following command:
 
 python3 evaluator.py bestofList test.mrl
+
+You can use clear.sh to delete everything created by mosespipe.sh, if you want to start a new run.
+
+NOTE: In general, Machine Translation training is non-convex. this means that there are multiple solutions and each time you run a full training job, you will get different results. It is recommended to do some runs (let's say 10) and calculate the average fscore.
