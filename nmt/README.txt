@@ -1,5 +1,16 @@
 this is the nmt part of our project
 
+Requirements:
+	Tensorflow 
+		https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#download-and-setup
+	pyhton2
+	python3
+		https://www.python.org/downloads/
+	nltk for python3
+		http://www.nltk.org/install.html
+
+(use it on last@cl.uni-heidelberg.de, ella lacks nltk)
+
 to run it use 
 	sh runnmt.sh 
 in this folder

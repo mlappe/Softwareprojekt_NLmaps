@@ -328,20 +328,31 @@ def decode():
       
       return decode_once(output_logits,rev_fr_vocab)
       
-
+    #interactive session?
     if FLAGS.demo==False:  
       for mrl, sentence in testdataiterator():
     
       #decoding the whole test corpus
 
         print("translating:" +str(sentence))
+
+        #stemming input sentence
         sentence = MRL_Linearizer.stemNL(sentence)
+
         value, counter=single_sentence_decoding(sentence)
         print ('Found at iteration: '+str(counter))
         print (value)
+
         #writing the translations on a file
         mrlf.write(str(counter)+"|||"+value+"|||"+Delinearizer.delinearizer(value)+"\n")
         mrlf.flush()
+  
+        #create file containing only the mrls
+        with open("out.txt") as f:
+          with open("nmtout.mrl","w+") as out:
+            for line in f:
+              tokens = line.split("|||")
+              out.write(tokens[2].replace("$",""))
     else:
       sys.stdout.write("> ")
       sys.stdout.flush()
@@ -355,17 +366,23 @@ def decode():
       sys.stdout.flush()
       sentence = sys.stdin.readline()
 
-  with open("out.txt") as f:
-    with open("nmtout.mrl","w+") as out:
-      for line in f:
-        tokens = line.split("|||")
-        out.write(tokens[2].replace("$",""))
+
       
     
     
     
     
 def process_decoding(outputs,rev_fr_vocab):
+        """
+        input:
+           outputs: a list of token ids
+           rev_fr_vocab: vocabulary
+        output:
+           outstring,iswellformed
+        this function turns a list of word ids into a string containing the
+        corresponding words and a boolean indicating whether the outstring is a 
+        wellformed mrl
+        """
 	# If there is an EOS symbol in outputs, cut them at that point.
 	if data_utils.EOS_ID in outputs:
 		
