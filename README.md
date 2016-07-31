@@ -1,5 +1,5 @@
-# Softwareprojekt_NLmaps
-Softwareprojekt - Project 2: Semantic Parsing as Monolingual Machine Translation
+# Software project_NLmaps
+Software project - Project 2: Semantic Parsing as Monolingual Machine Translation
 
 
 
