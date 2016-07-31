@@ -67,9 +67,11 @@ import itertools
 # Path hack.
 import sys, os
 sys.path.insert(0, os.path.abspath('..'))
-from cfg import my_cfg_set as cfg
-from oldLinearizer import MRL_Linearizer
-from oldLinearizer import Delinearizer
+sys.path.insert(0,os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'cfg')))
+sys.path.insert(0,os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'oldLinearizer')))
+import my_cfg_set as cfg
+import MRL_Linearizer
+import Delinearizer
 
 import numpy as np
 from six.moves import xrange  # pylint: disable=redefined-builtin
@@ -373,16 +375,16 @@ def decode():
     
     
 def process_decoding(outputs,rev_fr_vocab):
-        """
-        input:
-           outputs: a list of token ids
-           rev_fr_vocab: vocabulary
-        output:
-           outstring,iswellformed
-        this function turns a list of word ids into a string containing the
-        corresponding words and a boolean indicating whether the outstring is a 
-        wellformed mrl
-        """
+	"""
+	input:
+		outputs: a list of token ids
+		rev_fr_vocab: vocabulary
+	output:
+		outstring,iswellformed
+	this function turns a list of word ids into a string containing the
+	corresponding words and a boolean indicating whether the outstring is a 
+	wellformed mrl
+	"""
 	# If there is an EOS symbol in outputs, cut them at that point.
 	if data_utils.EOS_ID in outputs:
 		
