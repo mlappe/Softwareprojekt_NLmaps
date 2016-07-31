@@ -10,3 +10,6 @@ The last step is to run the script.
 
 "listfile" contains the n-best translations
 "outputOfTest.txt" contains the resulting translations
+
+For the full run with evaluation use "runsmt.sh" ("mosespipe.sh" should still be adapted).
+"record" will contain the selection history. Evaluation results will be displayed in the shell.
