@@ -1,9 +1,12 @@
-This is a short description for running and installing moses.
+This is a short description for running our SMT model and installing Moses
+
 First of all, follow the instructions in this video to install moses properly and colloquate all the files in the correct folders:
 
 https://www.youtube.com/watch?v=aaalgJoRy54
 
-Otherwise necessary commmands:
+OR
+
+ALL NECESSARY COMMANDS:
 
 *** Installing MOSES Decoder ***
 
@@ -27,6 +30,8 @@ and "mosespipe.sh"(mosespipe should be in the main folder, not in "corps"). The 
 
 select_from_nbest.py,my_cfg_set.py,Delinearizer.py(num-to-consonant-version),cfg.txt and (if you want to clear the folder fast again) clear.sh.
 
+Look at MosesFolder1.png and Mosesfolder2.png to see how it's meant to be.
+
 Now you should be able to run mosespipe.sh.
 
 "listfile" contains the n-best translations
@@ -34,7 +39,11 @@ Now you should be able to run mosespipe.sh.
 
 Our final output, which is ready for evaluation, is called "bestofList".
 
+Endresult of mosespipe.sh in folder should look like this: MosesFolder3.png 
+
 For the Evaluation you need to make use of the Evaluation folder and Evaluator.py, which needs to be run on ella (Database is installed on Ella, but not mosesdecoder, that's why you need to do this step seperately).
+
+Example for Evaluating: MosesFolder4.png
 
 For Evaluation you need to have bestofList and the unlinearized test.mrl [!NOTE: corps contains the linearized version!]
 Than you can get the Precision,Recall and F1-Score with following command:
