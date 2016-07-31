@@ -67,6 +67,3 @@ def fileWriter(inpt,outpt):
             file.write(delinearizer(a)+"\n")
     
         
-if __name__ == "__main__":
-    #fileWriter("MRL_EN_TRAIN_YANG_linearizedTEST3.train.LMRL","Schreibtisch/Delinearized3.txt")
-    #print (delinearizer("query@3 area@1 keyval@2 name@0 fjbbbjdgbk  nwr@2 keyval@2 amenity@0 recycling@s keyval@2 recycling:glass@0 yes@s qtype@1 least@1 topx@1 1@0"))
