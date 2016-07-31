@@ -3,8 +3,10 @@ Softwareprojekt - Project 2: Semantic Parsing as Monolingual Machine Translation
 
 
 
-Im Ordner Endcorpus befindet sich eine kurze Anleitung zur Erstellung des Korpus. Zu genaueren Informationen zu den einzelnen Fragetypen stehen die Folien unseres Vortages im Ordner presentation zur Verfügung.
+Folder Endcorpus contains a short description for the creation of the corpus. For more detailed information please look at our slides in "presentation".
 
-Zum Ausführen des nmt Teils in den Ordner nmt wechseln und runnmt.sh ausführen. Genaueres steht im dortigen readme
+To run the nmt-part of our project, just go to subfolder nmt and run runnmt.sh. More details are in the subfolders readme.
 
-Zum Ausführen des smt Teils bitte smt/readme.txt lesen
+To run the smt-part of our project please read the readme in our subfolder smt.
+
+Our python scripts are written in python3.
