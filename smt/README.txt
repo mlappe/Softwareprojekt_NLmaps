@@ -43,7 +43,7 @@ Endresult of mosespipe.sh in folder should look like this: MosesFolder3.png
 
 For the Evaluation you need to make use of the Evaluation folder and Evaluator.py, which needs to be run on ella (Database is installed on Ella, but not mosesdecoder, that's why you need to do this step seperately).
 
-Example for Evaluating: MosesFolder4.png
+Example for Evaluating: MosesFolder4.png [test-eval.mrl is provided in Evaluation folder and can be used]
 
 For Evaluation you need to have bestofList and the unlinearized test.mrl [!NOTE: corps contains the linearized version!]
 Than you can get the Precision,Recall and F1-Score with following command:
