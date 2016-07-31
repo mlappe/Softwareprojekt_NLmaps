@@ -1,4 +1,7 @@
-# Noch nicht ganz fertig.... Aufruf: fileWriter(LinearisiertesFile,ZielFile(Delinearisiert))
+# This is a module for delinearization of linearized MRLs(NMT-Version).
+# Contains functions: delinearizer --> Takes linearized MRL as argument, returns delinearized(normal) MRL.
+#                     fileReader --> Takes delinearized file and goldstandard MRL file to check delinearization.
+#                     fileWriter --> Takes files with linearized MRLs and a target file for the delinearized MRLs as input and generates them.
 
 def delinearizer(LMRL):
     inpt = LMRL.split(" ")

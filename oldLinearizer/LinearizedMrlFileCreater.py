@@ -1,18 +1,18 @@
 import MRL_Linearizer,sys
 
-#################################################################################################################################################
-#                                                                                                                                               #
-# Autor: Ozan Yilmaz                                                                                                                            #
-#                                                                                                                                               #
-# Dies ist das LinearizedMrlFileCreater-Modul für das Softwareprojekt Semantic Parsing as Monolingual Machine Translation.                      #
-#                                                                                                                                               #
-# Enthält folgende Funktionen:                                                                                                                  #
-#                                                                                                                                               #
-# 1) linearizedFileCreater(txt) -->  Erstellt ein File mit linearisierten MRLS, gegeben das .txt-file mit MRLs                                  #
-#                                                                                                                                               #
-# 2) stemmedFileCreater -->   Erstellt ein File mit gestemmten natürlichsprachlichen Anfrangen, gegeben .txt-file mit NL-Anfragen               #                                                                                                           #
-#                                                                                                                                               #
-#################################################################################################################################################
+######################################################################################################################################################
+#                                                                                                                                                    #
+# Author: Ozan Yilmaz                                                                                                                                #
+#                                                                                                                                                    #
+# This is the LinearizedMrlFileCreater module(NMT-Version) for the softwareprojekt Semantic Parsing as Monolingual Machine Translation.#
+#                                                                                                                                                    #
+# Contains following functions:                                                                                                                      #
+#                                                                                                                                                    #
+# 1) linearizedFileCreater(txt) -->  Creates a file with linearized MRLS, given file with MRLs                                                       #
+#                                                                                                                                                    #
+# 2) stemmedFileCreater -->   Creates file with stemmed NL Questions, given file with NL-Questions               #                                   #
+#                                                                                                                                                    #
+######################################################################################################################################################
 
 def LinearizedFileCreater(txt):
     lst = ["-",":","&","."]
