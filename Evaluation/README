@@ -1,0 +1,18 @@
+  This module serves the evaluation of the produced MRLs.
+  The database respond to the system mrl is compared to the gold respond. Only indentical match is considered correct.														     
+  For exact definition of used evaluation metrics see the presentation slides.												 
+																	 
+  IMPORTANT:                                                        
+  1. The file "compare.sh" must be in the same folder.				
+  2. This script can be used in both Python2 and Python3.			 
+  3. The input files must contain the same amount of MRLs and       
+ 			have one MRL per line.									 
+                                                                    
+  For starting the evaluation the following is needed:	
+  
+     python2 evaluator.py system_mrl_file gold_mrl_file             
+                                                                    
+  The output will be displayed in the shell.                        
+                                                                    
+  Autor:  Marina Speranskaya                                        
+                                                                    

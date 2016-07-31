@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# Das Skript dient dazu, Anfragen an die Datenbank zu stellen 
-# und Ergebnisse zu vergleichen.
-# Output Codes: 0 - falsche Ausgabe, 1 - OK, 2 - inkorrekte MRL.
-# Der Pfad zu der Datenbank (z. 10 und 12) entspricht dem auf ella.
+# This script evaluates two MRLs against the database.
+# The path to the database is that on the CL servers.
+# Output codes: 0 - wrong output, 1 - OK, 2 - incorrect MRL.
  
 echo $1 > sys_mrl.in
 echo $2 > gold_mrl.in

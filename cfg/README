@@ -1,0 +1,18 @@
+  This script implements a parser, that can check if an MRL is formed in accordance to the given rules.						
+  The rules are extracted from a file "cfg.txt" which must appear in the same folder.									
+																
+  To begin you need to set up the parser:						
+																
+	import my_cfg_set as cfg									
+	parser = cfg.EarleyParser()									
+																
+	grammar_file = "cfg.txt"									
+	gr = cfg.Grammar(grammar_file) 								
+	parser.set_grammar(gr)										
+																
+	output = parser.parse_mrl(mrl)								
+																
+  Afterwards, the variable output contains the truth value returned by the method. For more see the demo() 
+	function at the very end of the script.								
+																
+  Autor: Marina Speranskaya				

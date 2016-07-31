@@ -3,28 +3,24 @@
 
 ######################################################################
 #                                                                    #
+#  This module serves the evaluation of the produced MRLs.           #
+#  The database respond to the system mrl is compared to the		 #
+#  gold respond. Only indentical match is considered correct. 		 #
+#  																     #
+#  For exact definition of used evaluation metrics see the           #
+#  presentation slides.												 #
+#																	 #
+#  IMPORTANT:                                                        #
+#  1. The file "compare.sh" must be in the same folder.				 #
+#  2. This script can be used in both Python2 and Python3.			 #
+#  3. The input files must contain the same amount of MRLs and       #
+# 			have one MRL per line.									 #
 #                                                                    #
-#  Dieses Modul dient zur Evaluation der erzeugten MRLs.             #
-#  Dazu werden die Ergebnisse einer Anfrage mit den Ergebnissen      #
-#  der Gold-Anfrage verglichen und die Accuracy berechnet.           #
-#  Somit werden mur zwei Anfragen mit 100 Prozent                    #
-#  identischen Ausgaben als gleiche bewertet.                        #
-#                                                                    #
-#  ZU BEACHTEN:                                                      #
-#  1. Die Datei "compare.sh" muss sich in demselben Ordner befinden. #
-#  2. Das Skript funktioniert sowohl in Python2 als auch in Python3. #
-#  3. Die Input-Dateien müssen jeweils eine MRL pro Zeile enthalten  #
-#    und gleich lang sein.                                           #
-#                                                                    #
-#  Um die Evaluation durchzuführen, braucht man folgenden Befehl:    #
+#  For starting the evaluation the following is needed:			     #
 #                                                                    #
 #     python2 evaluator.py system_mrl_file gold_mrl_file             #
 #                                                                    #
-#  Recall is defined as the percentage of correct answers out of	 #
-# all examples, Precision the percentage of correct answers out of	 #
-# all examples with an answer, and F1-score the harmonic mean		 #
-# between the two aforementioned.	(Carolin Haas)					 #
-#  																	 #
+#  The output will be displayed in the shell.                        #
 #                                                                    #
 #  Autor:  Marina Speranskaya                                        #
 #                                                                    #
@@ -66,26 +62,27 @@ class Evaluator:
 	def calc_acc(self):
 		tp = 0
 		incorrect = 0 
-		#inc_list = []
+		empty = 0 
 		for (pos,value) in enumerate(self.result_list):
-			if value ==1:
+			if value == 1:
 				tp += 1
-			elif value ==0:
-				pass
-			else:
-				#print pos
+			elif value == 2:
 				incorrect += 1
-				#inc_list.append(pos)
+			elif value == 3:
+				tp += 1
+				empty += 1
 		if incorrect:
 			sys.stdout.write("There were %d incorrect system MRLs.\n"%incorrect)
-			#print (inc_list)
-		#print(tp)
 		self.recall = float(tp) / len(self.result_list)
 		self.precision = float(tp) / (len(self.result_list) - incorrect)
 		if self.precision + self.recall != 0:
 			self.fscore = (2*self.recall*self.precision)/(self.recall+self.precision)
 		else: 
 			self.fscore = 0
+		if tp != 0:
+			self.e = float(empty) / tp
+		else:
+			self.e = -1
 		return
 	
 if __name__ == "__main__":
@@ -93,4 +90,4 @@ if __name__ == "__main__":
 	ev.compare_queries()
 	ev.calc_acc()
 	print ("Recall: %f Precision: %f \nF1-Score: %f"%(ev.recall,ev.precision,ev.fscore))
-	
+	#print(ev.result_list)
